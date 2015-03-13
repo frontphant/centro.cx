@@ -21,9 +21,20 @@ module.exports = function (grunt) {
       dist: 'dist'
     },
     watch: {
+      bower: {
+        files: ['bower.json'],
+        tasks: ['wiredep']
+      },
+      js: {
+        files: ['<%= yeoman.app %>/js/{,*/}*.js'],
+        tasks: ['jshint'],
+        options: {
+          livereload: true
+        }
+      },
       compass: {
         files: ['<%= yeoman.app %>/_scss/**/*.{scss,sass}'],
-        tasks: ['compass:server']
+        tasks: ['compass:server', 'autoprefixer']
       },
       jekyll: {
         files: [
@@ -110,22 +121,24 @@ module.exports = function (grunt) {
         cssDir: '.tmp/css',
         imagesDir: '<%= yeoman.app %>/img',
         javascriptsDir: '<%= yeoman.app %>/js',
+        fontsDir: '<%= yeoman.app %>/_scss/fonts',
+        httpFontsPath: '/_scss/fonts',
         relativeAssets: false,
         httpImagesPath: '/img',
-        httpGeneratedImagesPath: '/img/generated',
+        httpGeneratedImagesPath: '/img',
         outputStyle: 'expanded',
         importPath: '<%= yeoman.app %>/_bower_components',
         // raw: 'extensions_dir = "<%= yeoman.app %>/_bower_components"\n'
       },
       dist: {
         options: {
-          generatedImagesDir: '<%= yeoman.dist %>/img/generated'
+          generatedImagesDir: '<%= yeoman.dist %>/img'
         }
       },
       server: {
         options: {
           debugInfo: true,
-          generatedImagesDir: '.tmp/img/generated'
+          generatedImagesDir: '.tmp/img'
         }
       }
     },
@@ -310,7 +323,7 @@ module.exports = function (grunt) {
         exclude: ['_bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.js']
       },
       sass: {
-        src: ['<%= yeoman.app %>/_scss/{,*/}*.{scss,sass}'],
+        src: ['<%= yeoman.app %>/{_scss, css}/{,*/}*.{scss,sass}'],
         ignorePath: /(\.\.\/){1,2}_bower_components\//
       }
     }
