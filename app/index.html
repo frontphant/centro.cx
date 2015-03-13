@@ -5,7 +5,21 @@ layout: default
 <div id="home" class="row">
   <div class="col-md-12">
     CENTRO é um registro da ocupação criativa do centro de São Paulo. <a href="" class="read-more">leia mais</a>
-    <span class="disabled"><a href="" class="company">Amarello</a> <span class="coordinates">-23º 32’ 47.84” -46º 38’ 10.87”</span> <span class="description">é uma editora.</span> <span class="address">Rua Libero Badaró, 336, Sé.</span></span>
+
+    {% for post in site.posts %}
+      <span class="{{ post.enabled }}">
+        {% if post.enabled == "enabled" %}
+          <a href="{{ post.url | prepend: site.baseurl }}" class="company">{{ post.title }}</a>
+        {% else %}
+          <span class="company">{{ post.title }}</span>
+        {% endif %}
+        <span class="coordinates">{{ post.coordinates }}</span>
+        <span class="description">{{ post.description }}</span>
+        <span class="address">{{ post.address }}</span>
+      </span>
+    {% endfor %}
+
+    <!-- <span class="disabled"><a href="" class="company">Amarello</a> <span class="coordinates">-23º 32’ 47.84” -46º 38’ 10.87”</span> <span class="description">é uma editora.</span> <span class="address">Rua Libero Badaró, 336, Sé.</span></span>
     <span class="disabled"><a href="#Arnold" class="company">Arnold</a>  <span class="coordinates">-23º 32’ 32.45” -46º 38’ 6.30”</span> <span class="description">é um estúdio de design.</span> <span class="address">Avenida Prestes Maia, 241, República.</span></span>
     <span class="disabled"><a href="#Balsa" class="company">Balsa</a> <span class="coordinates">-23º 32’ 34.53” -46º 38’ 12.04”</span> <span class="description">não é um bar.</span> <span class="address">Rua Capitão Salomão, 26, República.</span></span>
     <span><a href="/casa-do-povo" class="company" data-photo="casa-do-povo.jpg">Casa do Povo</a> <span href="" class="coordinates">-23º 31’ 45.33” -46º 38’ 11.95”</span> <span class="description">é um centro cultural.</span> <span class="address">Rua Três Rios, 252, Bom Retiro.</span></span>
@@ -22,6 +36,6 @@ layout: default
     <span><a href="#Phosporus" class="company" data-photo="phosphorus.jpg">Phosphorus</a> <span class="coordinates">-23º 32’ 50.43” -46º 38’ 56.36”</span> <span class="description">é um espaço de exposição e residência artística.</span> <span class="address">Rua Roberto Simonsen, 108, Sé.</span></span>
     <span class="disabled"><a href="#Pivo" class="company">Pivô</a> <span class="coordinates">-23º 32’ 45.86” -46º 38’ 40.89”</span> <span class="description">é uma galeria de arte no Copan.</span> <span class="address">Avenida Ipiranga, 200, República.</span></span>
     <span class="disabled"><a href="#Publica" class="company">Pública</a> <span class="coordinates">-23º 31’ 58.74” -46º 39’ 5.15”</span> <span class="description">é uma redação de jornalismo investigativo.</span> <span class="address">Rua Vitorino Carmilo, 453, Santa Cecília.</span></span>
-    <span class="disabled"><a href="#Pum" class="company">Pum</a> <span class="coordinates">-23º 33’ 21.69” -46º 38’ 3.37”</span> <span class="description">é um estúdio em casa.</span> <span class="address">Rua da Glória, 320, Liberdade.</span></span>
+    <span class="disabled"><a href="#Pum" class="company">Pum</a> <span class="coordinates">-23º 33’ 21.69” -46º 38’ 3.37”</span> <span class="description">é um estúdio em casa.</span> <span class="address">Rua da Glória, 320, Liberdade.</span></span> -->
   </div>
 </div>
