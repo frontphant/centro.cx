@@ -1,0 +1,108 @@
+#main.details {
+  margin-top: 45px;
+  margin-bottom: 0;
+  p {
+    margin-bottom: 50px;
+    strong{
+      font-family: "Plantin";
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  p, .plantin {
+    font: 400 22px/30px "Plantin"!important;
+  }
+
+  .dia {
+    font: 400 22px/30px "Dia"!important;
+    strong {
+      font: 700 22px/30px "Dia"!important;
+    }
+  }
+
+  .caption {
+    font: 400 18px/20px "Dia"!important;
+    &.left {
+      &:before {
+        content: "← ";
+      }
+    }
+
+    &.right {
+      &:after {
+        content: " →";
+      }
+    }
+  }
+
+  .location {
+    margin: 170px 0 110px;
+    .company {
+      font: 700 18px/20px "Plantin";
+      display: block;
+      text-decoration: none;
+      text-align: center;
+    }
+
+    .address {
+      font: 400 18px/22px "Dia";
+      display: block;
+      text-align: center;
+    }
+
+    .coordinates {
+      font: 400 14px/20px "Dia";
+      display: block;
+      text-align: center;
+    }
+  }
+
+  .compass {
+    @include sprites-general("compass");
+    display: inline-block;
+    margin: 35px 0 110px;
+  }
+
+  .margin-bottom {
+    margin-bottom: 30px;
+
+    &.double {
+      margin-bottom: 60px;
+    }
+  }
+
+}
+
+.full-width {
+  width: 100%;
+}
+
+.centro-container {
+  margin: 0 30px;
+
+  img {
+    width: 100%;
+  }
+}
+
+.map-holder {
+  margin-top: 100px;
+
+  h2 {
+    font-size: 35px;
+  }
+}
+
+.footer-nav {
+  margin: 120px 0;
+
+   a {
+    font: 400 14px "Dia";
+    color: #4b4b4b;
+    text-transform: uppercase;
+    text-decoration: underline;
+   }
+}

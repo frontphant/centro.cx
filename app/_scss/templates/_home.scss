@@ -1,0 +1,41 @@
+main#main {
+  margin-bottom: 125px;
+  color: #000;
+  font: 400 35px/50px "Dia";
+
+  .container {
+    z-index: 2;
+  }
+
+  .read-more {
+    font: 400 14px/50px "Dia";
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: #000;
+  }
+
+  .company {
+    font: 700 35px/50px "Plantin";
+    text-decoration: underline;
+    color: #000;
+  }
+
+  .coordinates {
+    font: 400 14px/50px "Graphik";
+  }
+
+  .description {
+    font: 400 35px/50px "Plantin";
+  }
+
+  .disabled, .disabled .company, .disabled .coordinates {
+    color: #d3d3d3!important;
+  }
+
+  .photo-hover {
+    z-index: -1;
+    position: absolute;
+
+    @include transform(translateX(-50%) translateY(-50%));
+  }
+}

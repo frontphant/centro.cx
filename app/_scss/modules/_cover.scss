@@ -1,0 +1,62 @@
+#cover {
+  background-color: #FFF;
+  min-height: 100%;
+  position: relative;
+  margin-bottom: 75px;
+  position: relative;
+
+  $covers-list: home, casa-do-povo;
+
+  @each $cover in $covers-list {
+      &.#{$cover} {
+          background: #FFF image-url("covers/#{$cover}.jpg") no-repeat center;
+          background-size: cover;
+
+          @include retina() {
+            background: #FFF image-url("covers-hd/#{$cover}.jpg") no-repeat center;
+            @include background-size(ceil(image-width("covers-hd/#{$cover}.jpg") / 2) auto);
+            background-size: cover;
+          }
+      }
+  }
+
+  .container {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+
+    @include transform(translateY(-50%));
+  }
+
+  h1, h2 {
+    color: #FFF;
+    margin: 0;
+    a {
+      color: #FFF;
+      text-decoration: none;
+    }
+  }
+
+  h1 {
+    font: 400 100px "Plantin";
+  }
+
+  h2 {
+    font: 400 30px "Dia";
+  }
+
+  #menu-icon {
+    position: fixed;
+    top: 27px;
+    right: 30px;
+
+    &.white {
+      @include sprites-general("menu-white");
+    }
+
+    &.black {
+      @include sprites-general("menu-black");
+    }
+  }
+}

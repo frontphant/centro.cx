@@ -1,0 +1,56 @@
+#menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 490px;
+  height: 100%;
+  background-color: #000;
+  padding-top: 27px;
+  z-index: 10;
+  overflow-y: auto;
+
+  @include transform(translateX(100%));
+  @include transition(transform .2s cubic-bezier(0.645, 0.045, 0.355, 1));
+
+  &.open {
+    @include transform(translateX(0));
+  }
+
+  .close {
+    @include sprites-general("menu-close-white");
+    @include opacity(1);
+    position: absolute;
+    right: 30px;
+    top: 27px;
+  }
+
+  dl {
+    margin: 0 0 0 32px;
+
+    a {
+      color: #FFF;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+
+    dt {
+      font: 400 35px/35px "Plantin";
+      margin-bottom: 15px;
+    }
+
+    dd {
+      margin: 0 0 0 20px;
+      font: 400 14px/21px "Dia";
+      text-transform: uppercase;
+
+      &:last-child {
+        margin-bottom: 15px;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

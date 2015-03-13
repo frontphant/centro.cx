@@ -1,0 +1,56 @@
+@import "compass/utilities/sprites";
+
+// $general-layout: smart;
+// $general: sprite-map("general/*.png");
+
+// @import "general/*.png";
+
+// @mixin rpl($selector) {
+//   display: block;
+//   width: image-width(sprite-file($general, $selector));
+//   height: image-height(sprite-file($general, $selector));
+//   border: 0;
+//   text-indent: -9999px;
+//   font-size: 0;
+//   @include general-sprite($selector);
+// }
+
+$general-layout: smart;
+$general: sprite-map("general/*.png");
+$general-hd: sprite-map("general-hd/*.png");
+
+@import "general/*.png";
+
+@mixin sprites-general($selector) {
+    width: image-width(sprite-file($general, $selector));
+    height: image-height(sprite-file($general, $selector));
+    display: block;
+    border: 0;
+    text-indent: -9999px;
+    font-size: 0;
+    @include general-sprite($selector);
+}
+
+@mixin sprites-general($name) {
+  display: block;
+  border: 0;
+  text-indent: -9999px;
+  font-size: 0;
+  background-image: sprite-url($general);
+  background-position: sprite-position($general, $name);
+  background-repeat: no-repeat;
+  @include sprite-dimensions($general, $name);
+
+  @media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    & {
+      $pos: sprite-position($general-hd, $name);
+      background-image: sprite-url($general-hd);
+      background-position: nth($pos, 1) / 2 nth($pos, 2) / 2;
+      @include background-size(ceil(image-width(sprite-path($general-hd)) / 2) auto);
+      //  sprite-path() returns the path of the generated sprite sheet, which
+      //  image-width() calculates the width of. the ceil() is in place in case
+      //  you have sprites that have an odd-number of pixels in width
+
+    }
+  }
+}

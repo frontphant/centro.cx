@@ -47,9 +47,9 @@ module.exports = function (grunt) {
         options: {
           server: {
             baseDir: [
-              ".jekyll",
-              ".tmp",
-              "<%= yeoman.app %>"
+              '.jekyll',
+              '.tmp',
+              '<%= yeoman.app %>'
             ]
           },
           watchTask: true
@@ -58,7 +58,7 @@ module.exports = function (grunt) {
       dist: {
         options: {
           server: {
-            baseDir: "<%= yeoman.dist %>"
+            baseDir: '<%= yeoman.dist %>'
           }
         }
       },
@@ -75,9 +75,9 @@ module.exports = function (grunt) {
         options: {
           server: {
             baseDir: [
-              ".jekyll",
-              ".tmp",
-              "<%= yeoman.app %>"
+              '.jekyll',
+              '.tmp',
+              '<%= yeoman.app %>'
             ]
           },
           watchTask: true
@@ -114,7 +114,8 @@ module.exports = function (grunt) {
         httpImagesPath: '/img',
         httpGeneratedImagesPath: '/img/generated',
         outputStyle: 'expanded',
-        raw: 'extensions_dir = "<%= yeoman.app %>/_bower_components"\n'
+        importPath: '<%= yeoman.app %>/_bower_components',
+        // raw: 'extensions_dir = "<%= yeoman.app %>/_bower_components"\n'
       },
       dist: {
         options: {
@@ -299,6 +300,19 @@ module.exports = function (grunt) {
         'compass:dist',
         'copy:dist'
       ]
+    },
+
+    // Automatically inject Bower components into the HTML file
+    wiredep: {
+      app: {
+        ignorePath: /^\/|\.\.\//,
+        src: ['<%= yeoman.app %>/_layouts/default.html'],
+        exclude: ['_bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.js']
+      },
+      sass: {
+        src: ['<%= yeoman.app %>/_scss/{,*/}*.{scss,sass}'],
+        ignorePath: /(\.\.\/){1,2}_bower_components\//
+      }
     }
   });
 
