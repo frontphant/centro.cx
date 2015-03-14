@@ -54,15 +54,15 @@
             <div class="row footer-nav">
               <div class="col-md-4">
                 {% if prev_post %}
-                    <p class="pull-left">← <a href="{{ prev_post }}">{{prev_post_title}}</a></p>
+                    <p class="pull-left">← <a href="{{ prev_post | remove_first:'/' }}">{{prev_post_title}}</a></p>
                 {% endif %}
               </div>
               <div class="col-md-4">
-                <p class="text-center"><a href="/">Início</a></p>
+                <p class="text-center"><a href="./">Início</a></p>
               </div>
               <div class="col-md-4">
                 {% if next_post %}
-                  <p class="pull-right"><a href="{{next_post}}">{{next_post_title}}</a> →</p>
+                  <p class="pull-right"><a href="{{ next_post | remove_first:'/' }}">{{next_post_title}}</a> →</p>
                 {% endif %}
               </div>
             </div>

@@ -21,7 +21,7 @@
     <body>
 
       <header id="cover" class="home clearfix">
-        <h1 id="logo" class="hide"><a href="/">Centro</a></h1>
+        <h1 id="logo" class="hide"><a href="./">Centro</a></h1>
 
         <a href="#menu" id="menu-icon" class="white">Abrir Menu</a>
       </header>
@@ -30,7 +30,7 @@
         <a href="" class="close">&times;</a>
 
         <dl>
-          <dt><a href="/">Início</a></dt>
+          <dt><a href="./">Início</a></dt>
         </dl>
         <dl>
           <dt><a href="">Sobre</a></dt>
@@ -39,7 +39,7 @@
           <dt><a href="#">Projetos</a></dt>
           {% sorted_for post in site.posts sort_by:title %}
             {% if post.enabled == "enabled" %}
-              <dd><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></dd>
+              <dd><a href="{{ post.url  | remove_first:'/' }}">{{ post.title }}</a></dd>
             {% else %}
               <dd>{{ post.title }}</dd>
             {% endif %}
