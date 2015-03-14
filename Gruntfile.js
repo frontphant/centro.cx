@@ -121,8 +121,8 @@ module.exports = function (grunt) {
         cssDir: '.tmp/css',
         imagesDir: '<%= yeoman.app %>/img',
         javascriptsDir: '<%= yeoman.app %>/js',
-        fontsDir: '<%= yeoman.app %>/_scss/fonts',
-        httpFontsPath: '/_scss/fonts',
+        fontsDir: '<%= yeoman.app %>/fonts',
+        httpFontsPath: '/fonts',
         relativeAssets: false,
         httpImagesPath: '/img',
         httpGeneratedImagesPath: '/img',
@@ -172,7 +172,7 @@ module.exports = function (grunt) {
     },
     usemin: {
       options: {
-        assetsDirs: ['<%= yeoman.dist %>', '<%= yeoman.dist %>/img']
+        assetsDirs: ['<%= yeoman.dist %>', '<%= yeoman.dist %>/img', '<%= yeoman.app %>/_bower_components' ]
       },
       html: ['<%= yeoman.dist %>/**/*.html'],
       css: ['<%= yeoman.dist %>/css/**/*.css']
@@ -213,7 +213,7 @@ module.exports = function (grunt) {
         files: [{
           expand: true,
           cwd: '<%= yeoman.dist %>',
-          src: '**/*.{jpg,jpeg,png}',
+          src: ['**/*.{jpg,jpeg,png}'],
           dest: '<%= yeoman.dist %>'
         }]
       }
@@ -261,6 +261,8 @@ module.exports = function (grunt) {
             '<%= yeoman.dist %>/js/**/*.js',
             '<%= yeoman.dist %>/css/**/*.css',
             '<%= yeoman.dist %>/img/**/*.{gif,jpg,jpeg,png,svg,webp}',
+            '!<%= yeoman.dist %>/img/{covers,covers-hd}/*',
+            '!<%= yeoman.dist %>/img/{logos,logos-hd}/*',
             '<%= yeoman.dist %>/fonts/**/*.{eot*,otf,svg,ttf,woff}'
           ]
         }]
@@ -317,9 +319,12 @@ module.exports = function (grunt) {
 
     // Automatically inject Bower components into the HTML file
     wiredep: {
+      options: {
+        // cwd: '/'
+      },
       app: {
-        ignorePath: /^\/|\.\.\//,
-        src: ['<%= yeoman.app %>/_layouts/default.html'],
+        ignorePath: /^\/|\.\./,
+        src: ['<%= yeoman.app %>/_layouts/{default,place}.html'],
         exclude: ['_bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.js']
       },
       sass: {
