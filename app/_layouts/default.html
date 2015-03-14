@@ -37,24 +37,13 @@
         </dl>
         <dl>
           <dt><a href="#">Projetos</a></dt>
-          <dd><a href="#">Amarello</a></dd>
-          <dd><a href="#">Arnold</a></dd>
-          <dd><a href="#">Balsa</a></dd>
-          <dd><a href="/casa-do-povo">Casa do Povo</a></dd>
-          <dd><a href="#">Eduqativo</a></dd>
-          <dd><a href="#">Esparrama</a></dd>
-          <dd><a href="#">Fluxo</a></dd>
-          <dd><a href="#">Garagem</a></dd>
-          <dd><a href="#">Lâmina</a></dd>
-          <dd><a href="#">Mandíbula</a></dd>
-          <dd><a href="#">Ouvidor</a></dd>
-          <dd><a href="#">Overground</a></dd>
-          <dd><a href="#">Paperbox</a></dd>
-          <dd><a href="#">Pessoal <br>do Faroeste</a></dd>
-          <dd><a href="#">Phosphorus</a></dd>
-          <dd><a href="#">Pivô</a></dd>
-          <dd><a href="#">Pública</a></dd>
-          <dd><a href="#">Pum</a></dd>
+          {% sorted_for post in site.posts sort_by:title %}
+            {% if post.enabled == "enabled" %}
+              <dd><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></dd>
+            {% else %}
+              <dd>{{ post.title }}</dd>
+            {% endif %}
+          {% endsorted_for %}
         </dl>
         <dl>
           <dt><a href="">Mapa</a></dt>
