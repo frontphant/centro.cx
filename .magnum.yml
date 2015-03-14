@@ -1,0 +1,13 @@
+ruby: 1.9.3
+
+before_install:
+  - sudo gem install
+
+install:
+  - sudo bundle install --path .bundle --binstubs
+  - sudo npm install grunt-cli bower -g
+  - sudo npm install
+  - sudo bower install
+
+script:
+  - grunt build
