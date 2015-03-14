@@ -33,7 +33,7 @@ permalink: "casa-do-povo.html"
 <div class="centro-container">
   <div class="row margin-bottom">
     <div class="col-md-6 col-md-offset-2">
-      <img src="/img/content/casa-do-povo/01.jpg" class="" alt="">
+      <img src="img/content/casa-do-povo/01.jpg" class="" alt="">
     </div>
     <div class="col-md-4">
       <p><span class="plantin">O prédio foi construído entre as décadas de 40 e 50 por iniciativa da comunidade judaica, principalmente dos moradores do Bom Retiro. O projeto possui alguns elementos do modernismo. Como o vazio na base, composto por essa fachada de vidro e essas colunas mais escuras. No projeto original, ele não teria as portas, seria um espaço aberto para a comunidade.</span> <span class="dia"><strong>Frederico Costa</strong></span></p>
@@ -43,13 +43,13 @@ permalink: "casa-do-povo.html"
 
   <div class="row margin-bottom">
     <div class="col-md-6">
-      <img src="/img/content/casa-do-povo/02.jpg" class="" alt="">
+      <img src="img/content/casa-do-povo/02.jpg" class="" alt="">
     </div>
   </div>
 
   <div class="row margin-bottom double">
     <div class="col-md-4 col-md-offset-4">
-      <img src="/img/content/casa-do-povo/03.jpg" class="" alt="">
+      <img src="img/content/casa-do-povo/03.jpg" class="" alt="">
     </div>
   </div>
 
@@ -59,25 +59,25 @@ permalink: "casa-do-povo.html"
       <p><span class="caption">→ Fachada e vista a partir de uma das janelas.</span></p>
     </div>
     <div class="col-md-6">
-      <img src="/img/content/casa-do-povo/04.jpg" class="" alt="">
+      <img src="img/content/casa-do-povo/04.jpg" class="" alt="">
     </div>
   </div>
 
   <div class="row margin-bottom">
     <div class="col-md-6 col-md-offset-4">
-      <img src="/img/content/casa-do-povo/05.jpg" class="" alt="">
+      <img src="img/content/casa-do-povo/05.jpg" class="" alt="">
     </div>
   </div>
 
   <div class="row margin-bottom double">
     <div class="col-md-8 col-md-offset-4">
-      <img src="/img/content/casa-do-povo/06.jpg" class="" alt="">
+      <img src="img/content/casa-do-povo/06.jpg" class="" alt="">
     </div>
   </div>
 
   <div class="row margin-bottom">
     <div class="col-md-4 col-md-offset-4">
-      <img src="/img/content/casa-do-povo/07.jpg" class="" alt="">
+      <img src="img/content/casa-do-povo/07.jpg" class="" alt="">
     </div>
     <div class="col-md-4">
       <p><span class="plantin">O Taib é um teatro projetado pelo Jorge Wilheim e construído em 1960. Possui um palco italiano, com essa caixa ampla onde a cena acontece, um formato mais clássico e oposto ao teatro de arena. Recebeu peças engajadas, como Pequenos Burgueses, dirigida pelo Renato Borghi, mas parou de funcionar como Taib na década de 90. Algumas companhias até usaram esse espaço depois disso, até ele sofrer uma inundação.</span> <span class="dia"><strong>Frederico Costa</strong></span></p>
@@ -87,19 +87,19 @@ permalink: "casa-do-povo.html"
 
   <div class="row margin-bottom">
     <div class="col-md-8">
-      <img src="/img/content/casa-do-povo/08.jpg" class="" alt="">
+      <img src="img/content/casa-do-povo/08.jpg" class="" alt="">
     </div>
   </div>
 
   <div class="row margin-bottom">
     <div class="col-md-4">
-      <img src="/img/content/casa-do-povo/09.jpg" class="" alt="">
+      <img src="img/content/casa-do-povo/09.jpg" class="" alt="">
     </div>
   </div>
 
   <div class="row margin-bottom double">
     <div class="col-md-6 col-md-offset-2">
-      <img src="/img/content/casa-do-povo/10.jpg" class="" alt="">
+      <img src="img/content/casa-do-povo/10.jpg" class="" alt="">
     </div>
   </div>
 
@@ -108,7 +108,7 @@ permalink: "casa-do-povo.html"
       <p><span class="plantin">A escola Scholem Aleichem começou a funcionar aqui dentro pouco depois da fundação do centro. Era muito reconhecida por métodos experimentais de ensino e recebia alunos da comunidade judaica, mas também filhos de militantes de esquerda, que precisavam ser protegidos da ditadura. A biblioteca da escola ainda é mantida e tem uma coleção variada: de livros infantis em ídiche a livros políticos em russo, importados da União Soviética.</span> <span class="dia"><strong>Frederico Costa</strong></span></p>
     </div>
     <div class="col-md-4">
-      <img src="/img/content/casa-do-povo/11.jpg" class="" alt="">
+      <img src="img/content/casa-do-povo/11.jpg" class="" alt="">
     </div>
   </div>
 
@@ -117,19 +117,19 @@ permalink: "casa-do-povo.html"
       <p><br><br><span class="caption">→ Biblioteca da antiga escola Scholem Aleichem.</span></p>
     </div>
     <div class="col-md-8">
-      <img src="/img/content/casa-do-povo/12.jpg" class="" alt="">
+      <img src="img/content/casa-do-povo/12.jpg" class="" alt="">
     </div>
   </div>
 
   <div class="row margin-bottom double">
     <div class="col-md-6 col-md-offset-4">
-      <img src="/img/content/casa-do-povo/13.jpg" class="" alt="">
+      <img src="img/content/casa-do-povo/13.jpg" class="" alt="">
     </div>
   </div>
 
   <div class="row margin-bottom">
     <div class="col-md-8">
-      <img src="/img/content/casa-do-povo/14.jpg" class="" alt="">
+      <img src="img/content/casa-do-povo/14.jpg" class="" alt="">
     </div>
     <div class="col-md-4">
       <p><span class="plantin">Algumas décadas depois da fundação, a comunidade que mantinha a Casa começou a envelhecer. Algumas pessoas foram para outros bairros e esvaziaram essa região, processo pelo qual o centro como um todo também passou. Como dependia da comunidade, o prédio começou a decair. Mesmo assim, os associados nunca aceitaram vender, sempre acreditaram que deveria ser mantido.</span> <span class="dia"><strong>Frederico Costa</strong></span></p>
@@ -139,19 +139,19 @@ permalink: "casa-do-povo.html"
 
   <div class="row margin-bottom">
     <div class="col-md-4">
-      <img src="/img/content/casa-do-povo/15.jpg" class="" alt="">
+      <img src="img/content/casa-do-povo/15.jpg" class="" alt="">
     </div>
   </div>
 
   <div class="row margin-bottom">
     <div class="col-md-4 col-md-offset-4">
-      <img src="/img/content/casa-do-povo/16.jpg" class="" alt="">
+      <img src="img/content/casa-do-povo/16.jpg" class="" alt="">
     </div>
   </div>
 
   <div class="row margin-bottom double">
     <div class="col-md-6 col-md-offset-2">
-      <img src="/img/content/casa-do-povo/17.jpg" class="" alt="">
+      <img src="img/content/casa-do-povo/17.jpg" class="" alt="">
     </div>
   </div>
 
@@ -161,51 +161,51 @@ permalink: "casa-do-povo.html"
       <p><br><br><br><span class="caption">→ Oficina de impressão do coletivo <u>Ocupeacidade</u>.</span></p>
     </div>
     <div class="col-md-8">
-      <img src="/img/content/casa-do-povo/18.jpg" class="" alt="">
+      <img src="img/content/casa-do-povo/18.jpg" class="" alt="">
     </div>
   </div>
 
   <div class="row margin-bottom">
     <div class="col-md-4 col-md-offset-8">
-      <img src="/img/content/casa-do-povo/19.jpg" class="" alt="">
+      <img src="img/content/casa-do-povo/19.jpg" class="" alt="">
     </div>
   </div>
 
   <div class="row margin-bottom">
     <div class="col-md-6 col-md-offset-4">
-      <img src="/img/content/casa-do-povo/20.jpg" class="" alt="">
+      <img src="img/content/casa-do-povo/20.jpg" class="" alt="">
     </div>
   </div>
 
   <div class="row margin-bottom double" style="position:relative;">
     <p style="position: absolute; bottom: 0; left: 0; margin: 0;"><span class="caption">→ Jornal Nossa Voz, relançado pela Casa em 2013. </span></p>
     <div class="col-md-4 col-md-offset-8">
-      <img src="/img/content/casa-do-povo/21.jpg" class="" alt="">
+      <img src="img/content/casa-do-povo/21.jpg" class="" alt="">
     </div>
   </div>
 
   <div class="row margin-bottom" style="position:relative;">
     <p style="position: absolute; bottom: 0; left: 0; margin: 0;"><span class="caption">→ Ateliê do G>E, ou Grupo Maior Que Eu, coletivo <br>de artistas liderado pela estilista <u>Karlla Girotto</u>.</span></p>
     <div class="col-md-8 col-md-offset-4">
-      <img src="/img/content/casa-do-povo/22.jpg" class="" alt="">
+      <img src="img/content/casa-do-povo/22.jpg" class="" alt="">
     </div>
   </div>
 
   <div class="row margin-bottom">
     <div class="col-md-4 col-md-offset-4">
-      <img src="/img/content/casa-do-povo/23.jpg" class="" alt="">
+      <img src="img/content/casa-do-povo/23.jpg" class="" alt="">
     </div>
   </div>
 
   <div class="row margin-bottom double">
     <div class="col-md-6 col-md-offset-6">
-      <img src="/img/content/casa-do-povo/24.jpg" class="" alt="">
+      <img src="img/content/casa-do-povo/24.jpg" class="" alt="">
     </div>
   </div>
 
   <div class="row margin-bottom">
     <div class="col-md-6 col-md-offset-2">
-      <img src="/img/content/casa-do-povo/25.jpg" class="" alt="">
+      <img src="img/content/casa-do-povo/25.jpg" class="" alt="">
     </div>
 
     <div class="col-md-4">
@@ -216,13 +216,13 @@ permalink: "casa-do-povo.html"
 
   <div class="row margin-bottom">
     <div class="col-md-4">
-      <img src="/img/content/casa-do-povo/26.jpg" class="" alt="">
+      <img src="img/content/casa-do-povo/26.jpg" class="" alt="">
     </div>
   </div>
 
   <div class="row">
     <div class="col-md-8">
-      <img src="/img/content/casa-do-povo/27.jpg" class="" alt="">
+      <img src="img/content/casa-do-povo/27.jpg" class="" alt="">
     </div>
   </div>
 </div>
