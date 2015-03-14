@@ -1,7 +1,7 @@
 ruby: 1.9.3
 
 install:
-  - sudo bundle install
+  - bundle install
   - sudo npm install grunt-cli bower -g
   - sudo npm install
   - sudo bower install
