@@ -7,12 +7,12 @@
     <meta name="viewport" content="width=device-width">
     <link rel="shortcut icon" href="/favicon.ico">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-    <!-- build:css(.) /styles/vendor.css -->
+    <!-- build:css(.) /css/vendor.css -->
     <!-- bower:css -->
     <!-- endbower -->
     <!-- endbuild -->
-    <!-- build:css(.tmp) /styles/main.css -->
-    <link rel="stylesheet" href="/styles/main.css">
+    <!-- build:css(.tmp) /css/main.css -->
+    <link rel="stylesheet" href="/css/main.css">
     <!-- endbuild -->
   </head>
   <body>
@@ -30,17 +30,40 @@
 
     <footer id="main">
       <div class="container">
+
+        {% assign filtred_posts = site.posts | where:"enabled","enabled" | sort: 'title'%}
+        {% for post in filtred_posts sort_by:title %}
+            {% if post.url == page.url %}
+                {% assign post_index0 = forloop.index0 %}
+                {% assign post_index1 = forloop.index %}
+            {% endif %}
+        {% endfor %}
+        {% for post in filtred_posts sort_by:title %}
+            {% if post_index0 == forloop.index %}
+                {% assign prev_post = post.url %}
+                {% assign prev_post_title = post.title %}
+            {% endif %}
+            {% if post_index1 == forloop.index0 %}
+                {% assign next_post = post.url %}
+                {% assign next_post_title = post.title %}
+            {% endif %}
+        {% endfor %}
+
         <div class="row">
           <div class="col-md-10 col-md-offset-1">
             <div class="row footer-nav">
               <div class="col-md-4">
-                <p class="pull-left hidden">← <a href="">fluxo</a></p>
+                {% if prev_post %}
+                    <p class="pull-left">← <a href="{{ prev_post }}">{{prev_post_title}}</a></p>
+                {% endif %}
               </div>
               <div class="col-md-4">
                 <p class="text-center"><a href="/">Início</a></p>
               </div>
               <div class="col-md-4">
-                <p class="pull-right hidden"><a href="">balsa</a> →</p>
+                {% if next_post %}
+                  <p class="pull-right"><a href="{{next_post}}">{{next_post_title}}</a> →</p>
+                {% endif %}
               </div>
             </div>
           </div>
