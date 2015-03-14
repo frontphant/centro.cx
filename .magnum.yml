@@ -4,7 +4,7 @@ install:
   - bundle install
   - sudo npm install grunt-cli bower -g
   - sudo npm install
-  - sudo bower install
+  - bower install
 
 script:
   - grunt build
