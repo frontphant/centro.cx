@@ -1,7 +1,7 @@
 {
-  "name": "centro-jekyll",
+  "name": "centro.cx",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Yeoman workflow for centro-jekyll",
   "dependencies": {},
   "devDependencies": {
