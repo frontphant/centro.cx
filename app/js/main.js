@@ -70,7 +70,7 @@ var App = {};
 
     $logo.each(function(){
       var randomLogo = _.random(1, 10),
-          imageUrl = ['/img/logos/logo_'+ randomLogo +'.png', '/img/logos-hd/logo_'+ randomLogo +'.png'];
+          imageUrl = ['img/logos/logo_'+ randomLogo +'.png', 'img/logos-hd/logo_'+ randomLogo +'.png'];
 
       $.preload(imageUrl[0]).then(function(){
         return $.preload(imageUrl[1]);
@@ -99,7 +99,7 @@ var App = {};
               w = $this.width(),
               h = $this.height(),
               center = {top: h/2, left: w/2},
-              imageUrl = '/img/photo-hover/' + photoHover;
+              imageUrl = 'img/photo-hover/' + photoHover;
 
           $.preload(imageUrl).done(function(){
             var $photo = $('<img>', {id: 'photo-hover-' + index ,src:imageUrl, 'class': 'photo-hover'});
