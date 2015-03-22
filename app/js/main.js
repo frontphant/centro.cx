@@ -134,8 +134,6 @@ var App = {};
                   left: (offset.left)
                 };
 
-            console.log(_class);
-
             $('#'+photoIndex).css(_class);
 
           }
