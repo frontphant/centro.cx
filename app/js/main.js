@@ -33,6 +33,8 @@ var App = {};
 (function($){
   var startHeight = $(window).height();
 
+  App.lastScroll = 0;
+
   App.init = function(){
 
     App.menuColor();
@@ -40,6 +42,7 @@ var App = {};
     App.menu();
     App.coverHeight();
     App.homePhotoHover();
+    App.snapHeader();
   };
 
   App.coverHeight = function(){
@@ -123,6 +126,29 @@ var App = {};
           }
         });
       }
+    });
+  };
+
+  App.snapHeader = function(){
+    var scroll = $(window).scrollTop();
+    App.currentScroll = scroll;
+    App.scrollDirection = App.currentScroll > App.lastScroll;
+
+    if((scroll < startHeight) && scroll > 0 && scroll < (startHeight - 10)) {
+      if (App.scrollDirection) {
+        if (!App.animatingScroll) App.animateScrollTo(startHeight + 10);
+      }
+    }
+
+    App.lastScroll = scroll;
+
+    window.requestAnimationFrame( App.snapHeader );
+  };
+
+  App.animateScrollTo = function(to){
+    App.animatingScroll = true;
+    return $('html, body').animate({scrollTop:to}, {duration: '300', queue: false}).promise().then(function(){
+      App.animatingScroll = false;
     });
   };
 
