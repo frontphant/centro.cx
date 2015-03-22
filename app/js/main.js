@@ -97,18 +97,16 @@ var App = {};
       var $this = $(this),
           photoHover = $this.data('photo');
       if (photoHover) {
-        $this.off('mouseenter.photoHover').on('mouseenter.photoHover', function(){
-          var offset = $this.offset(),
-              w = $this.width(),
-              h = $this.height(),
-              center = {top: h/2, left: w/2},
+        $this.off('mouseenter.photoHover').on('mouseenter.photoHover', function(e){
+          console.log(e);
+          var offset = {top: e.clientY, left: e.clientX},
               imageUrl = 'img/photo-hover/' + photoHover;
 
           $.preload(imageUrl).done(function(){
             var $photo = $('<img>', {id: 'photo-hover-' + index ,src:imageUrl, 'class': 'photo-hover'});
             $photo.css({
-              top: (offset.top + center.top),
-              left: (offset.left + center.left),
+              top: (offset.top),
+              left: (offset.left),
               display: 'none'
             });
             $this.data('photo-index', 'photo-hover-' + index);
@@ -123,6 +121,23 @@ var App = {};
             $('#'+photoIndex).fadeOut('fast').promise().then(function(){
               $('#'+photoIndex).remove();
             });
+          }
+        }).off('mousemove.photoHover').on('mousemove.photoHover', function(e){
+          var $this = $(this),
+              photoIndex = $this.data('photo-index');
+
+          if (photoIndex) {
+
+            var offset = {top: e.clientY, left: e.clientX},
+                _class = {
+                  top: (offset.top),
+                  left: (offset.left)
+                };
+
+            console.log(_class);
+
+            $('#'+photoIndex).css(_class);
+
           }
         });
       }

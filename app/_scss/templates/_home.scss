@@ -34,7 +34,7 @@ main#main {
 
   .photo-hover {
     z-index: -1;
-    position: absolute;
+    position: fixed;
 
     @include transform(translateX(-50%) translateY(-50%));
   }
