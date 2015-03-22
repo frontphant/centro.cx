@@ -34,7 +34,7 @@ module.exports = function (grunt) {
       },
       compass: {
         files: ['<%= yeoman.app %>/_scss/**/*.{scss,sass}'],
-        tasks: ['compass:server', 'autoprefixer']
+        tasks: ['compass:server']
       },
       jekyll: {
         files: [

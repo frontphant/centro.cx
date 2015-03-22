@@ -9,13 +9,8 @@
 
   @each $cover in $covers-list {
       &.#{$cover} {
-          background: #FFF image-url("covers/#{$cover}.jpg") no-repeat center;
+          background: #FFF image-url("covers-hd/#{$cover}.jpg") no-repeat center;
           @include background-size(cover);
-
-          @include retina() {
-            background: #FFF image-url("covers-hd/#{$cover}.jpg") no-repeat center;
-            @include background-size(cover);
-          }
       }
   }
 
