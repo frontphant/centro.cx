@@ -43,6 +43,15 @@ var App = {};
     App.coverHeight();
     App.homePhotoHover();
     App.snapHeader();
+
+    $('#cover').mousemove(function(e){
+        var centerX = $(window).width() / 2;
+        var centerY = $(window).height() / 2;
+
+        var amountMovedX = ((centerX - e.pageX) * 1 / 20);
+        var amountMovedY = ((centerY - e.pageY) * 1 / 20);
+        $('.cover-pic', $(this)).css('background-position', (amountMovedX * 0.2) + 'px ' + (amountMovedY * 0.2) + 'px');
+    });
   };
 
   App.coverHeight = function(){
