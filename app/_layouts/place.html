@@ -17,12 +17,44 @@
   </head>
   <body>
 
-    <header id="cover" class="casa-do-povo clearfix">
+    <header id="cover" class="casa-do-povo clearfix {{ page.title || slugify:'pretty' }}">
       <div class="container text-center">
         <h1><a href="">{{ page.title }}</a></h1>
         <h2>{{ page.subtitle }}</h2>
       </div>
+
+      <a href="#menu" id="menu-icon" class="white">Abrir Menu</a>
     </header>
+
+
+    <nav id="menu">
+      <a href="" class="close">&times;</a>
+
+      <dl>
+        <dt><a href="./">Início</a></dt>
+      </dl>
+      <dl>
+        <dt><a href="">Sobre</a></dt>
+      </dl>
+      <dl>
+        <dt><a href="#">Projetos</a></dt>
+        {% sorted_for post in site.posts sort_by:title %}
+          {% if post.enabled == "enabled" %}
+            <dd><a href="{{ post.url  | remove_first:'/' }}">{{ post.title }}</a></dd>
+          {% else %}
+            <dd>{{ post.title }}</dd>
+          {% endif %}
+        {% endsorted_for %}
+      </dl>
+      <dl>
+        <dt><a href="">Mapa</a></dt>
+      </dl>
+      <dl>
+        <dt><a href="">Contato</a></dt>
+        <dd><a href="">email</a></dd>
+        <dd><a href="">facebook</a></dd>
+      </dl>
+    </nav>
 
     <main id="main" class="details">
       {{ content }}
