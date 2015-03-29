@@ -43,6 +43,11 @@ var App = {};
     App.coverHeight();
     App.homePhotoHover();
     App.snapHeader();
+    App.fixieText();
+
+    $('body#place').each(function(){
+      $(window).scrollTop(0);
+    });
 
     $('#cover').mousemove(function(e){
         var centerX = $(window).width() / 2;
@@ -172,6 +177,71 @@ var App = {};
     return $('html, body').animate({scrollTop:to}, {duration: '300', queue: false}).promise().then(function(){
       App.animatingScroll = false;
     });
+  };
+
+  App.fixieText = function() {
+    var $textContainers = $('.fixie-text-container');
+
+    $textContainers.each(function () {
+      var $this = $(this),
+          $window = $(window),
+          relativeTop = $this.offset().top - $window.scrollTop(),
+          relativeBottom = (relativeTop + $this.height()),
+          $text = $('.fixie-text', $this);
+
+      if ($this.hasClass('gone')) {
+        var textRelativeTop = $text.offset().top - $window.scrollTop();
+
+        if (textRelativeTop >= 30) {
+          $text.css({
+            'position': 'fixed',
+            'top': '30px',
+            'left': $text.offset().left,
+            'width': $text.css('width')
+          });
+
+          $this.removeClass('gone');
+        }
+
+      } else {
+        if (relativeTop <= 30) {
+          $text.css({
+            'position': 'fixed',
+            'top': '30px',
+            'left': $text.offset().left,
+            'width': $text.css('width')
+          });
+        }
+
+        if (relativeTop > 30) {
+          $text.css({
+            'position': 'relative',
+            'top': 'auto',
+            'left': 'auto',
+            'width': ''
+          });
+        }
+
+        if ((relativeBottom - 30) <= $text.height()) {
+          var textRelativeTop = $text.offset().top - $window.scrollTop()
+          $this.css({
+            'position': 'relative'
+          });
+          $text.css({
+            'position': 'absolute',
+            'top': textRelativeTop - relativeTop,
+            'left': $text.offset().left - $this.offset().left
+          });
+
+          $this.addClass('gone');
+        }
+      }
+
+    });
+
+
+
+    window.requestAnimationFrame( App.fixieText );
   };
 
   App.init();
