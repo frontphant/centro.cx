@@ -7,6 +7,7 @@ address: "Rua Três Rios, 252, Bom Retiro."
 coordinates: "-23º 31’ 45.33” -46º 38’ 11.95”"
 enabled: enabled
 photo: "casa-do-povo.jpg"
+coverClass: "casa-do-povo"
 permalink: "casa-do-povo.html"
 ---
 
