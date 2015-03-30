@@ -243,6 +243,7 @@ permalink: "casa-do-povo.html"
 
 <div class="full-width map-holder">
   <h2 class="text-center"><span class="dia">Dicas da</span> <span class="plantin"><strong>Casa do Povo</strong></span></h2>
-
-  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3658.090132753457!2d-46.636655000000005!3d-23.5292604!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5860b2823481%3A0xdb5ed1cfdd63acf!2sR.+Tr%C3%AAs+Rios%2C+252+-+Bom+Retiro%2C+S%C3%A3o+Paulo+-+SP!5e0!3m2!1sen!2sbr!4v1425680261565" width="100%" height="820" frameborder="0" style="border:0"></iframe>
+  
+  <div id="map-container"></div>
+  <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3658.090132753457!2d-46.636655000000005!3d-23.5292604!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5860b2823481%3A0xdb5ed1cfdd63acf!2sR.+Tr%C3%AAs+Rios%2C+252+-+Bom+Retiro%2C+S%C3%A3o+Paulo+-+SP!5e0!3m2!1sen!2sbr!4v1425680261565" width="100%" height="820" frameborder="0" style="border:0"></iframe> -->
 </div>

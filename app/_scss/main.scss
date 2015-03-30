@@ -18,3 +18,8 @@ $icon-font-path: "../_bower_components/bootstrap-sass-official/assets/fonts/boot
 @import "modules/details";
 
 @import "templates/home";
+
+
+#map-container {
+  height: 700px;
+}
