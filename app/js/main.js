@@ -76,7 +76,9 @@ var App = {};
   App.logo = function() {
     // Logo
     var $logo = $('#logo');
-
+    
+    $('#cover').fadeTo(0, 0.01);
+    
     $logo.each(function(){
       var randomLogo = _.random(1, 10),
           imageUrl = ['img/logos/logo_'+ randomLogo +'.png', 'img/logos-hd/logo_'+ randomLogo +'.png'];
@@ -90,7 +92,12 @@ var App = {};
         return $logo.addClass('logo_' + randomLogo).promise();
       }).then(function(){
         setTimeout(function(){
-          $logo.fadeIn(300);
+          
+          // $logo.fadeIn(300);
+          
+          $('#cover').fadeIn(400);
+      	  $('#logo').delay(800).fadeIn(400);
+          
         }, 300);
       });
 
@@ -128,21 +135,6 @@ var App = {};
               $('#'+photoIndex).remove();
             });
           }
-        }).off('mousemove.photoHover').on('mousemove.photoHover', function(e){
-          var $this = $(this),
-              photoIndex = $this.data('photo-index');
-
-          if (photoIndex) {
-
-            var offset = {top: e.clientY, left: e.clientX},
-                _class = {
-                  top: (offset.top),
-                  left: (offset.left)
-                };
-
-            $('#'+photoIndex).css(_class);
-
-          }
         });
       }
     });
@@ -178,7 +170,7 @@ var App = {};
       var $this = $(this),
           $window = $(window),
           relativeTop = $this.offset().top - $window.scrollTop(),
-          relativeBottom = (relativeTop + $this.height()),
+          relativeBottom = (relativeTop + $this.height() - 20),
           $text = $('.fixie-text', $this);
 
       if ($this.hasClass('gone')) {
