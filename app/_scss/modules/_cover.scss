@@ -5,7 +5,7 @@
   margin-bottom: 75px;
   position: relative;
 
-  $covers-list: home, casa-do-povo;
+  $covers-list: home, casa-do-povo, overground, phosphorus;
 
   @each $cover in $covers-list {
       &.#{$cover} {
