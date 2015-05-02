@@ -77,7 +77,8 @@ var App = {};
     // Logo
     var $logo = $('#logo');
     
-    $('#cover').fadeTo(0, 0.01);
+    $('#cover').fadeTo(0,0);
+    $('#cover').delay(600).fadeTo(400,1);
     
     $logo.each(function(){
       var randomLogo = _.random(1, 10),
@@ -93,12 +94,9 @@ var App = {};
       }).then(function(){
         setTimeout(function(){
           
-          // $logo.fadeIn(300);
+          $logo.fadeIn(400);
           
-          $('#cover').fadeIn(400);
-      	  $('#logo').delay(800).fadeIn(400);
-          
-        }, 300);
+        }, 800);
       });
 
     });
