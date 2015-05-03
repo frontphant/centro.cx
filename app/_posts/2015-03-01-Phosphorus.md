@@ -33,6 +33,7 @@ permalink: "phosphorus.html"
 
 <div class="centro-container">
 
+  <!-- bloco 1 -->
   <div class="fixie-text-container">
     
     <div class="row margin-bottom">
@@ -61,7 +62,8 @@ permalink: "phosphorus.html"
     </div>
     
   </div>
-
+  
+  <!-- bloco 2 -->
   <div class="fixie-text-container">
     <div class="row margin-bottom">
       <div class="col-md-8">
@@ -87,141 +89,160 @@ permalink: "phosphorus.html"
     
   </div>
   
-  <!--
+  <!-- bloco 3 -->
   <div class="fixie-text-container">
+    
     <div class="row margin-bottom">
       <div class="col-md-4 fixie-text">
-        <p><span class="plantin">A escola Scholem Aleichem começou a funcionar aqui dentro pouco depois da fundação do centro. Era muito reconhecida por métodos experimentais de ensino e recebia alunos da comunidade judaica, mas também filhos de militantes de esquerda, que precisavam ser protegidos da ditadura. A biblioteca da escola ainda é mantida e tem uma coleção variada: de livros infantis em ídiche a livros políticos em russo, importados da União Soviética.</span> <span class="dia"><strong>Frederico Costa</strong></span></p>
-        <p><span class="caption">→ Biblioteca da antiga escola Scholem Aleichem.</span></p>
+        <p><span class="plantin">Essas obras foram criadas pela Fancy Violence, uma personagem criada pelo pintor Rodolpho Parigi. Apesar do sucesso no circuito de arte, o Rodolpho entrou numa crise e a única solução que encontrou foi a criação da Fancy, que nasceu como uma ficção. Assim como ele, ela é uma pintora, mas as questões propostas aqui não são apenas formais, não tratam do desenho ou do nanquim, discutem algo mais profundo.</span> <span class="dia"><strong>Maria Montero</strong></span></p>
+        <p><br><span class="caption">→ Exposição de Fancy Violence na Phosphorus.</span></p>
       </div>
-      <div class="col-md-8 margin-bottom pull-right">
-        <div class="col-md-6" style="padding:0;">
-          <img src="img/content/casa-do-povo/11.jpg" class="" alt="">
-        </div>
-      </div>
+      
       <div class="col-md-8 pull-right">
-        <img src="img/content/casa-do-povo/12.jpg" class="" alt="">
+      	<div class="col-md-6" style="padding:0">
+          <img src="img/content/phosphorus/3.1.jpg" class="" alt="">
+      	</div>
+      </div>
+    </div>
+
+    <div class="row margin-bottom">
+      <div class="col-md-6 col-md-offset-4">
+        <img src="img/content/phosphorus/3.2.jpg" class="" alt="">
       </div>
     </div>
 
     <div class="row margin-bottom double">
-      <div class="col-md-6 col-md-offset-4">
-        <img src="img/content/casa-do-povo/13.jpg" class="" alt="">
+      <div class="col-md-6 col-md-offset-6">
+        <img src="img/content/phosphorus/3.3.jpg" class="" alt="">
       </div>
     </div>
+    
+    <div class="row margin-bottom double">
+      <div class="col-md-6 col-md-offset-6">
+        <img src="img/content/phosphorus/3.4.jpg" class="" alt="">
+      </div>
+    </div>
+    
   </div>
-
+  
+  <!-- bloco 4 -->
   <div class="fixie-text-container">
-    <div class="row margin-bottom">
-      <div class="col-md-8">
-        <img src="img/content/casa-do-povo/14.jpg" class="" alt="">
-      </div>
-      <div class="col-md-4 fixie-text">
-        <p><span class="plantin">Algumas décadas depois da fundação, a comunidade que mantinha a Casa começou a envelhecer. Algumas pessoas foram para outros bairros e esvaziaram essa região, processo pelo qual o centro como um todo também passou. Como dependia da comunidade, o prédio começou a decair. Mesmo assim, os associados nunca aceitaram vender, sempre acreditaram que deveria ser mantido.</span> <span class="dia"><strong>Frederico Costa</strong></span></p>
-        <p><br><span class="caption">← Interior dos andares superiores e terraço.</span></p>
-      </div>
-    </div>
-
-    <div class="row margin-bottom">
-      <div class="col-md-4">
-        <img src="img/content/casa-do-povo/15.jpg" class="" alt="">
-      </div>
-    </div>
-
     <div class="row margin-bottom">
       <div class="col-md-4 col-md-offset-4">
-        <img src="img/content/casa-do-povo/16.jpg" class="" alt="">
+        <img src="img/content/phosphorus/4.1.jpg" class="" alt="">
+      </div>
+      <div class="col-md-4 fixie-text">
+        <p><span class="plantin">Em 2012, o artista Rodrigo Bueno produziu esse espaço. Ele tinha vontade de criar um lugar de convívio e decidiu usar esse pedaço do prédio, que na época era utilizado como depósito e estava bloqueado por uma janela. Tudo isso aconteceu durante uma exposição, chamada Em Aberto, nome que tinha muito a ver com a obra e com o estado da Phosphorus na época.</span> <span class="dia"><strong>Gustavo Ferro</strong></span></p>
+        <p><span class="caption">← Jardim / Cozinha / Obra, instalação de Rodrigo Bueno.</span></p>
+      </div>
+    </div>
+
+    <div class="row margin-bottom">
+      <div class="col-md-8">
+        <img src="img/content/phosphorus/4.2.jpg" class="" alt="">
       </div>
     </div>
 
     <div class="row margin-bottom double">
-      <div class="col-md-6 col-md-offset-2">
-        <img src="img/content/casa-do-povo/17.jpg" class="" alt="">
+      <div class="col-md-6">
+        <img src="img/content/phosphorus/4.3.jpg" class="" alt="">
       </div>
     </div>
+    
+    <div class="row margin-bottom double">
+      <div class="col-md-4 col-md-offset-2">
+        <img src="img/content/phosphorus/4.4.jpg" class="" alt="">
+      </div>
+    </div>
+    
   </div>
-
+  
+  <!-- bloco 5/6 -->
   <div class="fixie-text-container">
     <div class="row margin-bottom">
       <div class="col-md-4 fixie-text">
-        <p><span class="plantin">Existe um trabalho de continuidade, mas não é nostálgico, de tentar imitar aquela geração. Nós queremos assimilar o passado dentro do nosso cotidiano e da nossa prática, mas renovar a programação da Casa. Claro que respeitando a nossa história, inspirados pelas pessoas que frequentavam esse espaço nas primeiras décadas de atividade e continuam presentes.</span> <span class="dia"><strong>Mariana Lorenzi</strong></span></p>
-        <p><span class="caption">→ Oficina de impressão do coletivo <span>Ocupeacidade</span>.</span></p>
+        <p><span class="plantin">Essa sala era um brechó onde a Casa Juisi vendia peças. Agora que eles pararam de vender as peças do acervo, nós deixamos esse espaço à disposição de artistas em residência. A gente sempre procura colaborar com a Juisi. Dois artistas que passaram por aqui recentemente, o Daniel Albuqueque e a Marcia Beatriz Graneiro, faziam um trabalho muito ligado à moda.</span> <span class="dia"><strong>Gustavo Ferro</strong></span></p>
+        <p><span class="caption">→ Sala decorada com objetos da Casa Juisi.</span></p>
       </div>
       <div class="col-md-8 pull-right">
-        <img src="img/content/casa-do-povo/18.jpg" class="" alt="">
+        <img src="img/content/phosphorus/5.1.jpg" class="" alt="">
       </div>
     </div>
-
     <div class="row margin-bottom">
-      <div class="col-md-4 col-md-offset-8">
-        <img src="img/content/casa-do-povo/19.jpg" class="" alt="">
+      <div class="col-md-4 col-md-offset-4">
+        <img src="img/content/phosphorus/5.2.jpg" class="" alt="">
       </div>
     </div>
-
-    <div class="row margin-bottom">
-      <div class="col-md-6 col-md-offset-4">
-        <img src="img/content/casa-do-povo/20.jpg" class="" alt="">
+    <div class="row margin-bottom double">
+      <div class="col-md-6 col-md-offset-6">
+        <img src="img/content/phosphorus/5.3.jpg" class="" alt="">
       </div>
     </div>
   </div>
-
-  <div class="row margin-bottom" style="position:relative;">
-    <p style="position: absolute; bottom: 0; left: 0; margin: 0;"><span class="caption">→ Jornal Nossa Voz, relançado pela Casa em 2013. </span></p>
-    <div class="col-md-4 col-md-offset-8">
-      <img src="img/content/casa-do-povo/21.jpg" class="" alt="">
-    </div>
-  </div>
-
-  <div class="row margin-bottom" style="position:relative;">
-    <p style="position: absolute; bottom: 0; left: 0; margin: 0;"><span class="caption">→ Ateliê do G>E, ou Grupo Maior Que Eu, coletivo <br>de artistas liderado pela estilista <span>Karlla Girotto</span>.</span></p>
-    <div class="col-md-8 col-md-offset-4">
-      <img src="img/content/casa-do-povo/22.jpg" class="" alt="">
-    </div>
-  </div>
-
-  <div class="row margin-bottom">
-    <div class="col-md-4 col-md-offset-4">
-      <img src="img/content/casa-do-povo/23.jpg" class="" alt="">
-    </div>
-  </div>
-
-  <div class="row margin-bottom double">
-    <div class="col-md-6 col-md-offset-6">
-      <img src="img/content/casa-do-povo/24.jpg" class="" alt="">
-    </div>
-  </div>
-
+  
+  <!-- bloco 7 -->
   <div class="fixie-text-container">
     <div class="row margin-bottom">
-      <div class="col-md-6 col-md-offset-2">
-        <img src="img/content/casa-do-povo/25.jpg" class="" alt="">
-      </div>
-
       <div class="col-md-4 fixie-text">
-        <p><span class="plantin">Vários fatores contribuem para o abandono do centro. Entre as décadas de 70 e 80, o Brasil começa a importar uma cultura que mantém as pessoas dentro de casa, muito pela popularização da televisão. Essa situação atual também tem muita relação com o período da ditadura, quando o direito de reunião não existia e muitos espaços públicos acabaram esvaziados.</span> <span class="dia"><strong>Chico Daviña</strong></span></p>
-        <p><span class="caption">← Vista do terraço do centro cultural.</span></p>
+        <p><span class="caption">→ Obras de Rafael RG, em exibição na galeria Sé, localizada no segundo andar do prédio.</span></p>
+      </div>
+      <div class="col-md-8 pull-right">
+        <img src="img/content/phosphorus/6.1.jpg" class="" alt="">
       </div>
     </div>
-
     <div class="row margin-bottom">
-      <div class="col-md-4">
-        <img src="img/content/casa-do-povo/26.jpg" class="" alt="">
+      <div class="col-md-4 col-md-offset-8">
+        <img src="img/content/phosphorus/6.2.jpg" class="" alt="">
       </div>
     </div>
-
-    <div class="row">
-      <div class="col-md-8">
-        <img src="img/content/casa-do-povo/27.jpg" class="" alt="">
+    <div class="row margin-bottom double">
+      <div class="col-md-4 col-md-offset-6">
+        <img src="img/content/phosphorus/6.3.jpg" class="" alt="">
       </div>
     </div>
   </div>
-  -->
+  
+  <!-- bloco 8 -->
+  <div class="fixie-text-container">
+    <div class="row margin-bottom">
+      <div class="col-md-8">
+        <img src="img/content/phosphorus/8.1.jpg" class="" alt="">
+      </div>
+      <div class="col-md-4 fixie-text">
+        <p><span class="plantin">Desde que chegamos aqui, nós nunca tínhamos visto as janelas desses prédios abertas. Até que eles foram ocupados pelo sem-teto, que viveram nesse lugar durante uns quatro meses. Toda a dinâmica do bairro mudou: as janelas passaram a ficar abertas, a gente se cumprimentava na calçada. Até que eles foram expulsos pela polícia. Apesar de terem donos, esses prédios hoje ficam vazios. </span> <span class="dia"><strong>Gustavo Ferro</strong></span></p>
+        <p><span class="caption">← Prédios vazios em frente à galeria.</span></p>
+      </div>
+    </div>
+    <div class="row margin-bottom double">
+      <div class="col-md-4">
+        <img src="img/content/phosphorus/8.2.jpg" class="" alt="">
+      </div>
+    </div>
+  </div>
+  
+  <!-- bloco 9 -->
+  <div class="fixie-text-container">
+    <div class="row margin-bottom">
+      <div class="col-md-4 fixie-text">
+      	<p><span class="plantin">Esse movimento ao centro é paradoxal. É positivo, mas também é perverso, porque vem acompanhado de higienização. Se o centro virar uma região de restaurantes, bares e galerias, então esse lugar que conhecemos hoje tende a desaparecer. Acho que não adianta mudar para essa região apenas porque é barato, é preciso ter uma conversa com o lugar.</span> <span class="dia"><strong>Maria Montero</strong></span></p>
+        <p><span class="caption">→ Fachada do prédio da Phosphorus.</span></p>
+      </div>
+      <div class="col-md-8 pull-right">
+        <img src="img/content/phosphorus/9.1.jpg" class="" alt="">
+      </div>
+    </div>
+    <div class="row margin-bottom">
+      <div class="col-md-6 col-md-offset-6">
+        <img src="img/content/phosphorus/9.2.jpg" class="" alt="">
+      </div>
+    </div>
+  </div>
     
 </div>
 
 
 <div class="full-width map-holder">
-  <h2 class="text-center"><span class="dia">Dicas do</span> <span class="plantin"><strong>Phosphorus</strong></span></h2>
+  <h2 class="text-center"><span class="dia">Dicas da</span> <span class="plantin"><strong>Phosphorus</strong></span></h2>
   
   <!-- <div id="map-container"></div> -->
   <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3658.090132753457!2d-46.636655000000005!3d-23.5292604!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5860b2823481%3A0xdb5ed1cfdd63acf!2sR.+Tr%C3%AAs+Rios%2C+252+-+Bom+Retiro%2C+S%C3%A3o+Paulo+-+SP!5e0!3m2!1sen!2sbr!4v1425680261565" width="100%" height="820" frameborder="0" style="border:0"></iframe> -->

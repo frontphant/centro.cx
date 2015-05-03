@@ -168,7 +168,7 @@ var App = {};
       var $this = $(this),
           $window = $(window),
           relativeTop = $this.offset().top - $window.scrollTop(),
-          relativeBottom = (relativeTop + $this.height() - 20),
+          relativeBottom = (relativeTop + $this.height()),
           $text = $('.fixie-text', $this);
 
       if ($this.hasClass('gone')) {
@@ -205,13 +205,14 @@ var App = {};
         }
 
         if ((relativeBottom - 30) <= $text.height()) {
-          var textRelativeTop = $text.offset().top - $window.scrollTop();
+          // var textRelativeTop = $text.offset().top - $window.scrollTop();
+          // top final é altura total da lateral menos a altura do texto.
           $this.css({
             'position': 'relative'
           });
           $text.css({
             'position': 'absolute',
-            'top': textRelativeTop - relativeTop,
+            'top': $this.height() - $text.height(), // textRelativeTop - relativeTop,
             'left': $text.offset().left - $this.offset().left
           });
 
