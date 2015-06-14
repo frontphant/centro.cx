@@ -109,8 +109,8 @@ var App = {};
       var $this = $(this),
           photoHover = $this.data('photo');
       if (photoHover) {
-        $this.off('mouseenter.photoHover').on('mouseenter.photoHover', function(e){
-          console.log(e);
+        $this.on('mouseenter.photoHover', function(e){
+          
           var offset = {top: e.clientY, left: e.clientX},
               imageUrl = 'img/photo-hover/' + photoHover;
 
@@ -124,17 +124,20 @@ var App = {};
             $this.data('photo-index', 'photo-hover-' + index);
             $('#main').append($photo);
             $photo.fadeIn('fast');
-          });
-        }).off('mouseleave.photoHover').on('mouseleave.photoHover', function(){
-          var $this = $(this),
-              photoIndex = $this.data('photo-index');
 
-          if (photoIndex) {
-            $('#'+photoIndex).fadeOut('fast').promise().then(function(){
-              $('#'+photoIndex).remove();
+            $this.off('mouseleave.photoHover');
+            $this.on('mouseleave.photoHover', function(){
+              var $this = $(this),
+                  photoIndex = $this.data('photo-index');
+
+              if (photoIndex) {
+                $('#'+photoIndex).fadeOut('fast').promise().then(function(){
+                  $('#'+photoIndex).remove();
+                });
+              }
             });
-          }
-        });
+          });
+        })
       }
     });
   };

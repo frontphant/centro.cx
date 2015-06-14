@@ -1,5 +1,6 @@
 ---
 layout: place
+weight:  10
 title:  "Mandíbula"
 subtitle: "--"
 description: " é um bar disfarçado de loja de discos."

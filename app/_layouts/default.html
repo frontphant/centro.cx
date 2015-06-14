@@ -37,7 +37,7 @@
         </dl>
         <dl>
           <dt><a href="#">Projetos</a></dt>
-          {% sorted_for post in site.posts sort_by:title %}
+          {% sorted_for post in site.posts sort_by:weight %}
             {% if post.enabled == "enabled" %}
               <dd><a href="{{ post.url  | remove_first:'/' }}">{{ post.title }}</a></dd>
             {% else %}

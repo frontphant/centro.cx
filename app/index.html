@@ -8,7 +8,7 @@ description: CENTRO é um registro da ocupação criativa do centro de São Paul
   <div class="col-md-12">
     CENTRO é um registro da ocupação criativa do centro de São Paulo. <a href="" class="read-more">leia mais</a>
 
-    {% sorted_for post in site.posts sort_by:title %}
+    {% sorted_for post in site.posts sort_by:weight %}
       <span class="{{ post.enabled }}">
         {% if post.enabled == "enabled" %}
           <a href="{{ post.url | remove_first:'/' }}" class="company"
