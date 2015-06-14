@@ -15,9 +15,16 @@ main#main {
   }
 
   .company {
-    font: 700 35px/50px "Plantin";
-    text-decoration: underline;
+    font-weight: 700;
+    font-size: 35px;
+    font-family: "Plantin";
     color: #000;
+    border-bottom: 2px solid;
+    display: inline-block;
+    line-height: .65;
+    &:hover {
+      text-decoration: none;
+    }
   }
 
   .coordinates {
