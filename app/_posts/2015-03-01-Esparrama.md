@@ -1,5 +1,6 @@
 ---
 layout: place
+weight:  6
 title:  "Esparrama"
 subtitle: "--"
 description: " é um grupo de teatro."

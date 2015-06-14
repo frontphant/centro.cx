@@ -1,5 +1,6 @@
 ---
 layout: place
+weight:  4
 title:  "Casa do Povo"
 subtitle: "Centro cultural"
 description: " é um centro cultural."

@@ -1,5 +1,6 @@
 ---
 layout: place
+weight:  15
 title:  "Phosphorus"
 subtitle: "Espaço de exibição e residências artísticas"
 description: " é um espaço de exposição e residência artística."

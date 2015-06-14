@@ -1,5 +1,6 @@
 ---
 layout: place
+weight:  5
 title:  "Eduqativo"
 subtitle: "--"
 description: " é um espaço de inovação em arte e educação."
