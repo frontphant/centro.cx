@@ -48,6 +48,10 @@ var App = {};
     $('body#place').each(function(){
       $(window).scrollTop(0);
     });
+
+    $('.show-smooth').addClass('fade').viewportChecker({
+      classToAdd: 'animated showSmooth'
+    });
     
   };
 
