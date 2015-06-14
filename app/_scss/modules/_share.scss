@@ -1,0 +1,28 @@
+
+.share-options {
+  position: fixed;
+  top: 50%;
+  right: 30px;
+  margin-top: -66px;
+}
+
+.share-link {
+  display: block;
+}
+
+.share-link__fb {
+  @include sprites-general("share-fb-white");
+
+  &.dark {
+    @include sprites-general("share-fb-black");    
+  }
+}
+
+.share-link__twitter {
+  margin-top: -1px;
+  @include sprites-general("share-twitter-white");
+
+  &.dark {
+    @include sprites-general("share-twitter-black");    
+  }
+}
