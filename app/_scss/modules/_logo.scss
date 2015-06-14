@@ -8,16 +8,17 @@ h1#logo {
 
   @include transform(translateX(-50%) translateY(-50%));
 
-  @for $i from 1 through 10  {
+  @for $i from 1 through 10 {
     &.logo_#{$i} > a {
-      $img: "logos/logo_#{$i}.png";
+      $img: "logos/spr_logos.png";
       display: block;
       width: image-width($img);
-      height: image-height($img);
+      height: 346px;
       border: 0;
       text-indent: -9999px;
       font-size: 0;
       background: image-url($img) no-repeat center;
+      background-position: 0 (($i - 1) * -346px);
 
       @media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
         & {
@@ -28,6 +29,4 @@ h1#logo {
       }
     }
   }
-
-
 }
