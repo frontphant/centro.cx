@@ -39,7 +39,7 @@ var App = {};
 
     App.menuColor();
     App.logo();
-    App.menu();
+    // App.menu();
     App.coverHeight();
     App.homePhotoHover();
     App.snapHeader();
@@ -55,13 +55,14 @@ var App = {};
     $('#cover').height(startHeight);
   };
 
-  App.menu = function(){
-    // Menu
-    $('#menu-icon, #menu .close').off('click.menu').on('click.menu', function(e){
-      e.preventDefault();
-      $('#menu').toggleClass('open');
-    });
-  };
+  // Using FPH
+  // App.menu = function(){
+  //   // Menu
+  //   $('#menu-icon, #menu .close').off('click.menu').on('click.menu', function(e){
+  //     e.preventDefault();
+  //     $('#menu').toggleClass('open');
+  //   });
+  // };
 
   App.menuColor = function(){
     if($(window).scrollTop() > startHeight) {
