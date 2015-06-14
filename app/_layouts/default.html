@@ -23,11 +23,11 @@
       <header id="cover" class="home clearfix">
         <div class="cover-pic"></div>
         <h1 id="logo" class="hide"><a href="./">Centro</a></h1>
-        <a href="#menu" id="menu-icon" class="white">Abrir Menu</a>
+        <a data-component="Toggle Menu" data-target="#menu" href="javascript:;" id="menu-icon" class="white">Abrir Menu</a>
       </header>
 
       <nav id="menu">
-        <a href="" class="close">&times;</a>
+        <a data-component="Close" data-target="#menu" href="javascript:;" class="close">&times;</a>
 
         <dl>
           <dt><a href="./">Início</a></dt>
@@ -89,6 +89,7 @@
       <script src="/_bower_components/lodash/lodash.js"></script>
       <!-- endbower -->
       <script src="/_bower_components/preload/jquery.preload.js"></script>
+      <script src="/_bower_components/queryloader2/queryloader2.min.js"></script>
       <!-- endbuild -->
 
       <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
@@ -104,7 +105,25 @@
       <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDcHrA5A9--UmPLJpN47daL7AihSkNMABY&sensor=false"></script>
 
       <!-- build:js(app) js/scripts.js -->
+
+      <script src="/js/lib/sji.js"></script>
+      <script src="/js/lib/underscore.js"></script>
+      <script src="/js/lib/TweenMax.js"></script>
+      
+      <script src="/js/core/Alias.js"></script>
+      <script src="/js/core/Component.js"></script>
+      <script src="/js/core/ClientDetect.js"></script>
+      <script src="/js/core/Util.js"></script>
+      <script src="/js/core/Preloader.js"></script>
+      <script src="/js/core/Main.js"></script>
+      
+      <script src="/js/components/Toggle.js"></script>
+      <script src="/js/components/Close.js"></script>
+      <script src="/js/components/Menu.js"></script>
+
+
       <script src="/js/main.js"></script>
+
       <!-- endbuild -->
     </body>
 </html>
