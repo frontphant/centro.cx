@@ -13,21 +13,21 @@
 
     setup: function() {
       this.targetSelector = this.element.data('target') || ('#' + this.data.id);
+      this.event = this.element.data('event') || 'click';
       this.target = jQuery(this.targetSelector);
       this.isClose = this.element.data('close');
-
       this.element.attr('disabled', false);
     },
 
     bind: function () {
       var _this = this;
 
-      this.element.on('click', function (e) {
-        e.preventDefault();
+      this.element.on(this.event, function (e) {
+        // e.preventDefault();
         _this.action();
 
         jQuery(document).trigger({
-          type: 'Anchor.clicked',
+          type: 'Anchor.' + _this.event + 'ed',
           anchor: _this.element,
           target: _this.target
         });

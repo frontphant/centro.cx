@@ -5,7 +5,7 @@
     bind: function () {
       var _this = this;
 
-      this.element.on('click', function (e) {
+      this.element.on(this.event, function (e) {
         // e.preventDefault();
         _this.action();
       });
@@ -16,4 +16,3 @@
     }
   });
 })();
-
