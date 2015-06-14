@@ -23,3 +23,7 @@ $icon-font-path: "../_bower_components/bootstrap-sass-official/assets/fonts/boot
 #map-container {
   height: 700px;
 }
+
+.queryloader__overlay__bar {
+  top: 0 !important;
+}
