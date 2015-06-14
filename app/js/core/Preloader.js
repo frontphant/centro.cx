@@ -7,6 +7,9 @@ window.addEventListener('DOMContentLoaded', function() {
     percentage: false,
     barHeight: 4,
     minimumTime: 200,
-    fadeOutTime: 1000
+    fadeOutTime: 1000,
+    onComplete: function() {
+        document.querySelector("body").classList.add('loaded');
+    }
   });
 });
