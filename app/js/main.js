@@ -107,37 +107,52 @@ var App = {};
     // Home Photo Hover
     $('#main .company').each(function(index){
       var $this = $(this),
-          photoHover = $this.data('photo');
+          photoHover = $this.data('photo'),
+          hovering = false;
       if (photoHover) {
         $this.on('mouseenter.photoHover', function(e){
+          hovering = true;
           
           var offset = {top: e.clientY, left: e.clientX},
               imageUrl = 'img/photo-hover/' + photoHover;
 
-          $.preload(imageUrl).done(function(){
-            var $photo = $('<img>', {id: 'photo-hover-' + index ,src:imageUrl, 'class': 'photo-hover'});
-            $photo.css({
+          if ($('#photo-hover-' + index).length) {
+            $('#photo-hover-' + index).css({
               top: (offset.top),
               left: (offset.left),
               display: 'none'
-            });
-            $this.data('photo-index', 'photo-hover-' + index);
-            $('#main').append($photo);
-            $photo.fadeIn('fast');
-
-            $this.off('mouseleave.photoHover');
-            $this.on('mouseleave.photoHover', function(){
-              var $this = $(this),
-                  photoIndex = $this.data('photo-index');
-
-              if (photoIndex) {
-                $('#'+photoIndex).fadeOut('fast').promise().then(function(){
-                  $('#'+photoIndex).remove();
-                });
+            }).stop().fadeIn('fast');
+         
+          } else {
+            if ($this.hasClass('preloading')) {
+              return;
+            }
+            
+            $this.addClass('preloading');
+            $.preload(imageUrl).done(function(){
+              var $photo = $('<img>', {id: 'photo-hover-' + index ,src:imageUrl, 'class': 'photo-hover'});
+              $photo.css({
+                top: (offset.top),
+                left: (offset.left),
+                display: 'none'
+              });
+              $this.data('photo-index', 'photo-hover-' + index);
+              $('#main').append($photo);
+              if (hovering) {
+                $photo.stop().fadeIn('fast');
               }
+              $this.removeClass('preloading');
             });
-          });
-        })
+          }
+        }).on('mouseleave.photoHover', function(){
+            hovering = false;
+            var $this = $(this),
+                photoIndex = $this.data('photo-index');
+
+            if (photoIndex) {
+              $('#'+photoIndex).stop().fadeOut('fast');
+            }
+        });
       }
     });
   };

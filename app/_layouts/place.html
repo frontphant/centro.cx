@@ -24,12 +24,15 @@
         <h2>{{ page.subtitle }}</h2>
       </div>
 
-      <a href="#menu" id="menu-icon" class="white">Abrir Menu</a>
-    </header>
+      <a data-component="Toggle ToggleColor" data-target="#menu" data-event="mouseover" href="javascript:;" id="menu-icon" class="light">Abrir Menu</a>
+        <div class="share-options">
+          <a data-component="ToggleColor" class="share-link share-link__fb" href="javascript:;">facebook</a>
+          <a data-component="ToggleColor" class="share-link share-link__twitter" href="javascript:;">facebook</a>
+        </div>
+      </header>
 
-
-    <nav id="menu">
-      <a href="" class="close">&times;</a>
+      <nav id="menu" data-component="Close" data-event="mouseleave">
+        <a data-target="#menu" href="javascript:;" class="close">&times;</a>
 
       <dl>
         <dt><a href="./">Início</a></dt>
@@ -130,6 +133,7 @@
     <script src="/_bower_components/lodash/lodash.js"></script>
     <!-- endbower -->
     <script src="/_bower_components/preload/jquery.preload.js"></script>
+    <script src="/_bower_components/queryloader2/queryloader2.min.js"></script>
     <!-- endbuild -->
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
@@ -144,8 +148,26 @@
 
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDcHrA5A9--UmPLJpN47daL7AihSkNMABY&sensor=false"></script>
 
-    <!-- build:js({app}) js/scripts.js -->
-    <script src="/js/main.js"></script>
-    <!-- endbuild -->
-</body>
+      <!-- build:js(app) js/scripts.js -->
+
+      <script src="/js/lib/sji.js"></script>
+      <script src="/js/lib/underscore.js"></script>
+      <script src="/js/lib/TweenMax.js"></script>
+      
+      <script src="/js/core/Alias.js"></script>
+      <script src="/js/core/Component.js"></script>
+      <script src="/js/core/ClientDetect.js"></script>
+      <script src="/js/core/Util.js"></script>
+      <script src="/js/core/Preloader.js"></script>
+      <script src="/js/core/Main.js"></script>
+      
+      <script src="/js/components/Toggle.js"></script>
+      <script src="/js/components/Close.js"></script>
+      <script src="/js/components/ToggleColor.js"></script>
+
+
+      <script src="/js/main.js"></script>
+
+      <!-- endbuild -->
+    </body>
 </html>
