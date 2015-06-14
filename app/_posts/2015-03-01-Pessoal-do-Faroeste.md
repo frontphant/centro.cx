@@ -1,5 +1,6 @@
 ---
 layout: place
+weight:  14
 title:  "Pessoal do Faroeste"
 subtitle: "--"
 description: " é uma companhia de teatro na Boca do Lixo."
