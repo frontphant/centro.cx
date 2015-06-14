@@ -37,7 +37,7 @@ var App = {};
 
   App.init = function(){
 
-    App.menuColor();
+    // App.menuColor();
     App.logo();
     // App.menu();
     App.coverHeight();
@@ -55,7 +55,6 @@ var App = {};
     $('#cover').height(startHeight);
   };
 
-  // Using FPH
   // App.menu = function(){
   //   // Menu
   //   $('#menu-icon, #menu .close').off('click.menu').on('click.menu', function(e){
@@ -64,15 +63,16 @@ var App = {};
   //   });
   // };
 
-  App.menuColor = function(){
-    if($(window).scrollTop() > startHeight) {
-      $('#menu-icon').removeClass('white').addClass('black');
-    } else {
-      $('#menu-icon').addClass('white').removeClass('black');
-    }
+  // App.menuColor = function(){
+  //   return
+  //   if($(window).scrollTop() > startHeight) {
+  //     $('#menu-icon').removeClass('white').addClass('black');
+  //   } else {
+  //     $('#menu-icon').addClass('white').removeClass('black');
+  //   }
 
-    window.requestAnimationFrame( App.menuColor );
-  };
+  //   window.requestAnimationFrame( App.menuColor );
+  // };
 
   App.logo = function() {
     // Logo
