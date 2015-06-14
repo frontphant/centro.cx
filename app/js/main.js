@@ -83,7 +83,7 @@ var App = {};
     
     $logo.each(function(){
       var randomLogo = _.random(1, 10),
-          imageUrl = ['img/logos/logo_'+ randomLogo +'.png', 'img/logos-hd/logo_'+ randomLogo +'.png'];
+          imageUrl = ['img/logos/spr_logos.png', 'img/logos-hd/logo_'+ randomLogo +'.png'];
 
       $.preload(imageUrl[0]).then(function(){
         return $.preload(imageUrl[1]);
@@ -94,8 +94,17 @@ var App = {};
         return $logo.addClass('logo_' + randomLogo).promise();
       }).then(function(){
         setTimeout(function(){
-          
+          var hoverInterval = false;
+
           $logo.fadeIn(400);
+
+          $logo.hover(function() {
+            hoverInterval = setInterval(function(){
+              $logo.attr('class', 'logo_' + _.random(1, 10));
+            },250);
+          }, function(){
+            clearInterval(hoverInterval);
+          });
           
         }, 800);
       });
