@@ -24,16 +24,15 @@
         <h2>{{ page.subtitle }}</h2>
       </div>
 
-      <a data-component="Toggle ToggleColor" data-target="#menu" href="javascript:;" id="menu-icon" class="light">Abrir Menu</a>
-      <div class="share-options">
-        <a data-component="ToggleColor" class="share-link share-link__fb" href="javascript:;">facebook</a>
-        <a data-component="ToggleColor" class="share-link share-link__twitter" href="javascript:;">facebook</a>
-      </div>
-    </header>
+      <a data-component="Toggle ToggleColor" data-target="#menu" data-event="mouseover" href="javascript:;" id="menu-icon" class="light">Abrir Menu</a>
+        <div class="share-options">
+          <a data-component="ToggleColor" class="share-link share-link__fb" href="javascript:;">facebook</a>
+          <a data-component="ToggleColor" class="share-link share-link__twitter" href="javascript:;">facebook</a>
+        </div>
+      </header>
 
-
-    <nav id="menu">
-      <a data-component="Close" data-target="#menu" href="javascript:;" class="close">&times;</a>
+      <nav id="menu" data-component="Close" data-event="mouseleave">
+        <a data-target="#menu" href="javascript:;" class="close">&times;</a>
 
       <dl>
         <dt><a href="./">Início</a></dt>
