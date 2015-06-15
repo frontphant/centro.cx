@@ -15,9 +15,9 @@ permalink: "casa-do-povo.html"
 <div class="container">
   <div class="row">
     <div class="col-md-10 col-md-offset-1">
-      <p>“Não é muito comum do modernismo fazer uma fachada tão comunicativa assim”, afirma o arquiteto Frederico Costa sobre o projeto pioneiro do espaço onde trabalha, a <strong>Casa do Povo</strong>. Desenhado pelo escritório do arquiteto Ernest Mange e construído entre 1947 e 1953, o centro cultural homenageia a memória dos judeus mortos na Segunda Guerra Mundial. “Quando esse prédio foi erguido, o Ibirapuera e outras criações modernistas ainda estavam começando a aparecer. O estilo não era comum como virou depois de Brasília.”</p>
-      <p>Reaberto em agosto de 2013, quando completou seis décadas de história, o local continua ligado à comunidade judaica. No entanto, com novos tempos, incorporou os coreanos e os bolivianos, chegados em tempos mais recentes ao bairro do Bom Retiro. Isso se refletiu nos projetos do centro cultural, como o jornal <strong>Nossa Voz</strong>. Escrita em ídiche em sua primeira fase, que rodou até metade da década de 60, a publicação hoje é impressa em português, hebraico, coreano e espanhol.</p>
-      <p>Além do jornal, a Casa do Povo abriga o ateliê da estilista <strong>Karlla Girotto</strong>, o coletivo <strong>Ocupeacidade</strong> e a companhia de dança <strong>Lote#</strong>. Com essas iniciativas, mantém viva a tradição de agitação cultural da Casa e consegue construir uma nova narrativa, voltada à experimentação artística. “Usamos a história desse lugar como uma ferramenta para entender o presente”, explica a coordenadora Mariana Azevedo, “mas não ficamos presos a isso, precisamos olhar para o futuro.”</p>
+      <p>“Não é muito comum do modernismo fazer uma fachada tão comunicativa assim”, afirma o arquiteto Frederico Costa sobre o projeto pioneiro do espaço onde trabalha, a <strong><a href="http://casadopovo.org.br/" target="_blank">Casa do Povo</a></strong>. Desenhado pelo escritório do arquiteto Ernest Mange e construído entre 1947 e 1953, o centro cultural homenageia a memória dos judeus mortos na Segunda Guerra Mundial. “Quando esse prédio foi erguido, o Ibirapuera e outras criações modernistas ainda estavam começando a aparecer. O estilo não era comum como virou depois de Brasília.”</p>
+      <p>Reaberto em agosto de 2013, quando completou seis décadas de história, o local continua ligado à comunidade judaica. No entanto, com novos tempos, incorporou os coreanos e os bolivianos, chegados em tempos mais recentes ao bairro do Bom Retiro. Isso se refletiu nos projetos do centro cultural, como o jornal <strong><a href="http://issuu.com/marianalorenzideazevedo/docs/nossavoz_edicao1_finalizado_02" target="_blank">Nossa Voz</a></strong>. Escrita em ídiche em sua primeira fase, que rodou até metade da década de 60, a publicação hoje é impressa em português, hebraico, coreano e espanhol.</p>
+      <p>Além do jornal, a Casa do Povo abriga o ateliê da estilista <strong><a href="http://www.karllagirotto.com.br/" target="_blank">Karlla Girotto</a></strong>, o coletivo <strong><a href="https://www.flickr.com/photos/ocupeacidade/" target="_blank">Ocupeacidade</a></strong> e a companhia de dança <strong><a href="http://www.lote24hs.net/" target="_blank">Lote#</a></strong>. Com essas iniciativas, mantém viva a tradição de agitação cultural da Casa e consegue construir uma nova narrativa, voltada à experimentação artística. “Usamos a história desse lugar como uma ferramenta para entender o presente”, explica a coordenadora Mariana Azevedo, “mas não ficamos presos a isso, precisamos olhar para o futuro.”</p>
     </div>
   </div>
 
@@ -25,7 +25,7 @@ permalink: "casa-do-povo.html"
     <div class="col-md-4 col-md-offset-4 text-center">
       <span class="company">Casa do Povo</span>
       <span class="address">Rua Três Rios, 252, Bom Retiro</span>
-      <span class="coordinates">-23º 31’ 45.33”  -46º 38’ 11.95”</span>
+      <span class="coordinates">-23º 31’ 45.33” -46º 38’ 11.95”</span>
       <div class="compass"></div>
     </div>
   </div>
