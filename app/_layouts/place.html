@@ -15,14 +15,47 @@
     <link rel="stylesheet" href="/css/main.css">
     <!-- endbuild -->
   </head>
-  <body>
+  <body id="place">
 
-    <header id="cover" class="casa-do-povo clearfix">
+    <header id="cover" class="clearfix {{ page.coverClass }}">
+      <div class="cover-pic"></div>
       <div class="container text-center">
         <h1><a href="">{{ page.title }}</a></h1>
         <h2>{{ page.subtitle }}</h2>
       </div>
-    </header>
+
+      <a data-component="Toggle ToggleColor" data-target="#menu" data-event="mouseover" href="javascript:;" id="menu-icon" class="light">Abrir Menu</a>
+        <div class="share-options">
+          <a data-component="ToggleColor" class="share-link share-link__fb" href="javascript:;">facebook</a>
+          <a data-component="ToggleColor" class="share-link share-link__twitter" href="javascript:;">facebook</a>
+        </div>
+      </header>
+
+      <nav id="menu" data-component="Close" data-event="mouseleave">
+        <a data-target="#menu" href="javascript:;" class="close">&times;</a>
+
+      <dl>
+        <dt><a href="./">Início</a></dt>
+      </dl>
+      <dl>
+        <dt><a href="">Sobre</a></dt>
+      </dl>
+      <dl>
+        <dt><a href="#">Projetos</a></dt>
+        {% sorted_for post in site.posts sort_by:weight %}
+          {% if post.enabled == "enabled" %}
+            <dd><a href="{{ post.url  | remove_first:'/' }}">{{ post.title }}</a></dd>
+          {% else %}
+            <dd>{{ post.title }}</dd>
+          {% endif %}
+        {% endsorted_for %}
+      </dl>
+      <dl>
+        <dt><a href="">Contato</a></dt>
+        <dd><a href="">email</a></dd>
+        <dd><a href="">facebook</a></dd>
+      </dl>
+    </nav>
 
     <main id="main" class="details">
       {{ content }}
@@ -54,15 +87,15 @@
             <div class="row footer-nav">
               <div class="col-md-4">
                 {% if prev_post %}
-                    <p class="pull-left">← <a href="{{ prev_post }}">{{prev_post_title}}</a></p>
+                    <p class="pull-left">← <a href="{{ prev_post | remove_first:'/' }}">{{prev_post_title}}</a></p>
                 {% endif %}
               </div>
               <div class="col-md-4">
-                <p class="text-center"><a href="/">Início</a></p>
+                <p class="text-center"><a href="./">Início</a></p>
               </div>
               <div class="col-md-4">
                 {% if next_post %}
-                  <p class="pull-right"><a href="{{next_post}}">{{next_post_title}}</a> →</p>
+                  <p class="pull-right"><a href="{{ next_post | remove_first:'/' }}">{{next_post_title}}</a> →</p>
                 {% endif %}
               </div>
             </div>
@@ -71,10 +104,10 @@
 
 
         <div class="row">
-          <div class="col-md-12">
-            <p class="text-center">CENTRO — Criado no centro de São Paulo. Licenciado em Creative Commons. 2014-1015</p>
-          </div>
+          <p class="text-center">CENTRO – 2014-2015</p>
+          <p class="text-center">Criado no centro de São Paulo. Licenciado em <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">Creative Commons</a>.</p>
         </div>
+        
       </div>
     </footer>
 
@@ -97,6 +130,7 @@
     <script src="/_bower_components/lodash/lodash.js"></script>
     <!-- endbower -->
     <script src="/_bower_components/preload/jquery.preload.js"></script>
+    <script src="/_bower_components/queryloader2/queryloader2.min.js"></script>
     <!-- endbuild -->
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
@@ -112,5 +146,29 @@
     <!-- build:js({app}) js/scripts.js -->
     <script src="/js/main.js"></script>
     <!-- endbuild -->
-</body>
+
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDcHrA5A9--UmPLJpN47daL7AihSkNMABY&sensor=false"></script>
+
+      <!-- build:js(app) js/scripts.js -->
+
+      <script src="/js/lib/sji.js"></script>
+      <script src="/js/lib/underscore.js"></script>
+      <script src="/js/lib/TweenMax.js"></script>
+      <script src="/js/lib/jquery.viewportchecker.min.js"></script>
+      
+      <script src="/js/core/Alias.js"></script>
+      <script src="/js/core/Component.js"></script>
+      <script src="/js/core/ClientDetect.js"></script>
+      <script src="/js/core/Util.js"></script>
+      <script src="/js/core/Preloader.js"></script>
+      <script src="/js/core/Main.js"></script>
+      
+      <script src="/js/components/Toggle.js"></script>
+      <script src="/js/components/Close.js"></script>
+      <script src="/js/components/ToggleColor.js"></script>
+
+      <script src="/js/main.js"></script>
+
+      <!-- endbuild -->
+    </body>
 </html>

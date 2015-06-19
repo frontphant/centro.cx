@@ -1,7 +1,17 @@
+#home {
+  margin: 0 20px;
+}
+
 main#main {
   margin-bottom: 125px;
   color: #000;
   font: 400 35px/50px "Dia";
+  opacity: 0;
+  @include transition(opacity .2s);
+
+  .loaded & {
+    opacity: 1;
+  }
 
   .container {
     z-index: 2;
@@ -15,9 +25,16 @@ main#main {
   }
 
   .company {
-    font: 700 35px/50px "Plantin";
-    text-decoration: underline;
+    font-weight: 700;
+    font-size: 35px;
+    font-family: "Plantin";
     color: #000;
+    border-bottom: 2px solid;
+    display: inline-block;
+    line-height: .65;
+    &:hover {
+      text-decoration: none;
+    }
   }
 
   .coordinates {
@@ -34,7 +51,7 @@ main#main {
 
   .photo-hover {
     z-index: -1;
-    position: absolute;
+    position: fixed;
 
     @include transform(translateX(-50%) translateY(-50%));
   }

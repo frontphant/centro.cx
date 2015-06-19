@@ -81,7 +81,7 @@
 }
 
 .centro-container {
-  margin: 0 30px;
+  margin: 0 90px 0 30px;
 
   img {
     width: 100%;
@@ -105,4 +105,10 @@
     text-transform: uppercase;
     text-decoration: underline;
    }
+}
+
+#main .container {
+  @media (max-width: 1024px) {
+    padding-right: 80px;
+  }
 }

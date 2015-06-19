@@ -5,7 +5,7 @@
   margin-bottom: 75px;
   position: relative;
 
-  $covers-list: home, casa-do-povo;
+  $covers-list: home, casa-do-povo, overground, phosphorus;
 
   @each $cover in $covers-list {
       &.#{$cover} {
@@ -38,7 +38,7 @@
   }
 
   h1 {
-    font: 400 100px "Plantin";
+    font: 700 100px "Plantin";
   }
 
   h2 {
@@ -50,11 +50,11 @@
     top: 27px;
     right: 30px;
 
-    &.white {
+    &.light {
       @include sprites-general("menu-white");
     }
 
-    &.black {
+    &.dark {
       @include sprites-general("menu-black");
     }
   }

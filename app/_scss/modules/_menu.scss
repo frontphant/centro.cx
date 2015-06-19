@@ -7,12 +7,12 @@
   background-color: #000;
   padding-top: 27px;
   z-index: 10;
-  overflow-y: auto;
+  // overflow-y: auto;
 
   @include transform(translateX(100%));
   @include transition(transform .2s cubic-bezier(0.645, 0.045, 0.355, 1));
 
-  &.open {
+  &.is-active {
     @include transform(translateX(0));
   }
 

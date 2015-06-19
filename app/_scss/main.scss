@@ -10,11 +10,57 @@ $icon-font-path: "../_bower_components/bootstrap-sass-official/assets/fonts/boot
 
 @import "base/base";
 @import "base/font-face";
+@import "base/animate";
 
 @import "modules/cover";
 @import "modules/logo";
 @import "modules/footer";
 @import "modules/menu";
 @import "modules/details";
+@import "modules/share";
 
 @import "templates/home";
+
+
+#map-container {
+  height: 700px;
+}
+
+.queryloader__overlay__bar {
+  top: 0 !important;
+}
+
+
+// animate to show content with fadein
+@-webkit-keyframes showSmooth {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 10%, 0);
+    transform: translate3d(0, 10%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes showSmooth {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 10%, 0);
+    transform: translate3d(0, 10%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.showSmooth {
+  -webkit-animation-name: showSmooth;
+  animation-name: showSmooth;
+}

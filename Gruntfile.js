@@ -34,7 +34,7 @@ module.exports = function (grunt) {
       },
       compass: {
         files: ['<%= yeoman.app %>/_scss/**/*.{scss,sass}'],
-        tasks: ['compass:server', 'autoprefixer']
+        tasks: ['compass:server']
       },
       jekyll: {
         files: [
@@ -263,6 +263,7 @@ module.exports = function (grunt) {
             '<%= yeoman.dist %>/img/**/*.{gif,jpg,jpeg,png,svg,webp}',
             '!<%= yeoman.dist %>/img/{covers,covers-hd}/*',
             '!<%= yeoman.dist %>/img/{logos,logos-hd}/*',
+            '!<%= yeoman.dist %>/img/{photo-hover,photo-hover-hd}/*',
             '<%= yeoman.dist %>/fonts/**/*.{eot*,otf,svg,ttf,woff}'
           ]
         }]
