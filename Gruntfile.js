@@ -376,8 +376,8 @@ module.exports = function (grunt) {
     'clean:server',
     'jekyll:check',
     'compass:server',
-    'jshint:all',
-    'csslint:check'
+    // 'jshint:all',
+    // 'csslint:check'
     // 'scsslint'
   ]);
 
@@ -399,7 +399,7 @@ module.exports = function (grunt) {
 
   grunt.registerTask('deploy', [
     'check',
-    'test',
+    // 'test',
     'build',
     'buildcontrol'
     ]);
