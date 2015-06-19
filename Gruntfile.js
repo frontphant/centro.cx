@@ -122,10 +122,10 @@ module.exports = function (grunt) {
         imagesDir: '<%= yeoman.app %>/img',
         javascriptsDir: '<%= yeoman.app %>/js',
         fontsDir: '<%= yeoman.app %>/fonts',
-        httpFontsPath: '/fonts',
+        httpFontsPath: '../fonts',
         relativeAssets: false,
-        httpImagesPath: '/img',
-        httpGeneratedImagesPath: '/img',
+        httpImagesPath: '../img',
+        httpGeneratedImagesPath: '../img',
         outputStyle: 'expanded',
         importPath: '<%= yeoman.app %>/_bower_components',
         // raw: 'extensions_dir = "<%= yeoman.app %>/_bower_components"\n'
