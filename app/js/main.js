@@ -258,110 +258,110 @@ var App = {};
     window.requestAnimationFrame( App.fixieText );
   };
 
-  App.buildMap = function(){
-      // Basic options for a simple Google Map
-      // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
-      var mapOptions = {
-        // How zoomed in you want the map to start at (always required)
-        zoom: 15,
-        scrollwheel: false,
+  // App.buildMap = function(){
+  //     // Basic options for a simple Google Map
+  //     // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
+  //     var mapOptions = {
+  //       // How zoomed in you want the map to start at (always required)
+  //       zoom: 15,
+  //       scrollwheel: false,
 
-        // The latitude and longitude to center the map (always required)
-        // center: new google.maps.LatLng(40.6700, -73.9400), // New York
-        center: new google.maps.LatLng(-23.529246, -46.636655), // New York
+  //       // The latitude and longitude to center the map (always required)
+  //       // center: new google.maps.LatLng(40.6700, -73.9400), // New York
+  //       center: new google.maps.LatLng(-23.529246, -46.636655), // New York
 
-        // How you would like to style the map.
-        // This is where you would paste any style found on Snazzy Maps.
-        styles: [{
-          'featureType':'landscape',
-          'stylers':[
-            {'saturation':-100},
-            {'lightness':65},
-            {'visibility':'on'}
-          ]
-        },{
-          'featureType':'poi',
-          'stylers':[
-            {'saturation':-100},
-            {'lightness':51},
-            {'visibility':'simplified'}
-          ]
-        },{
-          'featureType':'road.highway',
-          'stylers':[
-            {'saturation':-100},
-            {'visibility':'simplified'}
-          ]
-        },{
-          'featureType':'road.arterial',
-          'stylers':[
-            {'saturation':-100},
-            {'lightness':30},
-            {'visibility':'on'}
-          ]
-        },{
-          'featureType':'road.local',
-          'stylers':[
-            {'saturation':-100},
-            {'lightness':40},
-            {'visibility':'on'}
-          ]
-        },{
-          'featureType':'transit',
-          'stylers':[
-            {'saturation':-100},
-            {'visibility':'simplified'}
-          ]
-        },{
-          'featureType':'administrative.province',
-          'stylers':[
-            {'visibility':'off'}
-          ]
-        },{
-          'featureType':'water',
-          'elementType':'labels',
-          'stylers':[
-            {'visibility':'on'},
-            {'lightness':-25},
-            {'saturation':-100}
-          ]
-        },{
-          'featureType':'water',
-          'elementType':'geometry',
-          'stylers':[
-            {'hue':'#ffff00'},
-            {'lightness':-25},
-            {'saturation':-97}
-          ]
-        }]
-      };
-      // Get the HTML DOM element that will contain your map
-      // We are using a div with id='map' seen below in the <body>
-      var mapElement = document.getElementById('map-container');
+  //       // How you would like to style the map.
+  //       // This is where you would paste any style found on Snazzy Maps.
+  //       styles: [{
+  //         'featureType':'landscape',
+  //         'stylers':[
+  //           {'saturation':-100},
+  //           {'lightness':65},
+  //           {'visibility':'on'}
+  //         ]
+  //       },{
+  //         'featureType':'poi',
+  //         'stylers':[
+  //           {'saturation':-100},
+  //           {'lightness':51},
+  //           {'visibility':'simplified'}
+  //         ]
+  //       },{
+  //         'featureType':'road.highway',
+  //         'stylers':[
+  //           {'saturation':-100},
+  //           {'visibility':'simplified'}
+  //         ]
+  //       },{
+  //         'featureType':'road.arterial',
+  //         'stylers':[
+  //           {'saturation':-100},
+  //           {'lightness':30},
+  //           {'visibility':'on'}
+  //         ]
+  //       },{
+  //         'featureType':'road.local',
+  //         'stylers':[
+  //           {'saturation':-100},
+  //           {'lightness':40},
+  //           {'visibility':'on'}
+  //         ]
+  //       },{
+  //         'featureType':'transit',
+  //         'stylers':[
+  //           {'saturation':-100},
+  //           {'visibility':'simplified'}
+  //         ]
+  //       },{
+  //         'featureType':'administrative.province',
+  //         'stylers':[
+  //           {'visibility':'off'}
+  //         ]
+  //       },{
+  //         'featureType':'water',
+  //         'elementType':'labels',
+  //         'stylers':[
+  //           {'visibility':'on'},
+  //           {'lightness':-25},
+  //           {'saturation':-100}
+  //         ]
+  //       },{
+  //         'featureType':'water',
+  //         'elementType':'geometry',
+  //         'stylers':[
+  //           {'hue':'#ffff00'},
+  //           {'lightness':-25},
+  //           {'saturation':-97}
+  //         ]
+  //       }]
+  //     };
+  //     // Get the HTML DOM element that will contain your map
+  //     // We are using a div with id='map' seen below in the <body>
+  //     var mapElement = document.getElementById('map-container');
 
-      // Create the Google Map using our element and options defined above
-      var map = new google.maps.Map(mapElement, mapOptions);
+  //     // Create the Google Map using our element and options defined above
+  //     var map = new google.maps.Map(mapElement, mapOptions);
 
-      var pinIcon = {
-          path: 'M71.5,39c0,12.15-22,44-22,44s-22-31.85-22-44c0-12.151,9.849-22,22-22C61.65,17,71.5,26.849,71.5,39  z',
-          fillColor: 'black',
-          fillOpacity: 1,
-          scale: 1,
-          strokeColor: 'black',
-          strokeWeight: 1
-        };
+  //     var pinIcon = {
+  //         path: 'M71.5,39c0,12.15-22,44-22,44s-22-31.85-22-44c0-12.151,9.849-22,22-22C61.65,17,71.5,26.849,71.5,39  z',
+  //         fillColor: 'black',
+  //         fillOpacity: 1,
+  //         scale: 1,
+  //         strokeColor: 'black',
+  //         strokeWeight: 1
+  //       };
 
-      // Let's also add a marker while we're at it
-      var marker = new google.maps.Marker({
-          // position: new google.maps.LatLng(40.6700, -73.9400),
-          position: new google.maps.LatLng(-23.529246, -46.636655),
-          icon: pinIcon,
-          map: map
-      });
+  //     // Let's also add a marker while we're at it
+  //     var marker = new google.maps.Marker({
+  //         // position: new google.maps.LatLng(40.6700, -73.9400),
+  //         position: new google.maps.LatLng(-23.529246, -46.636655),
+  //         icon: pinIcon,
+  //         map: map
+  //     });
 
-      console.log();
-  };
+  //     console.log();
+  // };
 
   App.init();
-  google.maps.event.addDomListener(window, 'load', App.buildMap);
+  // google.maps.event.addDomListener(window, 'load', App.buildMap);
 })(jQuery);
