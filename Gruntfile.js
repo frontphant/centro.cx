@@ -269,12 +269,23 @@ module.exports = function (grunt) {
       }
     },
     buildcontrol: {
-      dist: {
+      options: {
+        dir: 'dist',
+        commit: true,
+        push: true,
+        connectCommits: false,
+        message: 'Built %sourceName% from commit %sourceCommit% on branch %sourceBranch%'
+      },
+      homolog: {
         options: {
-          remote: '../',
-          branch: 'gh-pages',
-          commit: true,
-          push: true
+          remote: 'git@bitbucket.org:frontphant/centro-deploy.git',
+          branch: 'homolog'
+        }
+      },
+      prod: {
+        options: {
+          remote: 'git@bitbucket.org:frontphant/centro-deploy.git',
+          branch: 'master'
         }
       }
     },
@@ -397,4 +408,14 @@ module.exports = function (grunt) {
     'test',
     'build'
   ]);
+
+  grunt.registerTask('deploy:homolog', [
+    'build',
+    'buildcontrol:homolog'
+    ]);
+
+  grunt.registerTask('deploy:prod', [
+    'build',
+    'buildcontrol:prod'
+    ]);
 };
