@@ -1,0 +1,36 @@
+
+#about {
+  padding-top: 76px;
+}
+
+.authors {
+  padding-top: 29px;
+  font-size: 22px;
+
+  dt {
+    display: inline-block;
+    vertical-align: top;
+    width: 22.4%;
+    margin-bottom: 30px;
+    font-family: 'Dia';
+    font-weight: 700;
+  }
+
+  dd {
+    display: inline-block;
+    vertical-align: top;
+    width: 77%;
+    margin-top: 3px;
+    margin-bottom: 20px;
+    font-family: 'Plantin';
+  }
+
+}
+
+.map-container {
+  position: relative;
+  width: 100%;
+  height: 773px;
+  background: #f4f2ec image-url("content/about/map.jpg") no-repeat center;
+  @include background-size(cover);
+}
