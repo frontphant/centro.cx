@@ -44,18 +44,4 @@
   h2 {
     font: 400 30px "Dia";
   }
-
-  #menu-icon {
-    position: fixed;
-    top: 27px;
-    right: 30px;
-
-    &.light {
-      @include sprites-general("menu-white");
-    }
-
-    &.dark {
-      @include sprites-general("menu-black");
-    }
-  }
 }
