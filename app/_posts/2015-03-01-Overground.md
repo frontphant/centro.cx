@@ -171,8 +171,10 @@ permalink: "overground.html"
   <div class="fixie-text-container">
 
     <div class="row margin-bottom">
-      <div class="col-md-4 col-md-offset-4 show-smooth">
-        <img src="img/content/overground/15.jpg" class="" alt="">
+      <div class="col-md-8 show-smooth">
+        <div class="col-md-6">
+          <img src="img/content/overground/15.jpg" class="" alt="">
+        </div>
       </div>
       <div class="col-md-4 fixie-text">
         <p><span class="plantin">A gente fala que aqui é a Faixa de Gaza, porque na rua paralela já começa a pior parte da Cracolândia. Mesmo com uma base comunitária instalada no meio da muvuca, existe violência entre os usuários. Quando escurece, essa região fica vazia. Um cenário mais sinistro e bem diferente do fluxo que existe durante o dia. Tento chegar com a chave na mão para poder entrar logo.</span></p>
@@ -180,7 +182,7 @@ permalink: "overground.html"
       </div>
     </div>
     <div class="row margin-bottom double">
-      <div class="col-md-4 col-md-offset-2 show-smooth">
+      <div class="col-md-4 col-md-offset-4 show-smooth">
         <img src="img/content/overground/16.jpg" class="" alt="">
       </div>
     </div>
