@@ -5,11 +5,16 @@
   z-index: 110;
   top: 0;
   right: 0;
-  width: 490px;
+  width: 510px;
   height: 100%;
   background-color: #000;
   padding-top: 27px;
-  // overflow-y: auto;
+
+  margin-right: -20px;
+  overflow-y: auto;
+  &::-webkit-scrollbar {
+    display: none;
+  }
 
   @include transform(translateX(100%));
   @include transition(transform .2s cubic-bezier(0.645, 0.045, 0.355, 1));
