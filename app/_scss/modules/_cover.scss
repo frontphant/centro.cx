@@ -1,14 +1,32 @@
 #cover {
-  background-color: #FFF;
+  overflow: hidden;
   min-height: 100%;
-  position: relative;
   margin-bottom: 75px;
-  position: relative;
+
+  .cover-pic {
+    position: relative;
+    min-height: 100%;
+
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    @include transform(origin(center center));
+
+    &.is-active {
+      @include transform(scale(1.5));
+      @include transform(origin(center center));
+    }
+  }
 
   $covers-list: home, casa-do-povo, overground, phosphorus;
 
   @each $cover in $covers-list {
-      &.#{$cover} {
+      &.#{$cover} .cover-pic {
           background: #FFF image-url("covers/#{$cover}.jpg") no-repeat center;
           @include background-size(cover);
 

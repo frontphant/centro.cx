@@ -57,6 +57,10 @@ var App = {};
 
   App.coverHeight = function(){
     $('#cover').height(startHeight);
+
+    skrollr.init({
+      forceHeight: false
+    });
   };
 
   // App.menu = function(){
@@ -170,6 +174,7 @@ var App = {};
   };
 
   App.snapHeader = function(){
+    return;
     var scroll = $(window).scrollTop();
     App.currentScroll = scroll;
     App.scrollDirection = App.currentScroll > App.lastScroll;
