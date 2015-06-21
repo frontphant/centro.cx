@@ -29,4 +29,8 @@ h1#logo {
       }
     }
   }
+
+  @media (max-width: 600px) {
+    @include transform(translateX(-50%) translateY(-50%) scale(0.5));
+  } 
 }
