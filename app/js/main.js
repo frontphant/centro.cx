@@ -109,7 +109,7 @@ var App = {};
           $logo.hover(function() {
             hoverInterval = setInterval(function(){
               $logo.attr('class', 'logo_' + _.random(1, 10));
-            },250);
+            },125);
           }, function(){
             clearInterval(hoverInterval);
           });
