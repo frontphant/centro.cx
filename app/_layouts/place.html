@@ -32,29 +32,7 @@
         </div>
     </header>
 
-    <nav id="menu" data-component="Close" data-event="mouseleave">
-      <dl>
-        <dt><a href="./">Início</a></dt>
-      </dl>
-      <dl>
-        <dt><a href="">Sobre</a></dt>
-      </dl>
-      <dl>
-        <dt><a href="#">Projetos</a></dt>
-        {% sorted_for post in site.posts sort_by:weight %}
-          {% if post.enabled == "enabled" %}
-            <dd><a href="{{ post.url  | remove_first:'/' }}">{{ post.title }}</a></dd>
-          {% else %}
-            <dd>{{ post.title }}</dd>
-          {% endif %}
-        {% endsorted_for %}
-      </dl>
-      <dl>
-        <dt><a href="">Contato</a></dt>
-        <dd><a href="">email</a></dd>
-        <dd><a href="">facebook</a></dd>
-      </dl>
-    </nav>
+    {% include menu.html %}
 
     <main id="main" class="details">
       {{ content }}
