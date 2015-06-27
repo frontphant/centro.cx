@@ -1,55 +1,65 @@
 @font-face {
-  font-family: "Dia";
-  src: font-files("DiaRegular.eot");
-  src: font-files("DiaRegular.eot#iefix", "DiaRegular.svg", "DiaRegular.otf", "DiaRegular.ttf");
-
+  font-family: 'Dia';
+  src: url('../fonts/DiaRegular.eot');
+  src: url('../fonts/DiaRegular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/DiaRegular.woff') format('woff'),
+       url('../fonts/DiaRegular.ttf') format('truetype'),
+       url('../fonts/DiaRegular.svg#DiaRegular') format('svg');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Dia";
-  src: font-files("DiaBold.eot");
-  src: font-files("DiaBold.eot#iefix", "DiaBold.svg", "DiaBold.otf", "DiaBold.ttf");
-
-  font-weight: 700;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Graphik";
-  src: font-files("Graphik-Semibold.eot");
-  src: font-files("Graphik-Semibold.eot#iefix", "Graphik-Semibold.svg", "Graphik-Semibold.otf", "Graphik-Semibold.ttf");
-
+  font-family: 'Dia';
+  src: url('../fonts/DiaBold.eot');
+  src: url('../fonts/DiaBold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/DiaBold.woff') format('woff'),
+       url('../fonts/DiaBold.ttf') format('truetype'),
+       url('../fonts/DiaBold.svg#DiaBold') format('svg');
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Graphik";
-  src: font-files("Graphik-Regular.eot");
-  src: font-files("Graphik-Regular.eot#iefix", "Graphik-Regular.svg", "Graphik-Regular.otf", "Graphik-Regular.ttf");
-
+  font-family: 'Graphik';
+  src: url('../fonts/Graphik-Regular.eot');
+  src: url('../fonts/Graphik-Regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Graphik-Regular.woff') format('woff'),
+       url('../fonts/Graphik-Regular.ttf') format('truetype'),
+       url('../fonts/Graphik-Regular.svg#Graphik-Regular') format('svg');
   font-weight: 400;
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Graphik';
+  src: url('../fonts/Graphik-Semibold.eot');
+  src: url('../fonts/Graphik-Semibold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Graphik-Semibold.woff') format('woff'),
+       url('../fonts/Graphik-Semibold.ttf') format('truetype'),
+       url('../fonts/Graphik-Semibold.svg#Graphik-Semibold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
 
 @font-face {
-  font-family: "Plantin";
-  src: font-files("PlantinMTStd-Regular.eot");
-  src: font-files("PlantinMTStd-Regular.eot#iefix", "PlantinMTStd-Regular.svg", "PlantinMTStd-Regular.otf", "PlantinMTStd-Regular.ttf");
-
+  font-family: 'Plantin';
+  src: url('../fonts/PlantinMTStd-Regular.eot');
+  src: url('../fonts/PlantinMTStd-Regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/PlantinMTStd-Regular.woff') format('woff'),
+       url('../fonts/PlantinMTStd-Regular.ttf') format('truetype'),
+       url('../fonts/PlantinMTStd-Regular.svg#PlantinMTStd-Regular') format('svg');
   font-weight: 400;
   font-style: normal;
 }
 
-
 @font-face {
-  font-family: "Plantin";
-  src: font-files("MPlantin-Bold.eot");
-  src: font-files("MPlantin-Bold.eot#iefix", "MPlantin-Bold.svg", "MPlantin-Bold.otf", "MPlantin-Bold.ttf");
-
+  font-family: 'Plantin';
+  src: url('../fonts/MPlantin-Bold.eot');
+  src: url('../fonts/MPlantin-Bold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/MPlantin-Bold.woff') format('woff'),
+       url('../fonts/MPlantin-Bold.ttf') format('truetype'),
+       url('../fonts/MPlantin-Bold.svg#MPlantin-Bold') format('svg');
   font-weight: 700;
   font-style: normal;
 }
