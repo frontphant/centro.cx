@@ -32,6 +32,7 @@ main#main {
     border-bottom: 2px solid;
     display: inline-block;
     line-height: .65;
+    position: relative;
     &:hover {
       text-decoration: none;
     }
@@ -44,9 +45,7 @@ main#main {
   .description {
     font: 400 35px/50px "Plantin";
   }
-  .disabled {
-    position: relative;
-  }
+  
   .disabled, .disabled .company, .disabled .coordinates {
     color: #d3d3d3!important;
   }
@@ -58,11 +57,12 @@ main#main {
     color: #ff0000;
     font: 400 14px/50px "Dia";
     text-transform: uppercase;
-    left: 0;
+    left: 0; top: 0;
     padding: 0 35px;
     margin-top: -15px;
     margin-left: 50px;
     min-width: 160px;
+    display: block;
   }
 
   .photo-hover {
