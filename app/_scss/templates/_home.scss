@@ -44,9 +44,25 @@ main#main {
   .description {
     font: 400 35px/50px "Plantin";
   }
-
+  .disabled {
+    position: relative;
+  }
   .disabled, .disabled .company, .disabled .coordinates {
     color: #d3d3d3!important;
+  }
+
+  .disabled:hover .company:after {
+    content:"Em breve";
+    position: absolute;
+    background-color: #FFF;
+    color: #ff0000;
+    font: 400 14px/50px "Dia";
+    text-transform: uppercase;
+    left: 0;
+    padding: 0 35px;
+    margin-top: -15px;
+    margin-left: 50px;
+    min-width: 160px;
   }
 
   .photo-hover {
