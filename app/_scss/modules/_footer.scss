@@ -3,6 +3,9 @@ footer#main {
   p {
     font: 400 14px "Dia";
     margin: 0 0 12px;
+  	@media (max-width: 768px) {
+		font-size: 10px;
+  	}
   }
   a {
   	color: #000;
