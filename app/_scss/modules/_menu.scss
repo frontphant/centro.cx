@@ -9,9 +9,13 @@
   height: 100%;
   background-color: #000;
   padding-top: 27px;
-
   margin-right: -20px;
   overflow-y: auto;
+
+  @media (max-width: 768px) {
+    width: 407px;
+  }
+
   &::-webkit-scrollbar {
     display: none;
   }
@@ -70,6 +74,7 @@
 
   &.light {
     @include sprites-general("menu-white");
+    height: 32px;
   }
 
   &.dark {
