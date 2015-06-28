@@ -5,6 +5,11 @@
   top: 50%;
   right: 30px;
   margin-top: -66px;
+
+  @media (max-width: 768px) {
+    top: 165px;
+  }
+
 }
 
 .share-link {
@@ -15,7 +20,7 @@
   @include sprites-general("share-fb-white");
 
   &.dark {
-    @include sprites-general("share-fb-black");    
+    @include sprites-general("share-fb-black");
   }
 }
 
@@ -24,6 +29,6 @@
   @include sprites-general("share-twitter-white");
 
   &.dark {
-    @include sprites-general("share-twitter-black");    
+    @include sprites-general("share-twitter-black");
   }
 }

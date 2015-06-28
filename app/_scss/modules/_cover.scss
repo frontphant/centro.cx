@@ -42,13 +42,13 @@
     position: absolute;
     top: 50%;
     left: 0;
-
     @include transform(translateY(-50%));
   }
 
   h1, h2 {
     color: #FFF;
     margin: 0;
+
     a {
       color: #FFF;
       text-decoration: none;
@@ -57,9 +57,17 @@
 
   h1 {
     font: 700 100px "Plantin";
+
+    @media (max-width: 768px) {
+      font-size: 54px;
+    }
   }
 
   h2 {
     font: 400 30px "Dia";
+
+    @media (max-width: 768px) {
+      font-size: 22px;
+    }
   }
 }
