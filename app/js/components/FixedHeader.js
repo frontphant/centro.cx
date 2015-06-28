@@ -16,19 +16,25 @@
     bind: function () {
       var _this = this;
 
-      this.window.on('scroll', function () {
+      this.window.on('load scroll', function () {
         _this.handleScroll();
       });
     },
 
     handleScroll: function () {
-      if (this.window.scrollTop() > this.window.height()) {
+      if (!jQuery('#cover').length) {
         this.body.addClass('is-fixed-header');
       }
       else {
-        this.body.removeClass('is-fixed-header');
+        if (this.window.scrollTop() > this.window.height()) {
+          this.body.addClass('is-fixed-header');
+        }
+        else {
+          this.body.removeClass('is-fixed-header');
+        }
       }
     }
 
   });
+
 })();
