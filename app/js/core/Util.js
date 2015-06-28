@@ -3,7 +3,7 @@ FPH.core.Util = Class.extend({
 		context.find('[data-component]').each(function() {
 			var $this = jQuery(this),
 				components = _.compact($this.data('component').split(' ')),
-				id = $this.attr('id') || _.uniqueId('cc_');
+				id = $this.attr('id') || _.uniqueId('fph_');
 
 			$this.attr('id', id);
 

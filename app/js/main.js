@@ -81,10 +81,6 @@ var App = {};
 
   App.coverHeight = function(){
     $('#cover').height(startHeight);
-
-    skrollr.init({
-      forceHeight: false
-    });
   };
 
   // App.menu = function(){
