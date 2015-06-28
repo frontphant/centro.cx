@@ -43,6 +43,7 @@ var App = {};
     App.coverHeight();
     App.homePhotoHover();
     App.snapHeader();
+    App.checkMedia();
     App.fixieText();
 
     $('body#place').each(function(){
@@ -52,7 +53,30 @@ var App = {};
     $('.show-smooth').addClass('fade').viewportChecker({
       classToAdd: 'animated showSmooth'
     });
-    
+
+  };
+
+  App.checkMedia = function () {
+    // media query event handler
+    if (matchMedia) {
+      var mq = window.matchMedia("(max-width: 768px)");
+      mq.addListener(WidthChange);
+      WidthChange(mq);
+    }
+
+    // media query change
+    function WidthChange(mq) {
+
+      if (mq.matches) {
+        App.isMobileQuery = true;
+      }
+      else {
+        App.isMobileQuery = false;
+      }
+
+      App.fixieText();
+
+    }
   };
 
   App.coverHeight = function(){
@@ -85,10 +109,10 @@ var App = {};
   App.logo = function() {
     // Logo
     var $logo = $('#logo');
-    
+
     $('#cover').fadeTo(0,0);
     $('#cover').delay(600).fadeTo(400,1);
-    
+
     $logo.each(function(){
       var randomLogo = _.random(1, 10),
           imageUrl = ['img/logos/logo_'+ randomLogo +'.png', 'img/logos-hd/logo_'+ randomLogo +'.png'];
@@ -113,7 +137,7 @@ var App = {};
           }, function(){
             clearInterval(hoverInterval);
           });
-          
+
         }, 800);
       });
 
@@ -138,12 +162,12 @@ var App = {};
               left: (offset.left),
               display: 'none'
             }).stop().fadeIn('fast');
-         
+
           } else {
             if ($this.hasClass('preloading')) {
               return;
             }
-            
+
             $this.addClass('preloading');
             $.preload(imageUrl).done(function(){
               var $photo = $('<img>', {id: 'photo-hover-' + index ,src:imageUrl, 'class': 'photo-hover'});
@@ -197,8 +221,14 @@ var App = {};
     });
   };
 
+  App.isMobile = function() {
+    return Boolean(navigator.userAgent.match(/(Android|webOS|iPhone|iPad|iPod|BlackBerry|PlayBook|BB10|Windows Phone)/i));
+  };
+
   App.fixieText = function() {
     var $textContainers = $('.fixie-text-container');
+
+    if (App.isMobileQuery) {return;}
 
     $textContainers.each(function () {
       var $this = $(this),
