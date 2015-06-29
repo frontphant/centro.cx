@@ -16,6 +16,10 @@
     width: 407px;
   }
 
+  @media (max-width: 450px) {
+    width: 80%;
+  }
+
   &::-webkit-scrollbar {
     display: none;
   }
