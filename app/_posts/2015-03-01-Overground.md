@@ -39,7 +39,7 @@ permalink: "overground.html"
     <div class="row margin-bottom">
       <div class="col-md-4 fixie-text">
         <p><span class="plantin">Esse prédio tem muita história. Ficou um tempo invadido por usuários de droga e virou um lugar violento, até que a polícia desocupou à força. Foi colocado para alugar, mas ninguém se interessou, porque estava destruído e tinha um clima pesado. Quando visitei pela primeira vez, não tinha nem energia elétrica.</span> <span class="dia"><strong>Zezão</strong></span></p>
-        <p><br><span class="caption">→ O espaço hoje e antes da reforma.</span></p>
+        <p><br><span class="caption desktop-only">→ O espaço hoje e antes da reforma.</span></p>
       </div>
       <div class="col-md-8 pull-right show-smooth">
           <img src="img/content/overground/01.jpg" class="" alt="">
@@ -49,6 +49,7 @@ permalink: "overground.html"
     <div class="row margin-bottom">
       <div class="col-md-6 col-md-offset-4 show-smooth">
         <img src="img/content/overground/02.jpg" class="" alt="">
+        <p><span class="caption top mobile-only">O espaço hoje e antes da reforma.</span></p>
       </div>
     </div>
 
@@ -56,32 +57,29 @@ permalink: "overground.html"
 
   <!-- bloco 2 -->
   <div class="fixie-text-container">
-
     <div class="row margin-bottom">
-    <div class="col-md-6 col-md-offset-2 show-smooth">
-      <img src="img/content/overground/03.jpg" class="" alt="">
-    </div>
-    <div class="col-md-4 fixie-text">
-        <p><span class="plantin">Chamei usuários da Cracolândia para ajudar a retirar o entulho. Foram cerca de 80 sacos de lixo. Depois, a reforma ainda durou mais dois anos. Precisei refazer a parte elétrica e o encanamento, reconstruir o forro, o piso e as janelas. Da disposição antiga, sobrou só uma parede e um pedaço de forro, que servem como memória do estado que estava.</span></p>
-        <p><span class="caption">← Fachada e área interna da Overground.</span></p>
+      <div class="col-md-4 fixie-text f-right">
+          <p><span class="plantin">Chamei usuários da Cracolândia para ajudar a retirar o entulho. Foram cerca de 80 sacos de lixo. Depois, a reforma ainda durou mais dois anos. Precisei refazer a parte elétrica e o encanamento, reconstruir o forro, o piso e as janelas. Da disposição antiga, sobrou só uma parede e um pedaço de forro, que servem como memória do estado que estava.</span></p>
+          <p><span class="caption desktop-only">← Fachada e área interna da Overground.</span></p>
+      </div>
+      <div class="col-md-6 col-md-offset-2 show-smooth">
+        <img src="img/content/overground/03.jpg" class="" alt="">
       </div>
     </div>
     <div class="row margin-bottom">
       <div class="col-md-8 show-smooth">
         <img src="img/content/overground/04.jpg" class="" alt="">
+        <p><span class="caption top mobile-only">Fachada e área interna da Overground.</span></p>
       </div>
     </div>
-
   </div>
 
   <!-- bloco 3 -->
   <div class="fixie-text-container">
-
     <div class="row margin-bottom">
-
       <div class="col-md-4 fixie-text">
         <p><span class="plantin">Picho, grafite, pintura, faço um pouco de tudo. Posso usar o pincel e pintar uma linha mais fina, mas também posso usar o traço mais largo do spray. Comecei a pintar explorando o throw up, um estilo de grafite feito com letras. Depois disso, minha arte caminhou para o abstrato, mas ainda mantém esse elemento da palavra. Cada forma que crio lembra uma letra.</span></p>
-        <p><span class="caption">→ Obra de Zezão exposta na Overground.</span></p>
+        <p><span class="caption desktop-only">→ Obra de Zezão exposta na Overground.</span></p>
       </div>
       <div class="col-md-8 pull-right show-smooth">
         <img src="img/content/overground/05.jpg" class="" alt="">
@@ -92,6 +90,7 @@ permalink: "overground.html"
   <div class="row margin-bottom">
     <div class="col-md-4 col-md-offset-4 show-smooth">
       <img src="img/content/overground/06.jpg" class="" alt="">
+      <p><span class="caption top mobile-only">Obra de Zezão exposta na Overground.</span></p>
     </div>
   </div>
 
@@ -99,12 +98,12 @@ permalink: "overground.html"
   <div class="fixie-text-container">
 
     <div class="row margin-bottom">
+      <div class="col-md-4 fixie-text f-right">
+        <p><span class="plantin">Queria escolher uma cor específica para meu trabalho, muito influenciado por artistas como os Gêmeos, que escolheram o vermelho e o amarelo. Padronizei no azul e, como trabalho em esgotos e córregos, as pessoas começaram a relacionar com a água. Apesar de ser um elemento forte no meu trabalho, a escolha está mais ligada à sensação de paz transmitida pelo azul.</span></p>
+        <p><span class="caption desktop-only">← Tintas, trabalhos em andamento e obras finalizadas.</span></p>
+      </div>
       <div class="col-md-6 col-md-offset-2 show-smooth">
         <img src="img/content/overground/07.jpg" class="" alt="">
-      </div>
-      <div class="col-md-4 fixie-text">
-        <p><span class="plantin">Queria escolher uma cor específica para meu trabalho, muito influenciado por artistas como os Gêmeos, que escolheram o vermelho e o amarelo. Padronizei no azul e, como trabalho em esgotos e córregos, as pessoas começaram a relacionar com a água. Apesar de ser um elemento forte no meu trabalho, a escolha está mais ligada à sensação de paz transmitida pelo azul.</span></p>
-        <p><span class="caption">← Tintas, trabalhos em andamento e obras finalizadas.</span></p>
       </div>
     </div>
     <div class="row margin-bottom">
@@ -115,6 +114,7 @@ permalink: "overground.html"
     <div class="row margin-bottom">
       <div class="col-md-8 show-smooth">
         <img src="img/content/overground/09.jpg" class="" alt="">
+        <p><span class="caption top mobile-only">Tintas, trabalhos em andamento e obras finalizadas.</span></p>
       </div>
     </div>
 
@@ -126,7 +126,7 @@ permalink: "overground.html"
     <div class="row margin-bottom">
       <div class="col-md-4 fixie-text">
         <p><span class="plantin">Não costumo usar telas ou emoldurar minhas pinturas. Não é o meu perfil. Até as obras que mando para galerias são feitas com coisas que encontro na rua. Gosto de aproximar o lixo do campo da arte. Faz parte da minha forma de trabalhar, sempre pintei em esgotos e córregos, em lugares detonados.</span></p>
-        <p><br><span class="caption">→ Trazidas das ruas, pedaços de madeira são transformados em arte.</span></p>
+        <p><br><span class="caption desktop-only">→ Trazidas das ruas, pedaços de madeira são transformados em arte.</span></p>
       </div>
       <div class="col-md-6 pull-right show-smooth">
         <img src="img/content/overground/10.jpg" class="" alt="">
@@ -142,6 +142,7 @@ permalink: "overground.html"
     <div class="row margin-bottom">
       <div class="col-md-8 col-md-offset-4 show-smooth">
         <img src="img/content/overground/12.jpg" class="" alt="">
+        <p><span class="caption top mobile-only">Trazidas das ruas, pedaços de madeira são transformados em arte.</span></p>
       </div>
     </div>
 
@@ -152,7 +153,7 @@ permalink: "overground.html"
 
     <div class="row margin-bottom">
       <div class="col-md-4 fixie-text">
-        <p><br><span class="caption">→ Obras dos artistas do Quimera Atelier,<br> que ocupam o primeiro andar do prédio.</span></p>
+        <p><br><span class="caption desktop-only">→ Obras dos artistas do Quimera Atelier,<br> que ocupam o primeiro andar do prédio.</span></p>
       </div>
       <div class="col-md-6 col-md-offset-2 pull-right show-smooth">
         <img src="img/content/overground/13.jpg" class="" alt="">
@@ -162,6 +163,7 @@ permalink: "overground.html"
     <div class="row margin-bottom">
       <div class="col-md-6 col-md-offset-4 show-smooth">
         <img src="img/content/overground/14.jpg" class="" alt="">
+        <p><span class="caption top mobile-only">Obras dos artistas do Quimera Atelier,<br> que ocupam o primeiro andar do prédio.</span></p>
       </div>
     </div>
 
@@ -169,38 +171,36 @@ permalink: "overground.html"
 
   <!-- bloco 7 -->
   <div class="fixie-text-container">
-
     <div class="row margin-bottom">
+      <div class="col-md-4 fixie-text f-right">
+        <p><span class="plantin">A gente fala que aqui é a Faixa de Gaza, porque na rua paralela já começa a pior parte da Cracolândia. Mesmo com uma base comunitária instalada no meio da muvuca, existe violência entre os usuários. Quando escurece, essa região fica vazia. Um cenário mais sinistro e bem diferente do fluxo que existe durante o dia. Tento chegar com a chave na mão para poder entrar logo.</span></p>
+        <p><span class="caption desktop-only">← Alameda Nothmann, vizinha à Cracolândia.</span></p>
+      </div>
       <div class="col-md-8 show-smooth">
         <div class="col-md-6">
           <img src="img/content/overground/15.jpg" class="" alt="">
         </div>
       </div>
-      <div class="col-md-4 fixie-text">
-        <p><span class="plantin">A gente fala que aqui é a Faixa de Gaza, porque na rua paralela já começa a pior parte da Cracolândia. Mesmo com uma base comunitária instalada no meio da muvuca, existe violência entre os usuários. Quando escurece, essa região fica vazia. Um cenário mais sinistro e bem diferente do fluxo que existe durante o dia. Tento chegar com a chave na mão para poder entrar logo.</span></p>
-        <p><span class="caption">← Alameda Nothmann, vizinha à Cracolândia.</span></p>
-      </div>
     </div>
     <div class="row margin-bottom double">
       <div class="col-md-4 col-md-offset-4 show-smooth">
         <img src="img/content/overground/16.jpg" class="" alt="">
+        <p><span class="caption top mobile-only">Alameda Nothmann, vizinha à Cracolândia.</span></p>
       </div>
     </div>
-
   </div>
 
   <!-- bloco 8 -->
   <div class="fixie-text-container">
-
     <div class="row margin-bottom">
       <div class="col-md-4 fixie-text">
         <p><span class="plantin">O meu trabalho sempre foi focado em lugares carentes. Tento jogar as minhas sementes em regiões esquecidas pelas pessoas. Por isso, meio que naturalmente, eu vim parar no centro. Esse lugar faz sentido para mim, porque estou entre dois pontos marcantes da minha história: a estação Luz, onde fui preso, e a favela do Moinho, onde pinto desde sempre. </span></p>
-        <p><span class="caption">→ Vista da Overground, nos Campos Elíseos.</span></p>
+        <p><span class="caption desktop-only">→ Vista da Overground, nos Campos Elíseos.</span></p>
       </div>
       <div class="col-md-8 pull-right show-smooth">
         <img src="img/content/overground/17.jpg" class="" alt="">
+        <p><span class="caption top mobile-only">Vista da Overground, nos Campos Elíseos.</span></p>
       </div>
     </div>
-
   </div>
 </div>

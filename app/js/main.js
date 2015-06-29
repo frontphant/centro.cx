@@ -59,7 +59,7 @@ var App = {};
   App.checkMedia = function () {
     // media query event handler
     if (matchMedia) {
-      var mq = window.matchMedia("(max-width: 768px)");
+      var mq = window.matchMedia("(max-width: 992px)");
       mq.addListener(WidthChange);
       WidthChange(mq);
     }
@@ -224,7 +224,15 @@ var App = {};
   App.fixieText = function() {
     var $textContainers = $('.fixie-text-container');
 
-    if (App.isMobileQuery) {return;}
+    if (App.isMobileQuery) {
+      $('.fixie-text').css({
+        'position': 'relative',
+        'top': 'auto',
+        'left': 'auto',
+        'width': ''
+      });
+      return;
+    }
 
     $textContainers.each(function () {
       var $this = $(this),
