@@ -54,6 +54,10 @@ var App = {};
       classToAdd: 'animated showSmooth'
     });
 
+    $(window).on('resize', function() {
+      App.coverHeight();
+    });
+
   };
 
   App.checkMedia = function () {
@@ -80,7 +84,7 @@ var App = {};
   };
 
   App.coverHeight = function(){
-    $('#cover').height(startHeight);
+    $('#cover').height($(window).height());
   };
 
   // App.menu = function(){
