@@ -43,6 +43,12 @@
     font-family: 'Plantin';
   }
 
+  @media (max-width: 480px) {
+    dd, dt {
+      width: 100%;
+    }
+  }
+
 }
 
 .map-container {
