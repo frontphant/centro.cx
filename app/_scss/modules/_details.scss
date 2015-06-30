@@ -119,6 +119,13 @@
     text-transform: uppercase;
     text-decoration: underline;
    }
+
+   @media (max-width: 768px) {
+      .col-md-4 {
+        float:left;
+        width: 33.33333%;
+      }
+    }
 }
 
 #main .container {
