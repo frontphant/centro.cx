@@ -3,6 +3,10 @@
   min-height: 100%;
   margin-bottom: 75px;
 
+    @media (max-width: 768px) {
+      margin-bottom: 0;
+    }
+
   .cover-pic {
     position: relative;
     min-height: 100%;

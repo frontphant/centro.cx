@@ -1,6 +1,14 @@
 #home {
   margin: 0 20px;
 
+  @media (max-width: 768px) {
+    margin: 0 5px;
+  
+    .col-md-12 {
+      padding: 0;
+    }
+  }
+
   .company {
     border-bottom: 2px solid;
   }
