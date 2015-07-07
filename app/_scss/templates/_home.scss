@@ -1,5 +1,9 @@
 #home {
   margin: 0 20px;
+
+  .company {
+    border-bottom: 2px solid;
+  }
 }
 
 main#main {
@@ -22,7 +26,7 @@ main#main {
   }
 
   .read-more {
-    @media (min-width: 768px) { 
+    @media (min-width: 768px) {
       font: 400 14px/50px "Dia";
     }
     text-decoration: underline;
@@ -32,10 +36,8 @@ main#main {
 
   .company {
     font-weight: 700;
-    
     font-family: "Plantin";
     color: #000;
-    border-bottom: 2px solid;
     display: inline-block;
     line-height: .65;
     position: relative;
