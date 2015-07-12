@@ -6,6 +6,21 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
 
+        <meta content="{{ page.title }}" property="og:site_name">
+        <meta content="http://test.frontphant.com/centro/img/share/share.jpg" property="og:image">
+        <meta content="article" property="og:type">
+        <meta content="http://test.frontphant.com/centro/" name="og:url" />
+        <meta property="og:title" content="{{ page.title }}"/>
+        <meta property="og:description" content="{{ page.description }}"/>
+        
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@centrocx">
+        <meta name="twitter:title" content="{{ page.title }}">
+        <meta name="twitter:description" content="{{ page.description }} http://test.frontphant.com/centro/">
+        <meta name="twitter:creator" content="@centrocx">
+        <meta name="twitter:image:src" content="http://test.frontphant.com/centro/img/share/share.jpg">
+        <meta name="twitter:domain" content="http://test.frontphant.com/centro/">
+
         <link rel="shortcut icon" href="/favicon.ico">
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
         <!-- build:css(.) css/vendor.css -->
@@ -30,8 +45,8 @@
         <h1 id="logo" class="hide"><a href="./">Centro</a></h1>
         <a data-component="Toggle ToggleColor" data-target="#menu" data-event="mouseover" href="javascript:;" id="menu-icon" class="light">Abrir Menu</a>
         <div class="share-options">
-          <a data-component="ToggleColor" class="share-link share-link__fb" href="javascript:;">facebook</a>
-          <a data-component="ToggleColor" class="share-link share-link__twitter" href="javascript:;">facebook</a>
+          <a data-component="ToggleColor" class="share-link share-link__fb" href="https://www.facebook.com/sharer.php?u=http://test.frontphant.com/centro/">facebook</a>
+          <a data-component="ToggleColor" class="share-link share-link__twitter" href="https://twitter.com/intent/tweet?text={{ page.description }}&url=http://test.frontphant.com/centro/">twitter</a>
         </div>
       </header>
 
