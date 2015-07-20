@@ -9,7 +9,8 @@
   top: -77px;
   left: 0;
   width: 100%;
-  height: 75px;
+  // height: 75px;
+  height: 56px;
   text-align: center;
   border-bottom: 2px solid #000;
   background: #fff;
@@ -18,8 +19,8 @@
 
   strong {
     display: block;
-    margin: 25px 0;
-    font: 600 26px "Dia";
+    margin: 20px 0;
+    font: 600 12px "Dia";
   }
 }
 
@@ -32,7 +33,8 @@
 
   #menu-icon.dark {
     @media (max-width: 768px) {
-      top: 26px;
+      // top: 26px;
+      top: 14px;
       background-position: -2px -86px;
       height: 28px;
       width: 28px;
