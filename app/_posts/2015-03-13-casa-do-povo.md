@@ -165,7 +165,7 @@ permalink: "casa-do-povo.html"
     <div class="row margin-bottom double show-smooth">
       <div class="col-md-6 col-md-offset-2">
         <img src="img/content/casa-do-povo/17.jpg" class="" alt="">
-        <p><br><span class="caption top mobile-only">← Interior dos andares superiores e terraço.</span></p>
+        <p><span class="caption top mobile-only">Interior dos andares superiores e terraço.</span></p>
       </div>
     </div>
   </div>

@@ -35,19 +35,19 @@
 
     &.top {
       &:before {
-        content: "↑ ";
+        content: "\2191\00a0";
       }
     }
 
     &.left {
       &:before {
-        content: "← ";
+        content: "\2190\00a0";
       }
     }
 
     &.right {
       &:after {
-        content: " →";
+        content: "\00a0\2192";
       }
     }
   }
