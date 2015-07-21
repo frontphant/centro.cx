@@ -9,6 +9,7 @@ coordinates: "-23º 31’ 52.79” -46º 38’ 39.72”"
 enabled: enabled
 photo: "overground.jpg"
 coverClass: "overground"
+shareImage: "CENTRO_share_overground.jpg"
 permalink: "overground.html"
 ---
 

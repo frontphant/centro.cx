@@ -9,6 +9,7 @@ coordinates: "-23º 32’ 50.43” -46º 38’ 56.36”"
 enabled: enabled
 photo: "phosphorus.jpg"
 coverClass: "phosphorus"
+shareImage: "CENTRO_share_phosphorus.jpg"
 permalink: "phosphorus.html"
 ---
 
