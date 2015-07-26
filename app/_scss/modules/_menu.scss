@@ -39,18 +39,18 @@
     top: 27px;
   }
 
+  a {
+    color: #FFF;
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+
   dl {
     margin: 0 0 0 32px;
 
     span {
       color: #FFF;
-    }
-
-    a {
-      color: #FFF;
-      &:hover {
-        text-decoration: none;
-      }
     }
 
     dt {
@@ -67,9 +67,6 @@
         margin-bottom: 15px;
       }
 
-      a:hover {
-        text-decoration: underline;
-      }
     }
   }
 }
