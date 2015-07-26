@@ -94,7 +94,29 @@ permalink: "phosphorus.html"
   </div>
 
   <!-- bloco 3 -->
-  <div class="fixie-text-container">
+    <div class="fixie-text-container">
+    <div class="row margin-bottom">
+      <div class="col-md-4 fixie-text">
+        <p><span class="plantin">Essa sala era um brechó onde a Casa Juisi vendia peças. Agora que eles pararam de vender as peças do acervo, nós deixamos esse espaço à disposição de artistas em residência. A gente sempre procura colaborar com a Juisi. Dois artistas que passaram por aqui recentemente, o Daniel Albuqueque e a Marcia Beatriz Graneiro, faziam um trabalho muito ligado à moda.</span> <span class="dia"><strong>Gustavo Ferro</strong></span></p>
+        <p><span class="caption desktop-only">→ Sala decorada com objetos da Casa Juisi.</span></p>
+      </div>
+      <div class="col-md-8 pull-right show-smooth">
+        <img src="img/content/phosphorus/5.1.jpg" class="" alt="">
+      </div>
+    </div>
+    <div class="row margin-bottom">
+      <div class="col-md-4 col-md-offset-4 show-smooth">
+        <img src="img/content/phosphorus/5.2.jpg" class="" alt="">
+      </div>
+    </div>
+    <div class="row margin-bottom double">
+      <div class="col-md-6 col-md-offset-6 show-smooth">
+        <img src="img/content/phosphorus/5.3.jpg" class="" alt="">
+        <p><span class="caption top mobile-only">Sala decorada com objetos da Casa Juisi.</span></p>
+      </div>
+    </div>
+  </div>
+<!--   <div class="fixie-text-container">
 
     <div class="row margin-bottom">
       <div class="col-md-4 fixie-text">
@@ -128,7 +150,7 @@ permalink: "phosphorus.html"
       </div>
     </div>
 
-  </div>
+  </div> -->
 
   <!-- bloco 4 -->
   <div class="fixie-text-container">
@@ -164,31 +186,10 @@ permalink: "phosphorus.html"
   </div>
 
   <!-- bloco 5/6 -->
-  <div class="fixie-text-container">
-    <div class="row margin-bottom">
-      <div class="col-md-4 fixie-text">
-        <p><span class="plantin">Essa sala era um brechó onde a Casa Juisi vendia peças. Agora que eles pararam de vender as peças do acervo, nós deixamos esse espaço à disposição de artistas em residência. A gente sempre procura colaborar com a Juisi. Dois artistas que passaram por aqui recentemente, o Daniel Albuqueque e a Marcia Beatriz Graneiro, faziam um trabalho muito ligado à moda.</span> <span class="dia"><strong>Gustavo Ferro</strong></span></p>
-        <p><span class="caption desktop-only">→ Sala decorada com objetos da Casa Juisi.</span></p>
-      </div>
-      <div class="col-md-8 pull-right show-smooth">
-        <img src="img/content/phosphorus/5.1.jpg" class="" alt="">
-      </div>
-    </div>
-    <div class="row margin-bottom">
-      <div class="col-md-4 col-md-offset-4 show-smooth">
-        <img src="img/content/phosphorus/5.2.jpg" class="" alt="">
-      </div>
-    </div>
-    <div class="row margin-bottom double">
-      <div class="col-md-6 col-md-offset-6 show-smooth">
-        <img src="img/content/phosphorus/5.3.jpg" class="" alt="">
-        <p><span class="caption top mobile-only">Sala decorada com objetos da Casa Juisi.</span></p>
-      </div>
-    </div>
-  </div>
+
 
   <!-- bloco 7 -->
-  <div class="fixie-text-container">
+<!--   <div class="fixie-text-container">
     <div class="row margin-bottom">
       <div class="col-md-4 fixie-text">
         <p><span class="caption desktop-only">→ Obras de Rafael RG, em exibição na galeria Sé, localizada no segundo andar do prédio.</span></p>
@@ -208,10 +209,10 @@ permalink: "phosphorus.html"
         <p><span class="caption top mobile-only">Obras de Rafael RG, em exibição na galeria Sé, localizada no segundo andar do prédio.</span></p>
       </div>
     </div>
-  </div>
+  </div> -->
 
   <!-- bloco 8 -->
-  <div class="fixie-text-container">
+<!--   <div class="fixie-text-container">
     <div class="row margin-bottom">
       <div class="col-md-4 fixie-text f-right">
         <p><span class="plantin">Desde que chegamos aqui, nós nunca tínhamos visto as janelas desses prédios abertas. Até que eles foram ocupados pelo sem-teto, que viveram nesse lugar durante uns quatro meses. Toda a dinâmica do bairro mudou: as janelas passaram a ficar abertas, a gente se cumprimentava na calçada. Até que eles foram expulsos pela polícia. Apesar de terem donos, esses prédios hoje ficam vazios. </span> <span class="dia"><strong>Gustavo Ferro</strong></span></p>
@@ -227,7 +228,7 @@ permalink: "phosphorus.html"
         <p><span class="caption top mobile-only">Prédios vazios em frente à galeria.</span></p>
       </div>
     </div>
-  </div>
+  </div> -->
 
   <!-- bloco 9 -->
   <div class="fixie-text-container">
