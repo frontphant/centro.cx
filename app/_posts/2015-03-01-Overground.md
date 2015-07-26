@@ -149,19 +149,4 @@ permalink: "overground.html"
 
   </div>
 
-  <!-- bloco 6 -->
-  <div class="fixie-text-container">
-    <div class="row margin-bottom">
-      <div class="col-md-4 fixie-text">
-        <p><span class="caption desktop-only">→ Obras dos artistas do Quimera Atelier,<br> que ocupam o primeiro andar do prédio.</span></p>
-      </div>
-      <div class="col-md-6 col-md-offset-2 pull-right show-smooth">
-        <img src="img/content/overground/14.jpg" class="" alt="">
-        <p><span class="caption top mobile-only">Obras dos artistas do Quimera Atelier,<br> que ocupam o primeiro andar do prédio.</span></p>
-      </div>
-    </div>
-
-
-  </div>
-
 </div>
