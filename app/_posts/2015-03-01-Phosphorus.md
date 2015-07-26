@@ -116,41 +116,6 @@ permalink: "phosphorus.html"
       </div>
     </div>
   </div>
-<!--   <div class="fixie-text-container">
-
-    <div class="row margin-bottom">
-      <div class="col-md-4 fixie-text">
-        <p><span class="plantin">Essas obras foram criadas pela Fancy Violence, uma personagem criada pelo pintor Rodolpho Parigi. Apesar do sucesso no circuito de arte, o Rodolpho entrou numa crise e a única solução que encontrou foi a criação da Fancy, que nasceu como uma ficção. Assim como ele, ela é uma pintora, mas as questões propostas aqui não são apenas formais, não tratam do desenho ou do nanquim, discutem algo mais profundo.</span> <span class="dia"><strong>Maria Montero</strong></span></p>
-        <p><br><span class="caption desktop-only">→ Exposição de Fancy Violence na Phosphorus.</span></p>
-      </div>
-
-      <div class="col-md-8 pull-right">
-      	<div class="col-md-6 show-smooth" style="padding:0">
-          <img src="img/content/phosphorus/3.1.jpg" class="" alt="">
-      	</div>
-      </div>
-    </div>
-
-    <div class="row margin-bottom">
-      <div class="col-md-6 col-md-offset-4 show-smooth">
-        <img src="img/content/phosphorus/3.2.jpg" class="" alt="">
-      </div>
-    </div>
-
-    <div class="row margin-bottom double">
-      <div class="col-md-6 col-md-offset-6 show-smooth">
-        <img src="img/content/phosphorus/3.3.jpg" class="" alt="">
-      </div>
-    </div>
-
-    <div class="row margin-bottom double">
-      <div class="col-md-6 col-md-offset-6 show-smooth">
-        <img src="img/content/phosphorus/3.4.jpg" class="" alt="">
-        <p><span class="caption top mobile-only">Exposição de Fancy Violence na Phosphorus.</span></p>
-      </div>
-    </div>
-
-  </div> -->
 
   <!-- bloco 4 -->
   <div class="fixie-text-container">
@@ -185,52 +150,7 @@ permalink: "phosphorus.html"
 
   </div>
 
-  <!-- bloco 5/6 -->
-
-
-  <!-- bloco 7 -->
-<!--   <div class="fixie-text-container">
-    <div class="row margin-bottom">
-      <div class="col-md-4 fixie-text">
-        <p><span class="caption desktop-only">→ Obras de Rafael RG, em exibição na galeria Sé, localizada no segundo andar do prédio.</span></p>
-      </div>
-      <div class="col-md-8 pull-right show-smooth">
-        <img src="img/content/phosphorus/6.1.jpg" class="" alt="">
-      </div>
-    </div>
-    <div class="row margin-bottom">
-      <div class="col-md-4 col-md-offset-8 show-smooth">
-        <img src="img/content/phosphorus/6.2.jpg" class="" alt="">
-      </div>
-    </div>
-    <div class="row margin-bottom double">
-      <div class="col-md-4 col-md-offset-6 show-smooth">
-        <img src="img/content/phosphorus/6.3.jpg" class="" alt="">
-        <p><span class="caption top mobile-only">Obras de Rafael RG, em exibição na galeria Sé, localizada no segundo andar do prédio.</span></p>
-      </div>
-    </div>
-  </div> -->
-
-  <!-- bloco 8 -->
-<!--   <div class="fixie-text-container">
-    <div class="row margin-bottom">
-      <div class="col-md-4 fixie-text f-right">
-        <p><span class="plantin">Desde que chegamos aqui, nós nunca tínhamos visto as janelas desses prédios abertas. Até que eles foram ocupados pelo sem-teto, que viveram nesse lugar durante uns quatro meses. Toda a dinâmica do bairro mudou: as janelas passaram a ficar abertas, a gente se cumprimentava na calçada. Até que eles foram expulsos pela polícia. Apesar de terem donos, esses prédios hoje ficam vazios. </span> <span class="dia"><strong>Gustavo Ferro</strong></span></p>
-        <p><span class="caption desktop-only">← Prédios vazios em frente à galeria.</span></p>
-      </div>
-      <div class="col-md-8 show-smooth">
-        <img src="img/content/phosphorus/8.1.jpg" class="" alt="">
-      </div>
-    </div>
-    <div class="row margin-bottom double">
-      <div class="col-md-4 show-smooth">
-        <img src="img/content/phosphorus/8.2.jpg" class="" alt="">
-        <p><span class="caption top mobile-only">Prédios vazios em frente à galeria.</span></p>
-      </div>
-    </div>
-  </div> -->
-
-  <!-- bloco 9 -->
+  <!-- bloco 5 -->
   <div class="fixie-text-container">
     <div class="row margin-bottom">
       <div class="col-md-4 fixie-text">
