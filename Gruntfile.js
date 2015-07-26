@@ -336,7 +336,7 @@ module.exports = function (grunt) {
       },
       app: {
         ignorePath: /^\/|\.\./,
-        src: ['<%= yeoman.app %>/_layouts/{default,place}.html'],
+        src: ['<%= yeoman.app %>/_layouts/{about,default,place}.html'],
         exclude: ['_bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.js']
       },
       sass: {
