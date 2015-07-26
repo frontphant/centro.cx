@@ -22,6 +22,10 @@
   &.dark {
     @include sprites-general("share-fb-black");
   }
+
+  &:hover {
+    @include sprites-general("share-fb-hover");
+  }
 }
 
 .share-link__twitter {
@@ -30,5 +34,9 @@
 
   &.dark {
     @include sprites-general("share-twitter-black");
+  }
+
+  &:hover {
+    @include sprites-general("share-twitter-hover");
   }
 }
