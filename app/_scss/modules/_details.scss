@@ -19,12 +19,22 @@
 
   p, .plantin {
     font: 400 22px/30px "Plantin"!important;
+    strong, a {
+      font: 700 22px/30px "Plantin"!important;
+    }
   }
 
   .dia {
     font: 400 22px/30px "Dia"!important;
-    strong {
+    strong, a {
       font: 700 22px/30px "Dia"!important;
+    }
+  }
+
+  .container p {
+    font: 400 22px/30px "Dia"!important;
+    strong, a {
+      font: 700 22px/30px "Plantin"!important;
     }
   }
 
