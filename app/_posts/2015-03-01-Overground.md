@@ -151,57 +151,17 @@ permalink: "overground.html"
 
   <!-- bloco 6 -->
   <div class="fixie-text-container">
-
     <div class="row margin-bottom">
       <div class="col-md-4 fixie-text">
-        <p><br><span class="caption desktop-only">→ Obras dos artistas do Quimera Atelier,<br> que ocupam o primeiro andar do prédio.</span></p>
+        <p><span class="caption desktop-only">→ Obras dos artistas do Quimera Atelier,<br> que ocupam o primeiro andar do prédio.</span></p>
       </div>
       <div class="col-md-6 col-md-offset-2 pull-right show-smooth">
-        <img src="img/content/overground/13.jpg" class="" alt="">
-      </div>
-    </div>
-
-    <div class="row margin-bottom">
-      <div class="col-md-6 col-md-offset-4 show-smooth">
         <img src="img/content/overground/14.jpg" class="" alt="">
         <p><span class="caption top mobile-only">Obras dos artistas do Quimera Atelier,<br> que ocupam o primeiro andar do prédio.</span></p>
       </div>
     </div>
 
+
   </div>
 
-  <!-- bloco 7 -->
-  <div class="fixie-text-container">
-    <div class="row margin-bottom">
-      <div class="col-md-4 fixie-text f-right">
-        <p><span class="plantin">A gente fala que aqui é a Faixa de Gaza, porque na rua paralela já começa a pior parte da Cracolândia. Mesmo com uma base comunitária instalada no meio da muvuca, existe violência entre os usuários. Quando escurece, essa região fica vazia. Um cenário mais sinistro e bem diferente do fluxo que existe durante o dia. Tento chegar com a chave na mão para poder entrar logo.</span></p>
-        <p><span class="caption desktop-only">← Alameda Nothmann, vizinha à Cracolândia.</span></p>
-      </div>
-      <div class="col-md-8 show-smooth">
-        <div class="col-md-6">
-          <img src="img/content/overground/15.jpg" class="" alt="">
-        </div>
-      </div>
-    </div>
-    <div class="row margin-bottom double">
-      <div class="col-md-4 col-md-offset-4 show-smooth">
-        <img src="img/content/overground/16.jpg" class="" alt="">
-        <p><span class="caption top mobile-only">Alameda Nothmann, vizinha à Cracolândia.</span></p>
-      </div>
-    </div>
-  </div>
-
-  <!-- bloco 8 -->
-  <div class="fixie-text-container">
-    <div class="row margin-bottom">
-      <div class="col-md-4 fixie-text">
-        <p><span class="plantin">O meu trabalho sempre foi focado em lugares carentes. Tento jogar as minhas sementes em regiões esquecidas pelas pessoas. Por isso, meio que naturalmente, eu vim parar no centro. Esse lugar faz sentido para mim, porque estou entre dois pontos marcantes da minha história: a estação Luz, onde fui preso, e a favela do Moinho, onde pinto desde sempre. </span></p>
-        <p><span class="caption desktop-only">→ Vista da Overground, nos Campos Elíseos.</span></p>
-      </div>
-      <div class="col-md-8 pull-right show-smooth">
-        <img src="img/content/overground/17.jpg" class="" alt="">
-        <p><span class="caption top mobile-only">Vista da Overground, nos Campos Elíseos.</span></p>
-      </div>
-    </div>
-  </div>
 </div>
