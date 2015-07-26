@@ -34,6 +34,7 @@ permalink: "casa-do-povo.html"
 </div>
 
 <div class="centro-container">
+  <!-- bloco 1 -->
   <div class="fixie-text-container">
     <div class="row margin-bottom">
       <div class="col-md-4 fixie-text show-smooth f-right">
@@ -59,117 +60,68 @@ permalink: "casa-do-povo.html"
     </div>
   </div>
 
+  <!-- bloco 2 -->
+
+  <!-- bloco 3 -->
   <div class="fixie-text-container">
     <div class="row margin-bottom">
       <div class="col-md-4 fixie-text show-smooth">
-        <p><span class="plantin">Algumas das iniciativas que estão chegando ao centro de São Paulo atraem um público mais elitizado e não estão abertas a todos. Nossa meta para este ano é criar algo coletivo, envolvendo todos os grupos que estão hospedados aqui dentro. Uma das ideias, que ainda está em discussão, é tentar abrir as portas do térreo, para criar uma interface maior entre a Casa e a rua.</span> <span class="dia"><strong>Chico Daviña</strong></span></p>
-        <p><span class="caption desktop-only">→ Fachada e vista a partir de uma das janelas.</span></p>
-      </div>
-      <div class="col-md-8 pull-right show-smooth">
-        <img src="img/content/casa-do-povo/04.jpg" class="" alt="">
-      </div>
-    </div>
-
-    <div class="row margin-bottom show-smooth">
-      <div class="col-md-6 col-md-offset-4">
-        <img src="img/content/casa-do-povo/05.jpg" class="" alt="">
-      </div>
-    </div>
-
-    <div class="row margin-bottom double show-smooth">
-      <div class="col-md-8 col-md-offset-4">
-        <img src="img/content/casa-do-povo/06.jpg" class="" alt="">
-        <p><span class="caption top mobile-only">Fachada e vista a partir de uma das janelas.</span></p>
-      </div>
-    </div>
-  </div>
-
-  <div class="fixie-text-container">
-    <div class="row margin-bottom">
-      <div class="col-md-4 fixie-text show-smooth f-right">
         <p><span class="plantin">O Taib é um teatro projetado pelo Jorge Wilheim e construído em 1960. Possui um palco italiano, com essa caixa ampla onde a cena acontece, um formato mais clássico e oposto ao teatro de arena. Recebeu peças engajadas, como Pequenos Burgueses, dirigida pelo Renato Borghi, mas parou de funcionar como Taib na década de 90. Algumas companhias até usaram esse espaço depois disso, até ele sofrer uma inundação.</span> <span class="dia"><strong>Frederico Costa</strong></span></p>
         <p><span class="caption desktop-only">← Teatro Taib, inaugurado em 1960 e localizado no subsolo da Casa.</span></p>
       </div>
-      <div class="col-md-4 col-md-offset-4 show-smooth">
+      <div class="col-md-4 pull-right show-smooth">
         <img src="img/content/casa-do-povo/07.jpg" class="" alt="">
       </div>
     </div>
 
     <div class="row margin-bottom show-smooth">
-      <div class="col-md-8">
+      <div class="col-md-8 col-md-offset-4">
         <img src="img/content/casa-do-povo/08.jpg" class="" alt="">
       </div>
     </div>
 
     <div class="row margin-bottom show-smooth">
-      <div class="col-md-4">
+      <div class="col-md-4 col-md-offset-4">
         <img src="img/content/casa-do-povo/09.jpg" class="" alt="">
       </div>
     </div>
 
     <div class="row margin-bottom double show-smooth">
-      <div class="col-md-6 col-md-offset-2">
+      <div class="col-md-6 col-md-offset-4">
         <img src="img/content/casa-do-povo/10.jpg" class="" alt="">
         <p><span class="caption top mobile-only">Teatro Taib, inaugurado em 1960 e localizado no subsolo da Casa.</span></p>
       </div>
     </div>
   </div>
 
+  <!-- bloco 4 -->
   <div class="fixie-text-container">
     <div class="row margin-bottom">
-      <div class="col-md-4 fixie-text show-smooth">
+      <div class="col-md-4 fixie-text show-smooth f-right">
         <p><span class="plantin">A escola Scholem Aleichem começou a funcionar aqui dentro pouco depois da fundação do centro. Era muito reconhecida por métodos experimentais de ensino e recebia alunos da comunidade judaica, mas também filhos de militantes de esquerda, que precisavam ser protegidos da ditadura. A biblioteca da escola ainda é mantida e tem uma coleção variada: de livros infantis em ídiche a livros políticos em russo, importados da União Soviética.</span> <span class="dia"><strong>Frederico Costa</strong></span></p>
         <p><span class="caption desktop-only">→ Biblioteca da antiga escola Scholem Aleichem.</span></p>
       </div>
-      <div class="col-md-8 margin-bottom pull-right show-smooth">
+      <div class="col-md-8 margin-bottom show-smooth">
         <div class="col-md-6" style="padding:0;">
           <img src="img/content/casa-do-povo/11.jpg" class="" alt="">
         </div>
       </div>
-      <div class="col-md-8 pull-right show-smooth">
+      <div class="col-md-8 show-smooth">
         <img src="img/content/casa-do-povo/12.jpg" class="" alt="">
       </div>
     </div>
 
     <div class="row margin-bottom double show-smooth">
-      <div class="col-md-6 col-md-offset-4">
+      <div class="col-md-6 col-md-offset-2">
         <img src="img/content/casa-do-povo/13.jpg" class="" alt="">
         <p><span class="caption top mobile-only">Biblioteca da antiga escola Scholem Aleichem.</span></p>
       </div>
     </div>
   </div>
 
-  <div class="fixie-text-container">
-    <div class="row margin-bottom">
-      <div class="col-md-4 fixie-text show-smooth f-right">
-        <p><span class="plantin">Algumas décadas depois da fundação, a comunidade que mantinha a Casa começou a envelhecer. Algumas pessoas foram para outros bairros e esvaziaram essa região, processo pelo qual o centro como um todo também passou. Como dependia da comunidade, o prédio começou a decair. Mesmo assim, os associados nunca aceitaram vender, sempre acreditaram que deveria ser mantido.</span> <span class="dia"><strong>Frederico Costa</strong></span></p>
-        <p><br><span class="caption desktop-only">← Interior dos andares superiores e terraço.</span></p>
-      </div>
-      <div class="col-md-8 show-smooth">
-        <img src="img/content/casa-do-povo/14.jpg" class="" alt="">
-      </div>
-    </div>
+  <!-- bloco 5 -->
 
-    <div class="row margin-bottom show-smooth">
-      <div class="col-md-4">
-        <img src="img/content/casa-do-povo/15.jpg" class="" alt="">
-      </div>
-    </div>
-
-    <div class="row margin-bottom show-smooth">
-      <div class="col-md-4 col-md-offset-4">
-        <img src="img/content/casa-do-povo/16.jpg" class="" alt="">
-      </div>
-    </div>
-
-    <div class="row margin-bottom double show-smooth">
-      <div class="col-md-6 col-md-offset-2">
-        <img src="img/content/casa-do-povo/17.jpg" class="" alt="">
-        <p><span class="caption top mobile-only">Interior dos andares superiores e terraço.</span></p>
-      </div>
-    </div>
-  </div>
-
+  <!-- bloco 6 -->
   <div class="fixie-text-container">
     <div class="row margin-bottom">
       <div class="col-md-4 fixie-text show-smooth">
@@ -195,6 +147,7 @@ permalink: "casa-do-povo.html"
     </div>
   </div>
 
+  <!-- bloco 7 -->
   <div class="row margin-bottom show-smooth" style="position:relative;">
     <p style="position: absolute; bottom: 0; left: 0; margin: 0;"><span class="caption desktop-only">→ Jornal Nossa Voz, relançado pela Casa em 2013. </span></p>
     <div class="col-md-4 col-md-offset-8">
@@ -203,26 +156,9 @@ permalink: "casa-do-povo.html"
     </div>
   </div>
 
-  <div class="row margin-bottom show-smooth" style="position:relative;">
-    <p style="position: absolute; bottom: 0; left: 0; margin: 0;"><span class="caption desktop-only">→ Ateliê do G>E, ou Grupo Maior Que Eu, coletivo <br>de artistas liderado pela estilista <span>Karlla Girotto</span>.</span></p>
-    <div class="col-md-8 col-md-offset-4">
-      <img src="img/content/casa-do-povo/22.jpg" class="" alt="">
-      <p><span class="caption top mobile-only">Ateliê do G>E, ou Grupo Maior Que Eu, coletivo <br>de artistas liderado pela estilista <span>Karlla Girotto</span>.</span></p>
-    </div>
-  </div>
+  <!-- bloco 8 -->
 
-  <div class="row margin-bottom show-smooth">
-    <div class="col-md-4 col-md-offset-4">
-      <img src="img/content/casa-do-povo/23.jpg" class="" alt="">
-    </div>
-  </div>
-
-  <div class="row margin-bottom double show-smooth">
-    <div class="col-md-6 col-md-offset-6">
-      <img src="img/content/casa-do-povo/24.jpg" class="" alt="">
-    </div>
-  </div>
-
+  <!-- bloco 9 -->
   <div class="fixie-text-container">
     <div class="row margin-bottom">
       <div class="col-md-4 fixie-text show-smooth f-right">
