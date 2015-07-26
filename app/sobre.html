@@ -11,22 +11,25 @@ description: CENTRO é um registro da ocupação criativa do centro de São Paul
       </div>
     </div>
     <div class="row margin-bottom">
-      <div class="col-md-6 col-md-offset-1">
+      <div class="col-md-4 col-md-offset-1">
         <dl class="authors">
           <dt>Edição</dt>
           <dd>Luiz Romero (texto), <br> Felipe Rocha e Murilo Fonseca (arte)</dd>
 
           <dt>Fotos</dt>
           <dd>Leonardo Sang</dd>
-
+        </dl>
+      </div>
+      <div class="col-md-4 col-md-offset-1">
+        <dl class="authors">
           <dt>Textos</dt>
-          <dd>Luiz Romero, Alexandre Aragão, <br> Luisa Cella e Nathan Fernandes</dd>
+          <dd>Luiz Romero, Alexandre Aragão, Luisa Cella e Nathan Fernandes</dd>
 
           <dt>Design</dt>
-          <dd>Felipe Rocha e Murilo Fonseca</dd>
+          <dd>Felipe Rocha<br> e Murilo Fonseca</dd>
 
           <dt></dt>
-          <dd>Obrigado a Lucas Andrade, <br> Livia Ascava, Victor de Bone, <br> Nicolas Henriques, Denise Saito <br> e Carolina Wan</dd>
+          <dd>Obrigado a Lucas Andrade, Livia Ascava, Victor de Bone, Nicolas Henriques, Denise Saito<br> e Carolina Wan</dd>
         </dl>
       </div>
     </div>
@@ -36,11 +39,6 @@ description: CENTRO é um registro da ocupação criativa do centro de São Paul
     <div class="row margin-bottom">
       <div class="col-md-6 show-smooth">
         <img src="img/content/about/01.jpg" class="" alt="">
-      </div>
-    </div>
-    <div class="row margin-bottom">
-      <div class="col-md-5 col-md-offset-4 show-smooth">
-        <img src="img/content/about/02.jpg" class="" alt="">
       </div>
     </div>
     <div class="row margin-bottom">
@@ -54,21 +52,6 @@ description: CENTRO é um registro da ocupação criativa do centro de São Paul
       </div>
     </div>
     <div class="row margin-bottom">
-      <div class="col-md-4 show-smooth">
-        <img src="img/content/about/05.jpg" class="" alt="">
-      </div>
-    </div>
-    <div class="row margin-bottom">
-      <div class="col-md-8 col-md-offset-2 show-smooth">
-        <img src="img/content/about/06.jpg" class="" alt="">
-      </div>
-    </div>
-    <div class="row margin-bottom">
-      <div class="col-md-6 pull-right show-smooth">
-        <img src="img/content/about/07.jpg" class="" alt="">
-      </div>
-    </div>
-    <div class="row margin-bottom">
       <div class="col-md-8 pull-right show-smooth">
         <img src="img/content/about/08.jpg" class="" alt="">
       </div>
@@ -79,20 +62,23 @@ description: CENTRO é um registro da ocupação criativa do centro de São Paul
       </div>
     </div>
     <div class="row margin-bottom">
-      <div class="col-md-8 col-md-offset-2 show-smooth">
-        <img src="img/content/about/10.jpg" class="" alt="">
-      </div>
-    </div>
-    <div class="row margin-bottom">
-      <div class="col-md-6 pull-right show-smooth">
-        <img src="img/content/about/11.jpg" class="" alt="">
-      </div>
-    </div>
-    <div class="row margin-bottom">
       <div class="col-md-8 pull-right show-smooth">
         <img src="img/content/about/12.jpg" class="" alt="">
       </div>
     </div>
   </div>
 </div>
-<div class="map-container"></div>
+<div class="map-container">
+  <img src="img/content/about/map.jpg" class="" alt="">
+
+  {% sorted_for post in site.posts sort_by:weight %}
+    {% if post.letter %}
+    <a if {% if post.enabled == "enabled" %} href="{{ post.url | remove_first:'/' }}" {% else %} href="javascript:;" {% endif %} class="marker" style="bottom:{{ post.bottom }}; left: {{ post.left }};">{{ post.letter }}</a>
+    <div class="place">
+      <h1>{{ post.title }}</h1>
+      <p>{{ post.description }}</p>
+    </div>
+    {% endif %}
+  {% endsorted_for %}
+
+</div>

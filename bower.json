@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "dependencies": {
     "bootstrap-sass-official": "~3.2.0",
-    "lodash": "~3.3.1",
+    "lodash": "~3.10.0",
     "preload": "https://gist.github.com/4360344.git",
     "queryloader2": "~3.0.15",
     "hammerjs": "~2.0.4"

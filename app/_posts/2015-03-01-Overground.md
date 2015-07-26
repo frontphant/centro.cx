@@ -11,6 +11,10 @@ photo: "overground.jpg"
 coverClass: "overground"
 shareImage: "CENTRO_share_overground.jpg"
 permalink: "overground.html"
+top: "8.8%"
+left: "35.8%"
+bottom: "86.6%"
+letter: "O"
 ---
 
 <div class="container">
