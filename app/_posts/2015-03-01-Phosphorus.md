@@ -11,6 +11,10 @@ photo: "phosphorus.jpg"
 coverClass: "phosphorus"
 shareImage: "CENTRO_share_phosphorus.jpg"
 permalink: "phosphorus.html"
+top: "69.6%"
+left: "57.1%"
+bottom: "26%"
+letter: "P"
 ---
 
 <div class="container">

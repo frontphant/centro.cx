@@ -11,6 +11,10 @@ photo: "casa-do-povo.jpg"
 coverClass: "casa-do-povo"
 shareImage: "CENTRO_share_casapovo.jpg"
 permalink: "casa-do-povo.html"
+top: "0.9%"
+left: "49.12%"
+bottom: "94.5%"
+letter: "C"
 ---
 
 <div class="container">

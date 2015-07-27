@@ -44,6 +44,10 @@ var App = {};
     App.homePhotoHover();
     App.snapHeader();
     App.checkMedia();
+
+    //about section hack
+    App.aboutFix();
+    
     App.fixieText();
 
     $('body#place').each(function(){
@@ -56,8 +60,17 @@ var App = {};
 
     $(window).on('resize', function() {
       App.coverHeight();
+
+      //about section hack
+      App.aboutFix();
     });
 
+  };
+
+  App.aboutFix = function () {
+    if (jQuery('.container-gap').length) {
+      jQuery('.container-gap').height(jQuery('.fixie-text').height());
+    }
   };
 
   App.checkMedia = function () {
