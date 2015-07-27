@@ -47,8 +47,17 @@
 
 .map-container {
   position: relative;
+  overflow: hidden;
   width: 100%;
   background: #f4f2ec;
+
+  .wrapper {
+    position: relative;
+    min-width: 1425px;
+    min-height: 773px;
+    left: 50%;
+    transform: translate(-50%,0);
+  }
 
   img {
     width: 100%; 
@@ -60,8 +69,8 @@
     position: absolute;
     top: 36%;
     width: 100%;
-    left: 0;
-    transform: translate(0,-50%);
+    left: 50%;
+    transform: translate(-50%,-50%);
     text-align: center;
     z-index: 1;
 
@@ -69,10 +78,25 @@
       font: 700 100px "Plantin";
       margin: 0;
       line-height: 1;
+
+      @media (max-width: 1000px) {
+        font-size: 70px;
+      }
+
+      @media (max-width: 768px) {
+        font-size: 50px;
+      } 
     }
 
     p {
       font: 400 30px "Dia";
+
+      @media (max-width: 1000px) {
+        font-size: 20px;
+      }
+      @media (max-width: 768px) {
+        font-size: 18px;
+      }
     }
   }
 

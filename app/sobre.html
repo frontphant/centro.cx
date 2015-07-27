@@ -72,16 +72,19 @@ description: CENTRO é um registro da ocupação criativa do centro de São Paul
   </div>
 </div>
 <div class="map-container">
-  <img src="img/content/about/map.jpg" class="" alt="">
+  <div class="wrapper">
+    <img src="img/content/about/map.jpg" class="" alt="">
 
-  {% sorted_for post in site.posts sort_by:weight %}
-    {% if post.letter %}
-    <a if {% if post.enabled == "enabled" %} href="{{ post.url | remove_first:'/' }}" {% else %} href="javascript:;" {% endif %} class="marker" style="bottom:{{ post.bottom }}; left: {{ post.left }};">{{ post.letter }}</a>
-    <div class="place">
-      <h1>{{ post.title }}</h1>
-      <p>{{ post.description }}</p>
-    </div>
-    {% endif %}
-  {% endsorted_for %}
+    {% sorted_for post in site.posts sort_by:weight %}
+      {% if post.letter %}
+      <a {% if post.enabled == "enabled" %} href="{{ post.url | remove_first:'/' }}" {% else %} href="javascript:;" {% endif %} class="marker" style="bottom:{{ post.bottom }}; left: {{ post.left }};">{{ post.letter }}</a>
+      <div class="place">
+        <h1>{{ post.title }}</h1>
+        <p>{{ post.description }}</p>
+      </div>
+      {% endif %}
+    {% endsorted_for %}
+  
+  </div>
 
 </div>
