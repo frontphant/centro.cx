@@ -39,7 +39,7 @@ permalink: "casa-do-povo.html"
     <div class="row margin-bottom">
       <div class="col-md-4 fixie-text show-smooth f-right">
         <p><span class="plantin">O prédio foi construído entre as décadas de 40 e 50 por iniciativa da comunidade judaica, principalmente dos moradores do Bom Retiro. O projeto possui alguns elementos do modernismo. Como o vazio na base, composto por essa fachada de vidro e essas colunas mais escuras. No projeto original, ele não teria as portas, seria um espaço aberto para a comunidade.</span> <span class="dia"><strong>Frederico Costa</strong></span></p>
-        <p><br><span class="caption left desktop-only">Fachada e entrada da Casa do Povo.</span></p>
+        <p><span class="caption left desktop-only">Fachada e entrada da Casa do Povo.</span></p>
       </div>
       <div class="col-md-6 col-md-offset-2 show-smooth">
         <img src="img/content/casa-do-povo/01.jpg" class="" alt="">
@@ -67,7 +67,7 @@ permalink: "casa-do-povo.html"
     <div class="row margin-bottom">
       <div class="col-md-4 fixie-text show-smooth">
         <p><span class="plantin">O Taib é um teatro projetado pelo Jorge Wilheim e construído em 1960. Possui um palco italiano, com essa caixa ampla onde a cena acontece, um formato mais clássico e oposto ao teatro de arena. Recebeu peças engajadas, como Pequenos Burgueses, dirigida pelo Renato Borghi, mas parou de funcionar como Taib na década de 90. Algumas companhias até usaram esse espaço depois disso, até ele sofrer uma inundação.</span> <span class="dia"><strong>Frederico Costa</strong></span></p>
-        <p><span class="caption desktop-only">← Teatro Taib, inaugurado em 1960 e localizado no subsolo da Casa.</span></p>
+        <p><span class="caption right desktop-only">Teatro Taib, inaugurado em 1960 e localizado no subsolo da Casa.</span></p>
       </div>
       <div class="col-md-4 pull-right show-smooth">
         <img src="img/content/casa-do-povo/07.jpg" class="" alt="">
@@ -99,7 +99,7 @@ permalink: "casa-do-povo.html"
     <div class="row margin-bottom">
       <div class="col-md-4 fixie-text show-smooth f-right">
         <p><span class="plantin">A escola Scholem Aleichem começou a funcionar aqui dentro pouco depois da fundação do centro. Era muito reconhecida por métodos experimentais de ensino e recebia alunos da comunidade judaica, mas também filhos de militantes de esquerda, que precisavam ser protegidos da ditadura. A biblioteca da escola ainda é mantida e tem uma coleção variada: de livros infantis em ídiche a livros políticos em russo, importados da União Soviética.</span> <span class="dia"><strong>Frederico Costa</strong></span></p>
-        <p><span class="caption desktop-only">→ Biblioteca da antiga escola Scholem Aleichem.</span></p>
+        <p><span class="caption left desktop-only">Biblioteca da antiga escola Scholem Aleichem.</span></p>
       </div>
       <div class="col-md-8 margin-bottom show-smooth">
         <div class="col-md-6" style="padding:0;">
@@ -126,7 +126,7 @@ permalink: "casa-do-povo.html"
     <div class="row margin-bottom">
       <div class="col-md-4 fixie-text show-smooth">
         <p><span class="plantin">Existe um trabalho de continuidade, mas não é nostálgico, de tentar imitar aquela geração. Nós queremos assimilar o passado dentro do nosso cotidiano e da nossa prática, mas renovar a programação da Casa. Claro que respeitando a nossa história, inspirados pelas pessoas que frequentavam esse espaço nas primeiras décadas de atividade e continuam presentes.</span> <span class="dia"><strong>Mariana Lorenzi</strong></span></p>
-        <p><span class="caption desktop-only">→ Oficina de impressão do coletivo <span>Ocupeacidade</span>.</span></p>
+        <p><span class="caption right desktop-only">Oficina de impressão do coletivo <span>Ocupeacidade</span>.</span></p>
       </div>
       <div class="col-md-8 pull-right show-smooth">
         <img src="img/content/casa-do-povo/18.jpg" class="" alt="">
@@ -149,7 +149,7 @@ permalink: "casa-do-povo.html"
 
   <!-- bloco 7 -->
   <div class="row margin-bottom show-smooth" style="position:relative;">
-    <p style="position: absolute; bottom: 0; left: 0; margin: 0;"><span class="caption desktop-only">→ Jornal Nossa Voz, relançado pela Casa em 2013. </span></p>
+    <p style="position: absolute; bottom: 0; left: 0; margin: 0;"><span class="caption right desktop-only">Jornal Nossa Voz, relançado pela Casa em 2013. </span></p>
     <div class="col-md-4 col-md-offset-8">
       <img src="img/content/casa-do-povo/21.jpg" class="" alt="">
       <p><span class="caption top mobile-only">Jornal Nossa Voz, relançado pela Casa em 2013. </span></p>
@@ -163,7 +163,7 @@ permalink: "casa-do-povo.html"
     <div class="row margin-bottom">
       <div class="col-md-4 fixie-text show-smooth f-right">
         <p><span class="plantin">Vários fatores contribuem para o abandono do centro. Entre as décadas de 70 e 80, o Brasil começa a importar uma cultura que mantém as pessoas dentro de casa, muito pela popularização da televisão. Essa situação atual também tem muita relação com o período da ditadura, quando o direito de reunião não existia e muitos espaços públicos acabaram esvaziados.</span> <span class="dia"><strong>Chico Daviña</strong></span></p>
-        <p><span class="caption desktop-only">← Vista do terraço do centro cultural.</span></p>
+        <p><span class="caption left desktop-only">Vista do terraço do centro cultural.</span></p>
       </div>
 
       <div class="col-md-6 col-md-offset-2 show-smooth">
