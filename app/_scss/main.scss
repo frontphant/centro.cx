@@ -34,7 +34,7 @@ $icon-font-path: "../_bower_components/bootstrap-sass-official/assets/fonts/boot
 .mobile-only {
   display: none !important;
 
-  @media (max-width: 768px) {
+  @media (max-width: 992px) {
     display: block !important;
   }
 }
@@ -42,7 +42,7 @@ $icon-font-path: "../_bower_components/bootstrap-sass-official/assets/fonts/boot
 .desktop-only {
   display: block !important;
 
-  @media (max-width: 768px) {
+  @media (max-width: 992px) {
     display: none !important;
   }
 }
