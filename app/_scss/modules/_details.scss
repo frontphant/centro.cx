@@ -38,6 +38,15 @@
     }
   }
 
+  p, .plantin, .dia, .container p {
+    @media (max-width: 768px) {
+      &, a, strong {
+        font-size: 21px !important;
+        line-height: 29px !important;
+      }
+    }
+  }
+
   .caption {
     display: block;
     margin-top: 14px;
