@@ -105,11 +105,11 @@ var App = {};
     var hammertime = new Hammer(jQuery('body')[0]);
 
     hammertime.on('swiperight', function(e) {
-      $('#menu').removeClass('is-active');
+      $('#menu, body').removeClass('is-active');
     });
 
     hammertime.on('swipeleft', function() {
-      $('#menu').addClass('is-active');
+      $('#menu, body').addClass('is-active');
     });
   };
 

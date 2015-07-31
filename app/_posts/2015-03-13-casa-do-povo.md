@@ -151,16 +151,6 @@ letter: "C"
     </div>
   </div>
 
-  <!-- bloco 7 -->
-  <div class="row margin-bottom show-smooth" style="position:relative;">
-    <p style="position: absolute; bottom: 0; left: 0; margin: 0;"><span class="caption right desktop-only">Jornal Nossa Voz, relançado pela Casa em 2013. </span></p>
-    <div class="col-md-4 col-md-offset-8">
-      <img src="img/content/casa-do-povo/21.jpg" class="" alt="">
-      <p><span class="caption top mobile-only">Jornal Nossa Voz, relançado pela Casa em 2013. </span></p>
-    </div>
-  </div>
-
-  <!-- bloco 8 -->
 
   <!-- bloco 9 -->
   <div class="fixie-text-container">

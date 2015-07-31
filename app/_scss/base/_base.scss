@@ -2,6 +2,13 @@ body, html {
   min-height: 100%;
   margin: 0;
   padding: 0;
+  min-width: 320px;
+}
+
+body.is-active {
+	@media (max-width: 768px) {
+		overflow:hidden;
+	}
 }
 
 
