@@ -56,6 +56,11 @@
     min-width: 1425px;
     min-height: 773px;
     left: 50%;
+
+    -webkit-transform: translate(-50%,0);
+    -moz-transform: translate(-50%,0);
+    -ms-transform: translate(-50%,0);
+    -o-transform: translate(-50%,0);
     transform: translate(-50%,0);
   }
 
@@ -70,9 +75,14 @@
     top: 36%;
     width: 100%;
     left: 50%;
-    transform: translate(-50%,-50%);
     text-align: center;
     z-index: 1;
+    
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
 
     h1 {
       font: 700 100px "Plantin";

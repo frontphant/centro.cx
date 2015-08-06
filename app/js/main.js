@@ -36,6 +36,7 @@ var App = {};
   App.lastScroll = 0;
 
   App.init = function(){
+    var resizingTimeout = null;
 
     // App.menuColor();
     App.logo();
@@ -60,6 +61,14 @@ var App = {};
 
     $(window).on('resize', function() {
       App.coverHeight();
+
+      App.resizing = true;
+      clearTimeout(resizingTimeout);
+      resizingTimeout = setTimeout(function() {
+        App.resizing = false;
+        App.fixieText();
+      }, 300);
+
 
       //about section hack
       App.aboutFix();
@@ -254,6 +263,15 @@ var App = {};
         'width': ''
       });
       return;
+    }
+
+    if (App.resizing) {
+      $('.fixie-text').css({
+        'position': 'relative',
+        'top': 'auto',
+        'left': 'auto',
+        'width': ''
+      });
     }
 
     $textContainers.each(function () {
