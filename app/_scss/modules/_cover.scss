@@ -65,6 +65,10 @@
     @media (max-width: 768px) {
       font-size: 54px;
     }
+
+    @media (max-width: 340px) {
+      font-size: 45px;
+    }
   }
 
   h2 {
@@ -72,6 +76,10 @@
 
     @media (max-width: 768px) {
       font-size: 22px;
+    }
+
+    @media (max-width: 340px) {
+      font-size: 18px;
     }
   }
 }
