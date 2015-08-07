@@ -123,6 +123,7 @@
     text-indent: 0;
     text-align: center;
     padding-top: 6px;
+    width: 26px;
 
     &:hover {
       @include sprites-general("marker-hover");
@@ -132,6 +133,7 @@
       font-size: 15px;
       padding-top: 6px;
       text-indent: 0;
+      width: 26px;
 
       // &:hover:after {
       //   content: '\00a0\00a0';
