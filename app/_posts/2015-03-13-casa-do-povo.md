@@ -74,25 +74,25 @@ letter: "C"
         <p><span class="caption right desktop-only">Teatro Taib, inaugurado em 1960 e localizado no subsolo da Casa.</span></p>
       </div>
       <div class="col-md-4 pull-right show-smooth">
-        <img src="img/content/casa-do-povo/07.jpg" class="" alt="">
+        <img src="img/content/casa-do-povo/04.jpg" class="" alt="">
       </div>
     </div>
 
     <div class="row margin-bottom show-smooth">
       <div class="col-md-8 col-md-offset-4">
-        <img src="img/content/casa-do-povo/08.jpg" class="" alt="">
+        <img src="img/content/casa-do-povo/05.jpg" class="" alt="">
       </div>
     </div>
 
     <div class="row margin-bottom show-smooth">
       <div class="col-md-4 col-md-offset-4">
-        <img src="img/content/casa-do-povo/09.jpg" class="" alt="">
+        <img src="img/content/casa-do-povo/06.jpg" class="" alt="">
       </div>
     </div>
 
     <div class="row margin-bottom double show-smooth">
       <div class="col-md-6 col-md-offset-4">
-        <img src="img/content/casa-do-povo/10.jpg" class="" alt="">
+        <img src="img/content/casa-do-povo/07.jpg" class="" alt="">
         <p><span class="caption top mobile-only">Teatro Taib, inaugurado em 1960 e localizado no subsolo da Casa.</span></p>
       </div>
     </div>
@@ -107,17 +107,17 @@ letter: "C"
       </div>
       <div class="col-md-8 margin-bottom show-smooth">
         <div class="col-md-6" style="padding:0;">
-          <img src="img/content/casa-do-povo/11.jpg" class="" alt="">
+          <img src="img/content/casa-do-povo/08.jpg" class="" alt="">
         </div>
       </div>
       <div class="col-md-8 show-smooth">
-        <img src="img/content/casa-do-povo/12.jpg" class="" alt="">
+        <img src="img/content/casa-do-povo/09.jpg" class="" alt="">
       </div>
     </div>
 
     <div class="row margin-bottom double show-smooth">
       <div class="col-md-6 col-md-offset-2">
-        <img src="img/content/casa-do-povo/13.jpg" class="" alt="">
+        <img src="img/content/casa-do-povo/10.jpg" class="" alt="">
         <p><span class="caption top mobile-only">Biblioteca da antiga escola Scholem Aleichem.</span></p>
       </div>
     </div>
@@ -133,19 +133,19 @@ letter: "C"
         <p><span class="caption right desktop-only">Oficina de impressão do coletivo <span>Ocupeacidade</span>.</span></p>
       </div>
       <div class="col-md-8 pull-right show-smooth">
-        <img src="img/content/casa-do-povo/18.jpg" class="" alt="">
+        <img src="img/content/casa-do-povo/11.jpg" class="" alt="">
       </div>
     </div>
 
     <div class="row margin-bottom show-smooth">
       <div class="col-md-4 col-md-offset-8">
-        <img src="img/content/casa-do-povo/19.jpg" class="" alt="">
+        <img src="img/content/casa-do-povo/12.jpg" class="" alt="">
       </div>
     </div>
 
     <div class="row margin-bottom show-smooth">
       <div class="col-md-6 col-md-offset-4">
-        <img src="img/content/casa-do-povo/20.jpg" class="" alt="">
+        <img src="img/content/casa-do-povo/13.jpg" class="" alt="">
         <p><span class="caption top mobile-only">Oficina de impressão do coletivo <span>Ocupeacidade</span>.</span></p>
       </div>
     </div>
@@ -161,19 +161,19 @@ letter: "C"
       </div>
 
       <div class="col-md-6 col-md-offset-2 show-smooth">
-        <img src="img/content/casa-do-povo/25.jpg" class="" alt="">
+        <img src="img/content/casa-do-povo/14.jpg" class="" alt="">
       </div>
     </div>
 
     <div class="row margin-bottom show-smooth">
       <div class="col-md-4">
-        <img src="img/content/casa-do-povo/26.jpg" class="" alt="">
+        <img src="img/content/casa-do-povo/15.jpg" class="" alt="">
       </div>
     </div>
 
     <div class="row show-smooth">
       <div class="col-md-8">
-        <img src="img/content/casa-do-povo/27.jpg" class="" alt="">
+        <img src="img/content/casa-do-povo/16.jpg" class="" alt="">
         <p><span class="caption top mobile-only">Vista do terraço do centro cultural.</span></p>
       </div>
     </div>

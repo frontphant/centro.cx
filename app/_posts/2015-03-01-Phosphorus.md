@@ -50,20 +50,20 @@ letter: "P"
 
       <div class="col-md-8 pull-right">
       	<div class="col-md-6 show-smooth" style="padding:0">
-          <img src="img/content/phosphorus/1.1.jpg" class="" alt="">
+          <img src="img/content/phosphorus/01.jpg" class="" alt="">
       	</div>
       </div>
     </div>
 
     <div class="row margin-bottom">
       <div class="col-md-6 col-md-offset-4 show-smooth">
-        <img src="img/content/phosphorus/1.2.jpg" class="" alt="">
+        <img src="img/content/phosphorus/02.jpg" class="" alt="">
       </div>
     </div>
 
     <div class="row margin-bottom double">
       <div class="col-md-6 col-md-offset-6 show-smooth">
-        <img src="img/content/phosphorus/1.3.jpg" class="" alt="">
+        <img src="img/content/phosphorus/03.jpg" class="" alt="">
         <p><span class="caption top mobile-only">Fachada e salão de entrada da Phosphorus.</span></p>
       </div>
     </div>
@@ -78,19 +78,19 @@ letter: "P"
         <p><span class="caption left desktop-only">Registros dos primeiros anos da galeria.</span></p>
       </div>
       <div class="col-md-8 show-smooth">
-        <img src="img/content/phosphorus/2.1.jpg" class="" alt="">
+        <img src="img/content/phosphorus/04.jpg" class="" alt="">
       </div>
     </div>
 
     <div class="row margin-bottom">
       <div class="col-md-6 col-md-offset-2 show-smooth">
-        <img src="img/content/phosphorus/2.2.jpg" class="" alt="">
+        <img src="img/content/phosphorus/05.jpg" class="" alt="">
       </div>
     </div>
 
     <div class="row margin-bottom double">
       <div class="col-md-4 show-smooth">
-        <img src="img/content/phosphorus/2.3.jpg" class="" alt="">
+        <img src="img/content/phosphorus/06.jpg" class="" alt="">
         <p><span class="caption top mobile-only">Registros dos primeiros anos da galeria.</span></p>
       </div>
     </div>
@@ -105,17 +105,17 @@ letter: "P"
         <p><span class="caption right desktop-only">Sala decorada com objetos da Casa Juisi.</span></p>
       </div>
       <div class="col-md-8 pull-right show-smooth">
-        <img src="img/content/phosphorus/5.1.jpg" class="" alt="">
+        <img src="img/content/phosphorus/07.jpg" class="" alt="">
       </div>
     </div>
     <div class="row margin-bottom">
       <div class="col-md-4 col-md-offset-4 show-smooth">
-        <img src="img/content/phosphorus/5.2.jpg" class="" alt="">
+        <img src="img/content/phosphorus/08.jpg" class="" alt="">
       </div>
     </div>
     <div class="row margin-bottom double">
       <div class="col-md-6 col-md-offset-6 show-smooth">
-        <img src="img/content/phosphorus/5.3.jpg" class="" alt="">
+        <img src="img/content/phosphorus/09.jpg" class="" alt="">
         <p><span class="caption top mobile-only">Sala decorada com objetos da Casa Juisi.</span></p>
       </div>
     </div>
@@ -129,25 +129,25 @@ letter: "P"
         <p><span class="caption left desktop-only">Jardim / Cozinha / Obra, instalação de Rodrigo Bueno.</span></p>
       </div>
       <div class="col-md-4 col-md-offset-4 show-smooth">
-        <img src="img/content/phosphorus/4.1.jpg" class="" alt="">
+        <img src="img/content/phosphorus/10.jpg" class="" alt="">
       </div>
     </div>
 
     <div class="row margin-bottom">
       <div class="col-md-8 show-smooth">
-        <img src="img/content/phosphorus/4.2.jpg" class="" alt="">
+        <img src="img/content/phosphorus/11.jpg" class="" alt="">
       </div>
     </div>
 
     <div class="row margin-bottom double">
       <div class="col-md-6 show-smooth">
-        <img src="img/content/phosphorus/4.3.jpg" class="" alt="">
+        <img src="img/content/phosphorus/12.jpg" class="" alt="">
       </div>
     </div>
 
     <div class="row margin-bottom double">
       <div class="col-md-4 col-md-offset-2 show-smooth">
-        <img src="img/content/phosphorus/4.4.jpg" class="" alt="">
+        <img src="img/content/phosphorus/13.jpg" class="" alt="">
         <p><span class="caption top mobile-only">Jardim / Cozinha / Obra, instalação de Rodrigo Bueno.</span></p>
       </div>
     </div>
@@ -162,12 +162,12 @@ letter: "P"
         <p><span class="caption right desktop-only">Fachada do prédio da Phosphorus.</span></p>
       </div>
       <div class="col-md-8 pull-right show-smooth">
-        <img src="img/content/phosphorus/9.1.jpg" class="" alt="">
+        <img src="img/content/phosphorus/14.jpg" class="" alt="">
       </div>
     </div>
     <div class="row margin-bottom">
       <div class="col-md-6 col-md-offset-6 show-smooth">
-        <img src="img/content/phosphorus/9.2.jpg" class="" alt="">
+        <img src="img/content/phosphorus/15.jpg" class="" alt="">
         <p><span class="caption top mobile-only">Fachada do prédio da Phosphorus.</span></p>
       </div>
     </div>
