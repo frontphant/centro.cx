@@ -111,7 +111,11 @@ var App = {};
 
   App.menu = function(){
     // Menu
-    var hammertime = new Hammer(jQuery('body')[0]);
+    var hammertime = new Hammer(jQuery('body')[0], {
+      cssProps: {
+        userSelect: true
+      }
+    });
 
     hammertime.on('swiperight', function(e) {
       $('#menu, body').removeClass('is-active');
