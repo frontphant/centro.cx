@@ -267,6 +267,7 @@ module.exports = function (grunt) {
             '!<%= yeoman.dist %>/img/{covers,covers-hd}/*',
             '!<%= yeoman.dist %>/img/{logos,logos-hd}/*',
             '!<%= yeoman.dist %>/img/{photo-hover,photo-hover-hd}/*',
+            '!<%= yeoman.dist %>/img/share/*',
             '<%= yeoman.dist %>/fonts/**/*.{eot*,otf,svg,ttf,woff}'
           ]
         }]
