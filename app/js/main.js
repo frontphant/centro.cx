@@ -36,13 +36,19 @@ var App = {};
   App.lastScroll = 0;
 
   App.init = function(){
+    var resizingTimeout = null;
 
     // App.menuColor();
     App.logo();
-    // App.menu();
+    App.menu();
     App.coverHeight();
     App.homePhotoHover();
     App.snapHeader();
+    App.checkMedia();
+
+    //about section hack
+    App.aboutFix();
+    
     App.fixieText();
 
     $('body#place').each(function(){
@@ -52,24 +58,73 @@ var App = {};
     $('.show-smooth').addClass('fade').viewportChecker({
       classToAdd: 'animated showSmooth'
     });
-    
+
+    $(window).on('resize', function() {
+      App.coverHeight();
+
+      App.resizing = true;
+      clearTimeout(resizingTimeout);
+      resizingTimeout = setTimeout(function() {
+        App.resizing = false;
+        App.fixieText();
+      }, 300);
+
+
+      //about section hack
+      App.aboutFix();
+    });
+
+  };
+
+  App.aboutFix = function () {
+    if (jQuery('.container-gap').length) {
+      jQuery('.container-gap').height(jQuery('.fixie-text').height());
+    }
+  };
+
+  App.checkMedia = function () {
+    // media query event handler
+    if (matchMedia) {
+      var mq = window.matchMedia("(max-width: 992px)");
+      mq.addListener(WidthChange);
+      WidthChange(mq);
+    }
+
+    // media query change
+    function WidthChange(mq) {
+
+      if (mq.matches) {
+        App.isMobileQuery = true;
+      }
+      else {
+        App.isMobileQuery = false;
+      }
+
+      App.fixieText();
+
+    }
   };
 
   App.coverHeight = function(){
-    $('#cover').height(startHeight);
-
-    skrollr.init({
-      forceHeight: false
-    });
+    $('#cover').height($(window).height());
   };
 
-  // App.menu = function(){
-  //   // Menu
-  //   $('#menu-icon, #menu .close').off('click.menu').on('click.menu', function(e){
-  //     e.preventDefault();
-  //     $('#menu').toggleClass('open');
-  //   });
-  // };
+  App.menu = function(){
+    // Menu
+    var hammertime = new Hammer(jQuery('body')[0], {
+      cssProps: {
+        userSelect: true
+      }
+    });
+
+    hammertime.on('swiperight', function(e) {
+      $('#menu, body').removeClass('is-active');
+    });
+
+    hammertime.on('swipeleft', function() {
+      $('#menu, body').addClass('is-active');
+    });
+  };
 
   // App.menuColor = function(){
   //   return
@@ -85,10 +140,10 @@ var App = {};
   App.logo = function() {
     // Logo
     var $logo = $('#logo');
-    
+
     $('#cover').fadeTo(0,0);
     $('#cover').delay(600).fadeTo(400,1);
-    
+
     $logo.each(function(){
       var randomLogo = _.random(1, 10),
           imageUrl = ['img/logos/logo_'+ randomLogo +'.png', 'img/logos-hd/logo_'+ randomLogo +'.png'];
@@ -109,11 +164,11 @@ var App = {};
           $logo.hover(function() {
             hoverInterval = setInterval(function(){
               $logo.attr('class', 'logo_' + _.random(1, 10));
-            },250);
+            },125);
           }, function(){
             clearInterval(hoverInterval);
           });
-          
+
         }, 800);
       });
 
@@ -138,12 +193,12 @@ var App = {};
               left: (offset.left),
               display: 'none'
             }).stop().fadeIn('fast');
-         
+
           } else {
             if ($this.hasClass('preloading')) {
               return;
             }
-            
+
             $this.addClass('preloading');
             $.preload(imageUrl).done(function(){
               var $photo = $('<img>', {id: 'photo-hover-' + index ,src:imageUrl, 'class': 'photo-hover'});
@@ -197,8 +252,31 @@ var App = {};
     });
   };
 
+  App.isMobile = function() {
+    return Boolean(navigator.userAgent.match(/(Android|webOS|iPhone|iPad|iPod|BlackBerry|PlayBook|BB10|Windows Phone)/i));
+  };
+
   App.fixieText = function() {
     var $textContainers = $('.fixie-text-container');
+
+    if (App.isMobileQuery) {
+      $('.fixie-text').css({
+        'position': 'relative',
+        'top': 'auto',
+        'left': 'auto',
+        'width': ''
+      });
+      return;
+    }
+
+    if (App.resizing) {
+      $('.fixie-text').css({
+        'position': 'relative',
+        'top': 'auto',
+        'left': 'auto',
+        'width': ''
+      });
+    }
 
     $textContainers.each(function () {
       var $this = $(this),

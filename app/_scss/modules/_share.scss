@@ -5,6 +5,26 @@
   top: 50%;
   right: 30px;
   margin-top: -66px;
+
+  @media (max-width: 768px) {
+    top: 165px;
+
+    &.mobile-centered {
+      position: absolute;
+      top: 50%;
+      right: 46px;
+      margin: 90px -16px 0 0;
+    }
+
+    #main & {
+      position: relative;
+      top: auto;
+      right: auto;
+      width: 33px;
+      margin: 80px auto -80px;
+      z-index: 1;
+    }
+  }
 }
 
 .share-link {
@@ -15,7 +35,11 @@
   @include sprites-general("share-fb-white");
 
   &.dark {
-    @include sprites-general("share-fb-black");    
+    @include sprites-general("share-fb-black");
+  }
+
+  &:hover {
+    @include sprites-general("share-fb-hover");
   }
 }
 
@@ -24,6 +48,10 @@
   @include sprites-general("share-twitter-white");
 
   &.dark {
-    @include sprites-general("share-twitter-black");    
+    @include sprites-general("share-twitter-black");
+  }
+
+  &:hover {
+    @include sprites-general("share-twitter-hover");
   }
 }

@@ -3,6 +3,10 @@
   min-height: 100%;
   margin-bottom: 75px;
 
+    @media (max-width: 768px) {
+      margin-bottom: 0;
+    }
+
   .cover-pic {
     position: relative;
     min-height: 100%;
@@ -42,13 +46,13 @@
     position: absolute;
     top: 50%;
     left: 0;
-
     @include transform(translateY(-50%));
   }
 
   h1, h2 {
     color: #FFF;
     margin: 0;
+
     a {
       color: #FFF;
       text-decoration: none;
@@ -57,9 +61,25 @@
 
   h1 {
     font: 700 100px "Plantin";
+
+    @media (max-width: 768px) {
+      font-size: 54px;
+    }
+
+    @media (max-width: 340px) {
+      font-size: 45px;
+    }
   }
 
   h2 {
     font: 400 30px "Dia";
+
+    @media (max-width: 768px) {
+      font-size: 22px;
+    }
+
+    @media (max-width: 340px) {
+      font-size: 18px;
+    }
   }
 }

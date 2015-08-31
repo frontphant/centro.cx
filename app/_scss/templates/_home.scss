@@ -1,13 +1,29 @@
 #home {
   margin: 0 20px;
+
+  @media (max-width: 768px) {
+    margin: 0 5px;
+  
+    .col-md-12 {
+      padding: 0;
+    }
+  }
+
+  .company {
+    border-bottom: 2px solid;
+  }
 }
 
 main#main {
   margin-bottom: 125px;
   color: #000;
-  font: 400 35px/50px "Dia";
+  font: 400 26px/35px "Dia";
   opacity: 0;
   @include transition(opacity .2s);
+
+  @media (min-width: 768px) {
+    font: 400 35px/50px "Dia";
+  }
 
   .loaded & {
     opacity: 1;
@@ -18,7 +34,9 @@ main#main {
   }
 
   .read-more {
-    font: 400 14px/50px "Dia";
+    @media (min-width: 768px) {
+      font: 400 14px/50px "Dia";
+    }
     text-decoration: underline;
     text-transform: uppercase;
     color: #000;
@@ -26,28 +44,51 @@ main#main {
 
   .company {
     font-weight: 700;
-    font-size: 35px;
     font-family: "Plantin";
     color: #000;
-    border-bottom: 2px solid;
     display: inline-block;
     line-height: .65;
+    position: relative;
     &:hover {
       text-decoration: none;
+    }
+
+    @media (min-width: 768px) {
+      font-size: 35px;
     }
   }
 
   .coordinates {
-    font: 400 14px/50px "Graphik";
+    @media (min-width: 768px) {
+      font: 400 14px/50px "Graphik";
+    }
   }
 
   .description {
-    font: 400 35px/50px "Plantin";
+    @media (min-width: 768px) {
+      font: 400 35px/50px "Plantin";
+    }
   }
-
+  
   .disabled, .disabled .company, .disabled .coordinates {
     color: #d3d3d3!important;
   }
+// @media (min-width: 768px) {
+//   .disabled:hover .company:after {
+//     content:"Em breve";
+//     position: absolute;
+//     background-color: #FFF;
+//     color: #ff0000;
+//     font: 400 14px/50px "Dia";
+//     text-transform: uppercase;
+//     left: 0; top: 0;
+//     padding: 0 35px;
+//     margin-top: -15px;
+//     margin-left: 50px;
+//     min-width: 160px;
+//     display: block;
+//   }
+// }
 
   .photo-hover {
     z-index: -1;

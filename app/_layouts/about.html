@@ -4,9 +4,45 @@
         <meta charset="utf-8">
         <title>{{ page.title }}</title>
         <meta name="description" content="">
-        <meta name="viewport" content="width=device-width">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta content="{{ page.title }}" property="og:site_name">
+        <meta content="http://centro.cx/img/share/CENTRO_share_centro.jpg" property="og:image">
+        <meta content="article" property="og:type">
+        <meta content="http://centro.cx/" name="og:url" />
+        <meta property="og:title" content="{{ page.title }}"/>
+        <meta property="og:description" content="{{ page.description }}"/>
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="">
+        <meta name="twitter:title" content="{{ page.title }}">
+        <meta name="twitter:description" content="{{ page.description }} http://centro.cx/">
+        <meta name="twitter:creator" content="">
+        <meta name="twitter:image:src" content="http://centro.cx/img/share/share.jpg">
+        <meta name="twitter:domain" content="http://centro.cx/">
 
         <link rel="shortcut icon" href="/favicon.ico">
+        <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+        <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="/favicon-194x194.png" sizes="194x194">
+        <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+        <link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
+        <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+        <link rel="manifest" href="/manifest.json">
+        <meta name="apple-mobile-web-app-title" content="centro.cx">
+        <meta name="application-name" content="centro.cx">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
         <!-- build:css(.) css/vendor.css -->
         <!-- bower:css -->
@@ -18,39 +54,20 @@
         <!-- endbuild -->
     </head>
     <body>
+
+      <div class="fixed-header" data-component="FixedHeader">
+        <strong>CENTRO</strong>
+      </div>
+
       <header class="clearfix">
-        <a data-component="Toggle" data-target="#menu" data-event="mouseover" href="javascript:;" id="menu-icon" class="dark">Abrir Menu</a>
-        <div class="share-options">
-          <a class="share-link share-link__fb dark" href="javascript:;">facebook</a>
-          <a class="share-link share-link__twitter dark" href="javascript:;">facebook</a>
+        <a data-component="Toggle" data-target="#menu, body" data-event="touchend mouseover" href="javascript:;" id="menu-icon" class="dark">Abrir Menu</a>
+        <div class="share-options desktop-only">
+          <a class="share-link share-link__fb dark" href="https://www.facebook.com/sharer.php?u=http://centro.cx/">facebook</a>
+          <a class="share-link share-link__twitter dark" href="https://twitter.com/intent/tweet?text={{ page.description }}&url=http://centro.cx/">twitter</a>
         </div>
       </header>
 
-      <nav id="menu" data-component="Close" data-event="mouseleave">
-        <a data-target="#menu" href="javascript:;" class="close">&times;</a>
-
-        <dl>
-          <dt><a href="index.html">Início</a></dt>
-        </dl>
-        <dl>
-          <dt><a href="sobre.html">Sobre</a></dt>
-        </dl>
-        <dl>
-          <dt><a href="#">Projetos</a></dt>
-          {% sorted_for post in site.posts sort_by:weight %}
-            {% if post.enabled == "enabled" %}
-              <dd><a href="{{ post.url  | remove_first:'/' }}">{{ post.title }}</a></dd>
-            {% else %}
-              <dd>{{ post.title }}</dd>
-            {% endif %}
-          {% endsorted_for %}
-        </dl>
-        <dl>
-          <dt><a href="#">Contato</a></dt>
-          <dd><a href="#">email</a></dd>
-          <dd><a target="_blank" href="https://www.facebook.com/centrocx">facebook</a></dd>
-        </dl>
-      </nav>
+      {% include menu.html %}
 
       <main id="main">
         {{ content }}
@@ -66,33 +83,22 @@
       <!-- build:js(app) js/vendor.js -->
       <!-- bower:js -->
       <script src="/_bower_components/jquery/dist/jquery.js"></script>
-      <script src="/_bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/affix.js"></script>
-      <script src="/_bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/alert.js"></script>
-      <script src="/_bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/button.js"></script>
-      <script src="/_bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/carousel.js"></script>
-      <script src="/_bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/collapse.js"></script>
-      <script src="/_bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/dropdown.js"></script>
-      <script src="/_bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/tab.js"></script>
-      <script src="/_bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/transition.js"></script>
-      <script src="/_bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/scrollspy.js"></script>
-      <script src="/_bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/modal.js"></script>
-      <script src="/_bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/tooltip.js"></script>
-      <script src="/_bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/popover.js"></script>
       <script src="/_bower_components/lodash/lodash.js"></script>
+      <script src="/_bower_components/hammerjs/hammer.js"></script>
       <!-- endbower -->
       <script src="/_bower_components/preload/jquery.preload.js"></script>
       <script src="/_bower_components/queryloader2/queryloader2.min.js"></script>
       <!-- endbuild -->
 
       <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-      <script>
-        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-        e.src='//www.google-analytics.com/analytics.js';
-        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-        ga('create','UA-XXXXX-X');ga('send','pageview');
-      </script>
+      <!-- <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='//www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script> -->
 
       <!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDcHrA5A9--UmPLJpN47daL7AihSkNMABY&sensor=false"></script> -->
 
@@ -100,7 +106,6 @@
 
       <script src="js/lib/sji.js"></script>
       <script src="js/lib/underscore.js"></script>
-      <script src="js/lib/TweenMax.js"></script>
       <script src="js/lib/jquery.viewportchecker.min.js"></script>
 
       <script src="js/core/Alias.js"></script>
@@ -113,6 +118,7 @@
       <script src="js/components/Toggle.js"></script>
       <script src="js/components/Close.js"></script>
       <script src="js/components/ToggleColor.js"></script>
+      <script src="js/components/FixedHeader.js"></script>
 
       <script src="js/main.js"></script>
 

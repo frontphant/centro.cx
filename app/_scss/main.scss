@@ -14,6 +14,7 @@ $icon-font-path: "../_bower_components/bootstrap-sass-official/assets/fonts/boot
 
 @import "modules/cover";
 @import "modules/logo";
+@import "modules/header";
 @import "modules/footer";
 @import "modules/menu";
 @import "modules/details";
@@ -22,6 +23,29 @@ $icon-font-path: "../_bower_components/bootstrap-sass-official/assets/fonts/boot
 @import "templates/home";
 @import "templates/about";
 
+.f-right {
+  float: right;
+}
+
+.f-left {
+  float: left;
+}
+
+.mobile-only {
+  display: none !important;
+
+  @media (max-width: 992px) {
+    display: block !important;
+  }
+}
+
+.desktop-only {
+  display: block !important;
+
+  @media (max-width: 992px) {
+    display: none !important;
+  }
+}
 
 #map-container {
   height: 700px;

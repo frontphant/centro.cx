@@ -1,0 +1,43 @@
+/**
+ * Header
+ * @todo: import all header code to this file.
+ */
+
+.fixed-header {
+  position: fixed;
+  z-index: 10;
+  top: -77px;
+  left: 0;
+  width: 100%;
+  // height: 75px;
+  height: 56px;
+  text-align: center;
+  border-bottom: 2px solid #000;
+  background: #fff;
+
+  @include transition(all .2s ease-in);
+
+  strong {
+    display: block;
+    margin: 13px 0;
+    font: 400 24px "Dia";
+  }
+}
+
+.is-fixed-header {
+  .fixed-header {
+    @media (max-width: 768px) {
+      top: 0;
+    }
+  }
+
+  #menu-icon.dark {
+    @media (max-width: 768px) {
+      // top: 26px;
+      top: 14px;
+      background-position: -2px -155px;
+      height: 28px;
+      width: 28px;
+    }
+  }
+}

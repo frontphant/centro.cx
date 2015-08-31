@@ -241,11 +241,14 @@ module.exports = function (grunt) {
             'img/**/*',
             'fonts/**/*',
             // Like Jekyll, exclude files & folders prefixed with an underscore.
-            '!**/_*{,/**}'
+            '!**/_*{,/**}',
             // Explicitly add any files your site needs for distribution here.
             //'_bower_components/jquery/jquery.min.js',
-            //'favicon.ico',
-            //'apple-touch*.png'
+            'favicon.ico',
+            'apple-touch*.png',
+            'mstile-*.png',
+            'favicon-*.png',
+            'android-chrome-*.png'
           ],
           dest: '<%= yeoman.dist %>'
         }]
@@ -264,6 +267,7 @@ module.exports = function (grunt) {
             '!<%= yeoman.dist %>/img/{covers,covers-hd}/*',
             '!<%= yeoman.dist %>/img/{logos,logos-hd}/*',
             '!<%= yeoman.dist %>/img/{photo-hover,photo-hover-hd}/*',
+            '!<%= yeoman.dist %>/img/share/*',
             '<%= yeoman.dist %>/fonts/**/*.{eot*,otf,svg,ttf,woff}'
           ]
         }]
@@ -336,7 +340,7 @@ module.exports = function (grunt) {
       },
       app: {
         ignorePath: /^\/|\.\./,
-        src: ['<%= yeoman.app %>/_layouts/{default,place}.html'],
+        src: ['<%= yeoman.app %>/_layouts/{about,default,place}.html'],
         exclude: ['_bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.js']
       },
       sass: {

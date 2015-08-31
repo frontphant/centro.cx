@@ -1,0 +1,23 @@
+<nav id="menu" data-component="Close" data-event="mouseleave">
+	<dl>
+	  <dt><a href="./">Início</a></dt>
+	</dl>
+	<dl>
+	  <dt><a href="./sobre.html">Sobre</a></dt>
+	</dl>
+	<dl>
+	  <dt><span>Projetos</span></dt>
+	  {% sorted_for post in site.posts sort_by:weight %}
+	    {% if post.enabled == "enabled" %}
+	      <dd><a href="{{ post.url  | remove_first:'/' }}">{{ post.title }}</a></dd>
+	    {% else %}
+	      <dd>{{ post.title }}</dd>
+	    {% endif %}
+	  {% endsorted_for %}
+	</dl>
+	<dl>
+	  <dt><span>Contato</span></dt>
+	  <dd><a href="mailto:info@centro.cx">email</a></dd>
+	  <dd><a target="_blank" href="https://www.facebook.com/centrocx">facebook</a></dd>
+	</dl>
+</nav>
