@@ -105,7 +105,7 @@ letter: "O"
     <div class="row margin-bottom">
       <div class="col-md-4 show-smooth fixie-text f-right">
         <p><span class="plantin">Queria escolher uma cor específica para meu trabalho, que nem os Gêmeos usam vermelho e amarelo. Fiquei no azul e, como trabalho em esgotos e córregos, as pessoas começaram a relacionar com a água. Mas a escolha está mais ligada à sensação de paz transmitida pelo azul.</span></p>
-        <p><span class="caption left desktop-only">Tintas, trabalhos em andamento e obras finalizadas.</span></p>
+        <p><span class="caption left desktop-only">Trabalhos em andamento e estoque de tintas.</span></p>
       </div>
       <div class="col-md-6 col-md-offset-2 show-smooth">
         <img src="img/content/overground/07.jpg" class="" alt="">

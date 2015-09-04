@@ -20,7 +20,7 @@ letter: "C"
 <div class="container">
   <div class="row">
     <div class="col-md-10 col-md-offset-1">
-      <p>“Não é muito comum do modernismo fazer uma fachada tão comunicativa assim”, afirma o arquiteto Frederico Costa sobre o projeto pioneiro do espaço onde trabalha, a <strong><a href="http://casadopovo.org.br/" target="_blank">Casa do Povo.</a></strong> Desenhado pelo escritório do arquiteto Ernest Mange, o centro cultural foi construído entre 1947 e 1953. “Quando esse prédio foi erguido, o Ibirapuera e outras criações modernistas ainda estavam começando a aparecer. O estilo não era comum como virou depois de Brasília.”</p>
+      <p>“Não é muito comum do modernismo fazer uma fachada tão comunicativa assim”, afirma o arquiteto Frederico Costa sobre o projeto pioneiro do espaço onde trabalha, a <strong><a href="http://casadopovo.org.br/" target="_blank">Casa do Povo</a></strong>. Desenhado pelo escritório do arquiteto Ernest Mange, o centro cultural foi construído entre 1947 e 1953. “Quando esse prédio foi erguido, o Ibirapuera e outras criações modernistas ainda estavam começando a aparecer. O estilo não era comum como virou depois de Brasília.”</p>
       <p>Reaberto em agosto de 2013, quando completou seis décadas de história, o local continua ligado à comunidade judaica. Também incorporou os coreanos e os bolivianos, chegados em tempos mais recentes ao bairro do Bom Retiro. Isso se refletiu nos projetos do centro cultural, como o jornal <strong><a href="http://issuu.com/marianalorenzideazevedo/docs/nossavoz_edicao1_finalizado_02" target="_blank">Nossa Voz</a></strong>. Escrita em ídiche em sua primeira fase, que rodou até metade da década de 60, a publicação hoje é impressa em português, hebraico, coreano e espanhol.</p>
       <p>Além do jornal, a Casa do Povo abriga o ateliê da estilista <strong><a href="http://www.karllagirotto.com.br/" target="_blank">Karlla Girotto</a></strong>, o coletivo <strong><a href="https://www.flickr.com/photos/ocupeacidade/" target="_blank">Ocupeacidade</a></strong> e a companhia de dança <strong><a href="http://www.lote24hs.net/" target="_blank">Lote#</a></strong>. Com essas iniciativas, mantém viva a tradição de agitação cultural da Casa e consegue construir uma nova narrativa, voltada à experimentação artística. “Usamos a história desse lugar como uma ferramenta para entender o presente”, explica a coordenadora Mariana Azevedo, “mas não ficamos presos a isso, precisamos olhar para o futuro.”</p>
     </div>
@@ -71,7 +71,7 @@ letter: "C"
     <div class="row margin-bottom">
       <div class="col-md-4 fixie-text show-smooth">
         <p><span class="plantin">O Taib é um teatro projetado pelo Jorge Wilheim e construído em 1960. Tem um palco italiano, com essa caixa ampla onde a cena acontece, um formato mais clássico e oposto ao teatro de arena. Ele parou de funcionar como Taib na década de 90 e chegou a sofrer uma inundação.</span> <span class="dia"><strong>Frederico Costa</strong></span></p>
-        <p><span class="caption right desktop-only">Teatro Taib, inaugurado em 1960 e localizado no subsolo da Casa.</span></p>
+        <p><span class="caption right desktop-only">Teatro Taib, localizado no subsolo da Casa.</span></p>
       </div>
       <div class="col-md-4 pull-right show-smooth">
         <img src="img/content/casa-do-povo/04.jpg" class="" alt="">
@@ -103,7 +103,7 @@ letter: "C"
     <div class="row margin-bottom">
       <div class="col-md-4 fixie-text show-smooth f-right">
         <p><span class="plantin">A Scholem Aleichem começou pouco depois da fundação do centro. Recebia alunosda comunidade judaica, mas também filhos de militantes de esquerda, que precisavam ser protegidos da ditadura. A biblioteca da escola tinha desde livros infantis em ídiche até livros políticos em russo.</span> <span class="dia"><strong>Frederico Costa</strong></span></p>
-        <p><span class="caption left desktop-only">Biblioteca da antiga escola Scholem Aleichem.</span></p>
+        <p><span class="caption left desktop-only">Biblioteca da escola Scholem Aleichem.</span></p>
       </div>
       <div class="col-md-8 margin-bottom show-smooth">
         <div class="col-md-6" style="padding:0;">
