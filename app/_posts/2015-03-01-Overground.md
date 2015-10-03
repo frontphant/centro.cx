@@ -43,7 +43,7 @@ letter: "O"
 
     <div class="row margin-bottom">
       <div class="col-md-4 show-smooth fixie-text">
-        <p><span class="plantin">Esse prédio tem muita história. Ficou um tempo invadido por usuários de droga e virou um lugar violento, até que a polícia desocupou à força. Foi colocado para alugar, mas ninguém se interessou, porque estava destruído e tinha um clima pesado. Quando visitei pela primeira vez, não tinha nem energia elétrica.</span> <span class="dia"><strong>Zezão</strong></span></p>
+        <p><span class="plantin">Esse prédio tem muita história. Ficou um tempo invadido por usuários, até que a polícia desocupou à força. Foi colocado para alugar, mas ninguém se interessou, porque estava destruído e tinha um clima pesado. Quando visitei pela primeira vez, não tinha nem energia elétrica.</span> <span class="dia"><strong>Zezão</strong></span></p>
         <p><br><span class="caption right desktop-only">O espaço hoje e antes da reforma.</span></p>
       </div>
       <div class="col-md-8 pull-right show-smooth">
@@ -64,7 +64,7 @@ letter: "O"
   <div class="fixie-text-container">
     <div class="row margin-bottom">
       <div class="col-md-4 show-smooth fixie-text f-right">
-          <p><span class="plantin">Chamei usuários da Cracolândia para ajudar a retirar o entulho. Foram cerca de 80 sacos de lixo. Depois, a reforma ainda durou mais dois anos. Precisei refazer a parte elétrica e o encanamento, reconstruir o forro, o piso e as janelas. Da disposição antiga, sobrou só uma parede e um pedaço de forro, que servem como memória do estado que estava.</span></p>
+          <p><span class="plantin">Chamei usuários da Cracolândia para ajudar a tirar o entulho. Foram uns 80 sacos de lixo. Depois, a reforma durou mais dois anos e precisei reconstruir o forro, o piso e as janelas. Do prédio original, sobrou só uma parede e um pedaço de forro, que servem como memória do estado que estava.</span></p>
           <p><span class="caption left desktop-only">Fachada e área interna da Overground.</span></p>
       </div>
       <div class="col-md-6 col-md-offset-2 show-smooth">
@@ -83,7 +83,7 @@ letter: "O"
   <div class="fixie-text-container">
     <div class="row margin-bottom">
       <div class="col-md-4 show-smooth fixie-text">
-        <p><span class="plantin">Picho, grafite, pintura, faço um pouco de tudo. Posso usar o pincel e pintar uma linha mais fina, mas também posso usar o traço mais largo do spray. Comecei a pintar explorando o throw up, um estilo de grafite feito com letras. Depois disso, minha arte caminhou para o abstrato, mas ainda mantém esse elemento da palavra. Cada forma que crio lembra uma letra.</span></p>
+        <p><span class="plantin">Picho, grafite, pintura, faço um pouco de tudo. Posso usar o pincel e pintar uma linha mais fina ou usar o traço mais largo do spray. Comecei pintando palavras, depois minha arte caminhou para o abstrato, mas ainda tem esse elemento da palavra. Cada forma que crio lembra uma letra.</span></p>
         <p><span class="caption right desktop-only">Obra de Zezão exposta na Overground.</span></p>
       </div>
       <div class="col-md-8 pull-right show-smooth">
@@ -104,8 +104,8 @@ letter: "O"
 
     <div class="row margin-bottom">
       <div class="col-md-4 show-smooth fixie-text f-right">
-        <p><span class="plantin">Queria escolher uma cor específica para meu trabalho, muito influenciado por artistas como os Gêmeos, que escolheram o vermelho e o amarelo. Padronizei no azul e, como trabalho em esgotos e córregos, as pessoas começaram a relacionar com a água. Apesar de ser um elemento forte no meu trabalho, a escolha está mais ligada à sensação de paz transmitida pelo azul.</span></p>
-        <p><span class="caption left desktop-only">Tintas, trabalhos em andamento e obras finalizadas.</span></p>
+        <p><span class="plantin">Queria escolher uma cor específica para meu trabalho, que nem os Gêmeos usam vermelho e amarelo. Fiquei no azul e, como trabalho em esgotos e córregos, as pessoas começaram a relacionar com a água. Mas a escolha está mais ligada à sensação de paz transmitida pelo azul.</span></p>
+        <p><span class="caption left desktop-only">Trabalhos em andamento e estoque de tintas.</span></p>
       </div>
       <div class="col-md-6 col-md-offset-2 show-smooth">
         <img src="img/content/overground/07.jpg" class="" alt="">
@@ -130,8 +130,8 @@ letter: "O"
 
     <div class="row margin-bottom">
       <div class="col-md-4 show-smooth fixie-text">
-        <p><span class="plantin">Não costumo usar telas ou emoldurar minhas pinturas. Não é o meu perfil. Até as obras que mando para galerias são feitas com coisas que encontro na rua. Gosto de aproximar o lixo do campo da arte. Faz parte da minha forma de trabalhar, sempre pintei em esgotos e córregos, em lugares detonados.</span></p>
-        <p><br><span class="caption right desktop-only">Trazidas das ruas, pedaços de madeira são transformados em arte.</span></p>
+        <p><span class="plantin">Não costumo usar telas ou emoldurar. Não é o meu perfil. Até as obras que mando para galerias são feitas com coisas que encontro na rua. Gosto de aproximar o lixo da arte. Faz parte da minha forma de trabalhar, sempre pintei em esgotos e córregos, em lugares detonados.</span></p>
+        <p><br><span class="caption right desktop-only">Obra em pedaços de madeira trazidos da rua.</span></p>
       </div>
       <div class="col-md-6 pull-right show-smooth">
         <img src="img/content/overground/10.jpg" class="" alt="">

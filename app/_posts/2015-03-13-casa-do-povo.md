@@ -20,8 +20,8 @@ letter: "C"
 <div class="container">
   <div class="row">
     <div class="col-md-10 col-md-offset-1">
-      <p>“Não é muito comum do modernismo fazer uma fachada tão comunicativa assim”, afirma o arquiteto Frederico Costa sobre o projeto pioneiro do espaço onde trabalha, a <strong><a href="http://casadopovo.org.br/" target="_blank">Casa do Povo</a></strong>. Desenhado pelo escritório do arquiteto Ernest Mange e construído entre 1947 e 1953, o centro cultural homenageia a memória dos judeus mortos na Segunda Guerra Mundial. “Quando esse prédio foi erguido, o Ibirapuera e outras criações modernistas ainda estavam começando a aparecer. O estilo não era comum como virou depois de Brasília.”</p>
-      <p>Reaberto em agosto de 2013, quando completou seis décadas de história, o local continua ligado à comunidade judaica. No entanto, com novos tempos, incorporou os coreanos e os bolivianos, chegados em tempos mais recentes ao bairro do Bom Retiro. Isso se refletiu nos projetos do centro cultural, como o jornal <strong><a href="http://issuu.com/marianalorenzideazevedo/docs/nossavoz_edicao1_finalizado_02" target="_blank">Nossa Voz</a></strong>. Escrita em ídiche em sua primeira fase, que rodou até metade da década de 60, a publicação hoje é impressa em português, hebraico, coreano e espanhol.</p>
+      <p>“Não é muito comum do modernismo fazer uma fachada tão comunicativa assim”, afirma o arquiteto Frederico Costa sobre o projeto pioneiro do espaço onde trabalha, a <strong><a href="http://casadopovo.org.br/" target="_blank">Casa do Povo</a></strong>. Desenhado pelo escritório do arquiteto Ernest Mange, o centro cultural foi construído entre 1947 e 1953. “Quando esse prédio foi erguido, o Ibirapuera e outras criações modernistas ainda estavam começando a aparecer. O estilo não era comum como virou depois de Brasília.”</p>
+      <p>Reaberto em agosto de 2013, quando completou seis décadas de história, o local continua ligado à comunidade judaica. Também incorporou os coreanos e os bolivianos, chegados em tempos mais recentes ao bairro do Bom Retiro. Isso se refletiu nos projetos do centro cultural, como o jornal <strong><a href="http://issuu.com/marianalorenzideazevedo/docs/nossavoz_edicao1_finalizado_02" target="_blank">Nossa Voz</a></strong>. Escrita em ídiche em sua primeira fase, que rodou até metade da década de 60, a publicação hoje é impressa em português, hebraico, coreano e espanhol.</p>
       <p>Além do jornal, a Casa do Povo abriga o ateliê da estilista <strong><a href="http://www.karllagirotto.com.br/" target="_blank">Karlla Girotto</a></strong>, o coletivo <strong><a href="https://www.flickr.com/photos/ocupeacidade/" target="_blank">Ocupeacidade</a></strong> e a companhia de dança <strong><a href="http://www.lote24hs.net/" target="_blank">Lote#</a></strong>. Com essas iniciativas, mantém viva a tradição de agitação cultural da Casa e consegue construir uma nova narrativa, voltada à experimentação artística. “Usamos a história desse lugar como uma ferramenta para entender o presente”, explica a coordenadora Mariana Azevedo, “mas não ficamos presos a isso, precisamos olhar para o futuro.”</p>
     </div>
   </div>
@@ -42,7 +42,7 @@ letter: "C"
   <div class="fixie-text-container">
     <div class="row margin-bottom">
       <div class="col-md-4 fixie-text show-smooth f-right">
-        <p><span class="plantin">O prédio foi construído entre as décadas de 40 e 50 por iniciativa da comunidade judaica, principalmente dos moradores do Bom Retiro. O projeto possui alguns elementos do modernismo. Como o vazio na base, composto por essa fachada de vidro e essas colunas mais escuras. No projeto original, ele não teria as portas, seria um espaço aberto para a comunidade.</span> <span class="dia"><strong>Frederico Costa</strong></span></p>
+        <p><span class="plantin">O prédio foi construído entre as décadas de 40 e 50 pela comunidade judaica,principalmente os moradores do Bom Retiro. O projeto possui alguns elementos do modernismo, como esse vazio na base. No projeto original, ele não teria as portas, seria um espaço aberto para a comunidade.</span> <span class="dia"><strong>Frederico Costa</strong></span></p>
         <p><span class="caption left desktop-only">Fachada e entrada da Casa do Povo.</span></p>
       </div>
       <div class="col-md-6 col-md-offset-2 show-smooth">
@@ -70,8 +70,8 @@ letter: "C"
   <div class="fixie-text-container">
     <div class="row margin-bottom">
       <div class="col-md-4 fixie-text show-smooth">
-        <p><span class="plantin">O Taib é um teatro projetado pelo Jorge Wilheim e construído em 1960. Possui um palco italiano, com essa caixa ampla onde a cena acontece, um formato mais clássico e oposto ao teatro de arena. Recebeu peças engajadas, como Pequenos Burgueses, dirigida pelo Renato Borghi, mas parou de funcionar como Taib na década de 90. Algumas companhias até usaram esse espaço depois disso, até ele sofrer uma inundação.</span> <span class="dia"><strong>Frederico Costa</strong></span></p>
-        <p><span class="caption right desktop-only">Teatro Taib, inaugurado em 1960 e localizado no subsolo da Casa.</span></p>
+        <p><span class="plantin">O Taib é um teatro projetado pelo Jorge Wilheim e construído em 1960. Tem um palco italiano, com essa caixa ampla onde a cena acontece, um formato mais clássico e oposto ao teatro de arena. Ele parou de funcionar como Taib na década de 90 e chegou a sofrer uma inundação.</span> <span class="dia"><strong>Frederico Costa</strong></span></p>
+        <p><span class="caption right desktop-only">Teatro Taib, localizado no subsolo da Casa.</span></p>
       </div>
       <div class="col-md-4 pull-right show-smooth">
         <img src="img/content/casa-do-povo/04.jpg" class="" alt="">
@@ -93,7 +93,7 @@ letter: "C"
     <div class="row margin-bottom double show-smooth">
       <div class="col-md-6 col-md-offset-4">
         <img src="img/content/casa-do-povo/07.jpg" class="" alt="">
-        <p><span class="caption top mobile-only">Teatro Taib, inaugurado em 1960 e localizado no subsolo da Casa.</span></p>
+        <p><span class="caption top mobile-only">Teatro Taib, localizado no subsolo da Casa.</span></p>
       </div>
     </div>
   </div>
@@ -102,8 +102,8 @@ letter: "C"
   <div class="fixie-text-container">
     <div class="row margin-bottom">
       <div class="col-md-4 fixie-text show-smooth f-right">
-        <p><span class="plantin">A escola Scholem Aleichem começou a funcionar aqui dentro pouco depois da fundação do centro. Era muito reconhecida por métodos experimentais de ensino e recebia alunos da comunidade judaica, mas também filhos de militantes de esquerda, que precisavam ser protegidos da ditadura. A biblioteca da escola ainda é mantida e tem uma coleção variada: de livros infantis em ídiche a livros políticos em russo, importados da União Soviética.</span> <span class="dia"><strong>Frederico Costa</strong></span></p>
-        <p><span class="caption left desktop-only">Biblioteca da antiga escola Scholem Aleichem.</span></p>
+        <p><span class="plantin">A Scholem Aleichem começou pouco depois da fundação do centro. Recebia alunosda comunidade judaica, mas também filhos de militantes de esquerda, que precisavam ser protegidos da ditadura. A biblioteca da escola tinha desde livros infantis em ídiche até livros políticos em russo.</span> <span class="dia"><strong>Frederico Costa</strong></span></p>
+        <p><span class="caption left desktop-only">Biblioteca da escola Scholem Aleichem.</span></p>
       </div>
       <div class="col-md-8 margin-bottom show-smooth">
         <div class="col-md-6" style="padding:0;">
@@ -118,7 +118,7 @@ letter: "C"
     <div class="row margin-bottom double show-smooth">
       <div class="col-md-6 col-md-offset-2">
         <img src="img/content/casa-do-povo/10.jpg" class="" alt="">
-        <p><span class="caption top mobile-only">Biblioteca da antiga escola Scholem Aleichem.</span></p>
+        <p><span class="caption top mobile-only">Biblioteca da escola Scholem Aleichem.</span></p>
       </div>
     </div>
   </div>
@@ -129,7 +129,7 @@ letter: "C"
   <div class="fixie-text-container">
     <div class="row margin-bottom">
       <div class="col-md-4 fixie-text show-smooth">
-        <p><span class="plantin">Existe um trabalho de continuidade, mas não é nostálgico, de tentar imitar aquela geração. Nós queremos assimilar o passado dentro do nosso cotidiano e da nossa prática, mas renovar a programação da Casa. Claro que respeitando a nossa história, inspirados pelas pessoas que frequentavam esse espaço nas primeiras décadas de atividade e continuam presentes.</span> <span class="dia"><strong>Mariana Lorenzi</strong></span></p>
+        <p><span class="plantin">Existe um trabalho de continuidade, mas não é nostálgico, de tentar imitar aquela geração. Nós queremos assimilar o passado, inspirados pelas pessoas que frequentavam esse espaço nas primeiras décadas, mas com uma programação renovada.</span> <span class="dia"><strong>Mariana Lorenzi</strong></span></p>
         <p><span class="caption right desktop-only">Oficina de impressão do coletivo <span>Ocupeacidade</span>.</span></p>
       </div>
       <div class="col-md-8 pull-right show-smooth">
@@ -156,7 +156,7 @@ letter: "C"
   <div class="fixie-text-container">
     <div class="row margin-bottom">
       <div class="col-md-4 fixie-text show-smooth f-right">
-        <p><span class="plantin">Vários fatores contribuem para o abandono do centro. Entre as décadas de 70 e 80, o Brasil começa a importar uma cultura que mantém as pessoas dentro de casa, muito pela popularização da televisão. Essa situação atual também tem muita relação com o período da ditadura, quando o direito de reunião não existia e muitos espaços públicos acabaram esvaziados.</span> <span class="dia"><strong>Chico Daviña</strong></span></p>
+        <p><span class="plantin">Várias coisas contribuem para o abandono do centro. Nas décadas de 70 e 80, o Brasil começa a importar uma cultura que mantém as pessoas dentro de casa, muito por causa da televisão. Na mesma época, a ditadura limita o direito de reunião e espaços públicos acabam esvaziados.</span> <span class="dia"><strong>Chico Daviña</strong></span></p>
         <p><span class="caption left desktop-only">Vista do terraço do centro cultural.</span></p>
       </div>
 

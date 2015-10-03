@@ -20,7 +20,7 @@ letter: "P"
 <div class="container">
   <div class="row">
     <div class="col-md-10 col-md-offset-1">
-      <p>Os primeiros esboços da <a href="http://cargocollective.com/phosphorus" targe="_blank"><strong>Phosphorus</strong></a> foram discutidos entre sacos de entulho, no final de 2011. Os artistas reunidos no prédio conversavam sobre o futuro do espaço, realizavam performances e ajudavam a reconstruir o prédio, como no dia em que o grupo removeu o forro de gesso para revelar o teto original, de madeira. Nessa fase, o projeto ainda não tinha sido batizado oficialmente — era chamado de Pré-Nome.</p>
+      <p>Os primeiros esboços da <a href="http://cargocollective.com/phosphorus" targe="_blank"><strong>Phosphorus</strong></a> foram discutidos entre sacos de entulho, no final de 2011. Os artistas reunidos no prédio conversavam sobre o futuro do espaço, realizavam performances e ajudavam a reconstruir o prédio. Nessa fase, o projeto ainda não tinha sido batizado oficialmente — era chamado de Pré-Nome.</p>
       <p>“Minha intenção era criar um lugar que existisse num outro tempo, onde eu pudesse viver a arte de forma constante”, explica Maria Montero, que seguia carreira como produtora cultural e curadora em galerias, mas sentia vontade de iniciar um espaço mais independente do circuito de arte. Desde então, o foco da Phosphorus foi se ajustando, entre um lugar de experimentação e residências artísticas, pelo qual já passaram os artistas <a href="http://www.marciabeatrizgranero.com/" target="_blank"><strong>Márcia Beatriz Granero</strong></a> e <a href="http://cristianolenhardt.com.br/" target="_blank"><strong>Cristiano Lenhardt</strong></a>, além da curadora <a href="http://www.marina-reyes.com/" target="_blank"><strong>Marina Reyes Franco</strong></a>.</p>
       <p>O trabalho realizado pelos residentes não respeita um padrão. Incluem práticas conectadas à moda, naturalmente incentivadas pela proximidade com a <a href="https://www.facebook.com/CasaJuisi" target="_blank"><strong>Casa Juisi</strong></a>, um acervo com mais de 30 mil peças de figurino e decoração que fica no segundo andar da casa. Mas também produções mais engajadas, impactadas pelo centro da cidade. “Questões sociais importantes estão expostas nessa região”, afirma o artista <a href="http://gustavoferro.org/" target="_blank"><strong>Gustavo Ferro</strong></a>, que trabalha na Phosphorus. “Para um artista, é um lugar muito estimulante, um espaço de confronto e reflexão.”</p>
     </div>
@@ -44,7 +44,7 @@ letter: "P"
 
     <div class="row margin-bottom">
       <div class="col-md-4 show-smooth fixie-text">
-        <p><span class="plantin">O encontro com o prédio e a oportunidade de ativar esse espaço abandonado foram os grandes motivadores nessa mudança para o centro. Eu já tinha uma carreira como produtora, curadora e artista, mas sempre tive vontade de criar um espaço meu, que não carregasse a assepsia da galeria e que tivesse em movimento o tempo inteiro. Depois que chegamos aqui, comecei a construir uma relação com o centro.</span> <span class="dia"><strong>Maria Montero</strong></span></p>
+        <p><span class="plantin">O encontro com o prédio e a chance de ativar esse espaço foram os motivadores da minha mudança para o centro. Eu já tinha uma carreira artística, mas sempre tive vontade de criar um espaço meu, que não carregasse a assepsia da galeria e que tivesse em movimento o tempo inteiro.</span> <span class="dia"><strong>Maria Montero</strong></span></p>
         <p><br><span class="caption right desktop-only">Fachada e salão de entrada da Phosphorus.</span></p>
       </div>
 
@@ -74,7 +74,7 @@ letter: "P"
   <div class="fixie-text-container">
     <div class="row margin-bottom">
       <div class="col-md-4 show-smooth fixie-text f-right">
-        <p><span class="plantin">Ainda nas primeiras exposições, o espaço estava cheio de entulho, sem luz. Nesse momento, o projeto ainda não tinha um objetivo claro e a ideia era descobrir fazendo. As primeiras exposições rolaram com o prédio ainda em ruínas. Desde então, nós entendemos que esse espaço tem uma vocação para experimentação e residências artísticas.</span> <span class="dia"><strong>Gustavo Ferro</strong></span></p>
+        <p><span class="plantin">As primeiras exposições rolaram com o prédio ainda em ruínas, com o espaço cheio de entulho e sem luz. O projeto ainda não tinha um objetivo claro e a ideia era descobrir fazendo. Desde então, nós achamos essa vocação para experimentação e residências.</span> <span class="dia"><strong>Gustavo Ferro</strong></span></p>
         <p><span class="caption left desktop-only">Registros dos primeiros anos da galeria.</span></p>
       </div>
       <div class="col-md-8 show-smooth">
@@ -101,7 +101,7 @@ letter: "P"
     <div class="fixie-text-container">
     <div class="row margin-bottom">
       <div class="col-md-4 show-smooth fixie-text">
-        <p><span class="plantin">Essa sala era um brechó onde a Casa Juisi vendia peças. Agora que eles pararam de vender as peças do acervo, nós deixamos esse espaço à disposição de artistas em residência. A gente sempre procura colaborar com a Juisi. Dois artistas que passaram por aqui recentemente, o Daniel Albuqueque e a Marcia Beatriz Graneiro, faziam um trabalho muito ligado à moda.</span> <span class="dia"><strong>Gustavo Ferro</strong></span></p>
+        <p><span class="plantin">Essa sala era um brechó onde a Casa Juisi vendia peças, que agora fica disponível para os artistas em residência. A gente sempre procura colaborar com a Juisi. Dois artistas, o Daniel Albuquerque e a Marcia Beatriz Graneiro, fizeram um trabalho muito ligado à moda.</span> <span class="dia"><strong>Gustavo Ferro</strong></span></p>
         <p><span class="caption right desktop-only">Sala decorada com objetos da Casa Juisi.</span></p>
       </div>
       <div class="col-md-8 pull-right show-smooth">
@@ -125,8 +125,8 @@ letter: "P"
   <div class="fixie-text-container">
     <div class="row margin-bottom">
       <div class="col-md-4 show-smooth fixie-text f-right">
-        <p><span class="plantin">Em 2012, o artista Rodrigo Bueno produziu esse espaço. Ele tinha vontade de criar um lugar de convívio e decidiu usar esse pedaço do prédio, que na época era utilizado como depósito e estava bloqueado por uma janela. Tudo isso aconteceu durante uma exposição, chamada Em Aberto, nome que tinha muito a ver com a obra e com o estado da Phosphorus na época.</span> <span class="dia"><strong>Gustavo Ferro</strong></span></p>
-        <p><span class="caption left desktop-only">Jardim / Cozinha / Obra, instalação de Rodrigo Bueno.</span></p>
+        <p><span class="plantin">O Rodrigo Bueno produziu esse espaço em 2012. Ele tinha vontade de criar um lugar de convívio e decidiu usar esse pedaço do prédio, que na época era usado como depósito e estava bloqueado por uma janela.</span> <span class="dia"><strong>Gustavo Ferro</strong></span></p>
+        <p><span class="caption left desktop-only">Jardim / Cozinha / Obra, de Rodrigo Bueno.</span></p>
       </div>
       <div class="col-md-4 col-md-offset-4 show-smooth">
         <img src="img/content/phosphorus/10.jpg" class="" alt="">
@@ -158,8 +158,8 @@ letter: "P"
   <div class="fixie-text-container">
     <div class="row margin-bottom">
       <div class="col-md-4 show-smooth fixie-text">
-      	<p><span class="plantin">Esse movimento ao centro é paradoxal. É positivo, mas também é perverso, porque vem acompanhado de higienização. Se o centro virar uma região de restaurantes, bares e galerias, então esse lugar que conhecemos hoje tende a desaparecer. Acho que não adianta mudar para essa região apenas porque é barato, é preciso ter uma conversa com o lugar.</span> <span class="dia"><strong>Maria Montero</strong></span></p>
-        <p><span class="caption right desktop-only">Fachada do prédio da Phosphorus.</span></p>
+      	<p><span class="plantin">Esse movimento ao centro é paradoxal. É positivo, mas também é perverso, porque vem acompanhado de higienização. Se o centro virar uma região de restaurantes, bares e galerias, então essa região que conhecemos hoje tende a desaparecer.</span> <span class="dia"><strong>Maria Montero</strong></span></p>
+        <p><span class="caption right desktop-only">Fachada do prédio, localizado na Sé.</span></p>
       </div>
       <div class="col-md-8 pull-right show-smooth">
         <img src="img/content/phosphorus/14.jpg" class="" alt="">
