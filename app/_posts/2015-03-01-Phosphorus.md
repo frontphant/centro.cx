@@ -3,7 +3,7 @@ layout: place
 weight:  15
 title:  "Phosphorus"
 subtitle: "Espaço de exibição e residências artísticas"
-description: " é um espaço de exposição e residência artística."
+description: " é um espaço de exposição e residências artísticas."
 address: "Rua Roberto Simonsen, 108, Sé."
 coordinates: "-23º 32’ 50.43” -46º 38’ 56.36”"
 enabled: enabled
