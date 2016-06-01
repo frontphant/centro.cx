@@ -105,7 +105,7 @@ letter: "E"
         <p>
           <span class="plantin">A arte sempre foi o pano de fundo do nosso trabalho. Ela não é um instrumento, mas o combustível das nossas metodologias, porque ela consegue sensibilizar e engajar. Criamos o método e depois injetamos a arte para fazer com que as coisas aconteçam.</span>
           <span class="dia">
-            <strong>Baixo</strong>
+            <strong>Baixo Ribeiro</strong>
           </span>
         </p>
         <p><br><span class="caption right desktop-only">Obras de arte decoram o espaço interno.</span></p>
@@ -136,7 +136,7 @@ letter: "E"
         <p>
           <span class="plantin">O centro é acessível, tem boa infraestrutura, a arquitetura é fascinante, mas não é utilizado como deveria. Depois dos anos 60, com a migração do mercado financeiro para outras regiões, a região se esvaziou. Hoje, são mais de 200 prédios parcialmente ou completamente vazios.</span>
           <span class="dia">
-            <strong>Baixo</strong>
+            <strong>Baixo Ribeiro</strong>
           </span>
         </p>
         <p><span class="caption left desktop-only">Mapa do centro. Baixo Ribeiro, sócio da Choque e do Instituto.</span></p>
