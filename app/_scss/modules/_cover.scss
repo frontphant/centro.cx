@@ -27,7 +27,7 @@
     }
   }
 
-  $covers-list: home, casa-do-povo, overground, phosphorus, fluxo, pum, amarello, choque-cultural, mandibula, balsa, lamina, pivo, faroeste;
+  $covers-list: home, casa-do-povo, overground, phosphorus, fluxo, pum, amarello, choque-cultural, mandibula, balsa, lamina, pivo, faroeste, arnold;
 
   @each $cover in $covers-list {
       &.#{$cover} .cover-pic {
